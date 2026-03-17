@@ -29,21 +29,33 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 ### 3.3.1 Requisitos Funcionais
 
-| Código | Requisito Funcional (Funcionalidade) | Descrição |
-|--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gerenciar Curso de Aperfeiçoamento |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Cursos de Aperfeiçoamento |
-| RF2 |	Gerenciar Professor	| Processamento de Inclusão, Alteração, Exclusão e Consulta de professores |
-| RF3	| Gerenciar Matrícula |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Matrículas de alunos em Cursos de Aperfeiçoamento |
-| ... |	...	| ... |
+| ID     | Descrição do Requisito                                                                                                             | Prioridade |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| RF-001 | O sistema deve permitir que o usuário cadastre suas preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).        | MÉDIA      |
+| RF-002 | O sistema deve permitir que o usuário visualize opções de refeições organizadas por complexidade, considerando o tempo de preparo. | ALTA       |
+| RF-003 | O sistema deve sugerir automaticamente uma lista de compras com base no plano de refeições escolhido pelo usuário.                 | MÉDIA      |
+| RF-004 | O sistema deve fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.).                   | ALTA       |
+| RF-005 | O sistema deve disponibilizar uma ferramenta para monitoramento do peso por meio do cálculo do IMC (Índice de Massa Corporal).     | MÉDIA      |
+| RF-006 | O sistema deve oferecer uma ferramenta para calcular a quantidade de carboidratos, proteínas e gorduras da dieta do usuário.       | MÉDIA      |
+| RF-007 | O sistema deve permitir que o usuário organize uma agenda semanal de refeições (café da manhã, almoço e jantar).                   | ALTA       |
+| RF-008 | O sistema deve fornecer um sistema de inventário de alimentos integrado às refeições diárias do usuário.                           | MÉDIA      |
+| RF-009 | O sistema deve disponibilizar relatórios dos alimentos consumidos nos períodos diário, semanal e mensal.                           | BAIXA      |
 
 ### 3.3.2 Requisitos Não Funcionais
 
-| Código | Requisito Não Funcional (Restrição) |
-|--------------------|------------------------------------|
-| RNF1 | O ambiente operacional a ser utilizado é o Windows XP. |
-| RNF2 | O sistema deverá executar em um computador configurado com uma impressora de tecnologia laser ou de jato de tinta, a ser usada para impressão dos relatórios. |
-| RNF3 |	Segurança	O produto deve restringir o acesso por meio de senhas individuais para o usuário. |
-| ... |	... |	... |
+| ID      | Descrição do Requisito                                                                            | Prioridade |
+| ------- | ------------------------------------------------------------------------------------------------- | ---------- |
+| RNF-001 | O sistema deve ser multiplataforma, funcionando em dispositivos móveis e computadores.            | MÉDIA      |
+| RNF-002 | O sistema deve possuir interface simples e intuitiva.                                             | ALTA       |
+| RNF-003 | O sistema deve ser desenvolvido utilizando JavaScript, HTML e CSS.                                | ALTA       |
+| RNF-004 | O sistema deve funcionar de forma online, sem necessidade de instalação.                          | ALTA       |
+| RNF-005 | O sistema deve suportar no mínimo 100 usuários simultâneos sem perda significativa de desempenho. | MÉDIA      |
+| RNF-006 | O sistema deve responder às ações do usuário em até 2 segundos.                                   | ALTA       |
+
+ID	Restrição
+R-001	O sistema deve ser entregue até o final do semestre.
+R-002	O sistema não deve possuir implementação de backend.
+R-003	Não é permitido o uso de frameworks para o desenvolvimento do front-end.
 
 ### 3.3.3 Usuários 
 
