@@ -53,9 +53,12 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 | RNF-006 | O sistema deve responder às ações do usuário em até 2 segundos.                                   | ALTA       |
 
 ID	Restrição
-R-001	O sistema deve ser entregue até o final do semestre.
-R-002	O sistema não deve possuir implementação de backend.
-R-003	Não é permitido o uso de frameworks para o desenvolvimento do front-end.
+
+| ID    | Restrição                                                                |
+| ----- | ------------------------------------------------------------------------ |
+| R-001 | O sistema deve ser entregue até o final do semestre.                     |
+| R-002 | O sistema não deve possuir implementação de backend.                     |
+
 
 ### 3.3.3 Usuários 
 
