@@ -153,9 +153,14 @@ A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a i
 
 | # | Nome | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Aluno |	Cadastro de informações relativas aos alunos. |
-| 2	| Curso |	Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |	Matrícula |	Cadastro de Matrículas de alunos nos cursos. |
-| 4 |	Turma |	Cadastro de turmas.
-| 5	|	Professor |	Cadastro geral de professores que ministram as disciplinas. |
-| ... |	... |	... |
+| 1	|	Users |	Armazena o perfil completo do usuário, incluindo dados cadastrais, altura, idade, objetivos e preferências alimentares. |
+| 2	| Foods |	Catálogo de alimentos com porções unitárias e detalhamento nutricional (calorias, proteínas, carboidratos e gorduras). |
+| 3 |	Meals |	Define as refeições especificando complexidade, tempo de preparo e valores nutricionais. |
+| 4 |	Meal_Ingredients |	Relaciona alimentos a refeições, definindo a quantidade exata de cada ingrediente por refeição. |
+| 5	|	Meal_Plans |	Estabelece o cronograma alimentar do usuário, definindo os períodos de início e fim da dieta planejada. |
+| 6 |	Meal_Plan_Items |	Detalha a agenda do plano, vinculando o dia da semana e o tipo de refeição (café, almoço, jantar) às refeições cadastradas. |
+| 7 |	Consumption_Logs |	Registra o histórico real de consumo do usuário, facilitando o acompanhamento diário da dieta. |
+| 8 |	Shopping_Lists |	Gera a lista de compras com base no estoque disponível e cronograma da semana. |
+| 9 |	User_Inventories |	Controla o estoque de alimentos do usuário, monitorando quantidades disponíveis e prazos de validade. |
+| 10 |	Weight_Histories |	Armazena a evolução do usuário, registrando variações de peso e cálculo automático de IMC. |
+| 11 |	Migrations |	Gerencia o versionamento técnico da estrutura do banco de dados, garantindo a integridade das atualizações do sistema. |
