@@ -57,7 +57,7 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 | Ator | Descrição |
 |--------------------|------------------------------------|
-| Usuário | Usuário do sistema responsável por planejar sua alimentação, definir objetivos nutricionais (emagrecimento, ganho de massa, etc.), visualizar refeições, registrar consumo alimentar e acompanhar sua evolução. |
+| Cliente | O Cliente do sistema responsável por planejar sua alimentação, definir objetivos nutricionais (emagrecimento, ganho de massa, etc.), visualizar refeições, registrar consumo alimentar e acompanhar sua evolução. |
 | Administrador | Usuário responsável pela manutenção do sistema, incluindo o gerenciamento de dados de alimentos, refeições e suporte geral da aplicação. |
 | Sistema | Responsável por processar dados, gerar recomendações de refeições, calcular informações nutricionais e fornecer relatórios ao usuário. |
 
