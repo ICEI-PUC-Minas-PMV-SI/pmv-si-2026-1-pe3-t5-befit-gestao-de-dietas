@@ -42,7 +42,7 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 | RF-009 | Cadastro de Usuário | O sistema deve permitir que o usuário realize cadastro na plataforma informando seus dados pessoais. | ALTA |
 | RF-010 | Login de Usuário | O sistema deve permitir que o usuário realize login na plataforma utilizando suas credenciais. | ALTA |
 
-### 3.3.2 Requisitos Funcionais
+### 3.3.2 Requisitos Não Funcionais
 
 | ID      | Descrição do Requisito                                                                            | Prioridade |
 | ------- | ------------------------------------------------------------------------------------------------- | ---------- |
