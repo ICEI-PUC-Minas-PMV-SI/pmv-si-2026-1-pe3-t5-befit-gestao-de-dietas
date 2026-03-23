@@ -107,7 +107,7 @@ c)	O usuário corrige as informações. <br>
 Pós-condições: Os dados do usuário ficam registrados ou atualizados no sistema.
 
 
-#### Gerenciar Estoque de Alimentos (CSU02)
+#### Gerenciar Inventário de Alimentos (CSU02)
 
 Sumário: Permite cadastrar, editar ou remover alimentos do estoque doméstico.
 
