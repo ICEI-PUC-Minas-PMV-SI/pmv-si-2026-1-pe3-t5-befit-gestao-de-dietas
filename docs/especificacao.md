@@ -29,8 +29,6 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 ### 3.3.1 Requisitos Funcionais
 
-### 3.3.1 Requisitos Funcionais
-
 | Código | Requisito Funcional (Funcionalidade) | Descrição | Prioridade |
 |--------|--------------------------------------|-----------|------------|
 | RF-001 | Gerenciar Preferências Alimentares | O sistema deve permitir que o usuário cadastre suas preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.). | MÉDIA |
@@ -43,6 +41,8 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 | RF-008 | Gerar Relatórios de Consumo | O sistema deve disponibilizar relatórios dos alimentos consumidos nos períodos diário, semanal e mensal. | BAIXA |
 | RF-009 | Cadastro de Usuário | O sistema deve permitir que o usuário realize cadastro na plataforma informando seus dados pessoais. | ALTA |
 | RF-010 | Login de Usuário | O sistema deve permitir que o usuário realize login na plataforma utilizando suas credenciais. | ALTA |
+
+### 3.3.2 Requisitos Funcionais
 
 | ID      | Descrição do Requisito                                                                            | Prioridade |
 | ------- | ------------------------------------------------------------------------------------------------- | ---------- |
