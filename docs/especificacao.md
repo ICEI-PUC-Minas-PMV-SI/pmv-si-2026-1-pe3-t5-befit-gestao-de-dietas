@@ -74,37 +74,200 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
  
 ### 3.4.2 Descrições de Casos de Uso
 
-#### Fazer Cadastro (CSU01)
+Cada caso de uso do Sistema de Gestão de Dietas está detalhado nesta seção, seguindo o padrão de fluxos principais e alternativos conforme as normas do projeto.
 
-Sumário: Permite que o usuário crie uma conta no sistema e gerencie suas informações pessoais e preferências alimentares.
+---
 
-Ator Primário: Usuário.
+#### **Fazer Login (CSU01)**
+**Sumário:** O Usuário realiza a autenticação no sistema para acessar as funcionalidades.  
+**Ator Primário:** Usuário.  
+**Ator Secundário:** Banco de Dados.  
+**Pré-condições:** O Usuário deve possuir cadastro prévio.  
 
-Pré-condições: O usuário deve acessar a aplicação.
+**Fluxo Principal:**
+1. O Usuário solicita acesso ao sistema.  
+2. O Sistema apresenta os campos para inserção de e-mail e senha.  
+3. O Usuário fornece as credenciais solicitadas.  
+4. O Sistema executa a verificação da senha.  
+5. O Sistema valida o acesso e redireciona para a tela principal.
 
-Fluxo Principal:
+**Fluxo Alternativo – Erro de Login:**  
+a) O Sistema identifica que os dados são inválidos ou inexistentes.  
+b) O Sistema reporta o erro e permite que o Usuário tente novamente.
 
-1)  O usuário acessa a opção de cadastro ou edição de perfil.
-2) 	O sistema apresenta o formulário de dados pessoais.
-3) 	O usuário informa os dados solicitados (nome, idade, peso, altura, objetivo da dieta).
-4) 	O sistema valida os dados.
-5) 	O sistema salva as informações no banco de dados.
-6) 	O sistema confirma o cadastro ou atualização do perfil.
-    	
-Fluxo Alternativo (1): Dados inválidos
+**Pós-condições:** O Usuário está autenticado e com acesso liberado.
 
-a)	O usuário acessa o perfil já cadastrado. <br>
-b)	O sistema apresenta as informações atuais. <br>
-c)	O usuário altera os dados desejados. <br>
-d)	O sistema salva as alterações. <br>
+---
 
-Fluxo Alternativo (2): Dados inválidos
+#### **Fazer Cadastro (CSU02)**
+**Sumário:** O Usuário realiza o seu registro inicial para utilizar as funcionalidades do sistema.  
+**Ator Primário:** Usuário.  
+**Ator Secundário:** Banco de Dados.  
+**Pré-condições:** O Usuário não deve possuir cadastro prévio com o e-mail informado.  
 
-a)	O sistema detecta informações incompletas ou inválidas. <br>
-b)	O sistema solicita correção dos dados. <br>
-c)	O usuário corrige as informações. <br>
+**Fluxo Principal:**
+1. O Usuário solicita a criação de uma nova conta.  
+2. O Sistema apresenta o formulário de cadastro (Nome, E-mail, Idade e Senha).  
+3. O Usuário fornece os dados solicitados.  
+4. O Sistema verifica a idade mínima de 18 anos.  
+5. O Sistema valida os dados e armazena no Banco de Dados.
 
-Pós-condições: Os dados do usuário ficam registrados ou atualizados no sistema.
+**Fluxo Alternativo – Idade insuficiente:**  
+a) O Sistema identifica que o Usuário possui menos de 18 anos.  
+b) O Sistema reporta a impossibilidade de cadastro e encerra o caso de uso.
+
+**Pós-condições:** Um novo perfil de usuário foi criado no sistema.
+
+---
+
+#### **Gerenciar Estoque (CSU03)**
+**Sumário:** O Usuário realiza a gestão (inclusão, remoção, alteração e consulta) dos ingredientes disponíveis.  
+**Ator Primário:** Usuário.  
+**Ator Secundário:** Banco de Dados.  
+**Pré-condições:** O Usuário deve estar autenticado.  
+
+**Fluxo Principal:**
+1. O Usuário requisita manutenção do estoque.  
+2. O Sistema apresenta as operações: inclusão de ingrediente, alteração, exclusão e consulta de saldo.  
+3. O Usuário seleciona a operação desejada ou opta por finalizar.  
+4. Se o Usuário desejar continuar, o caso de uso retorna ao passo 2; caso contrário, termina.
+
+**Fluxo Alternativo – Inclusão:**  
+a) O Usuário requisita a inclusão de um ingrediente.  
+b) O Sistema solicita o nome e a quantidade do item.  
+c) O Sistema verifica se o item já existe. Se não, inclui o novo registro; se sim, atualiza a quantidade.
+
+**Fluxo Alternativo – Remoção/Alteração:**  
+a) O Usuário seleciona o ingrediente e solicita a alteração de dados ou exclusão.  
+b) O Sistema valida a operação e atualiza o banco de dados.
+
+**Pós-condições:** O estoque foi atualizado ou consultado com sucesso.
+
+---
+
+#### **Calcular IMC (CSU04)**
+**Sumário:** O Usuário fornece dados antropométricos para obter seu Índice de Massa Corporal.  
+**Ator Primário:** Usuário.  
+**Pré-condições:** O Usuário deve estar logado no sistema.  
+
+**Fluxo Principal:**
+1. O Usuário solicita o cálculo de IMC.  
+2. O Sistema apresenta campos para preenchimento de peso e altura.  
+3. O Usuário fornece os dados solicitados.  
+4. O Sistema verifica a validade dos dados.  
+5. O Sistema realiza o cálculo e apresenta o resultado e a classificação.
+
+**Pós-condições:** O IMC foi calculado e apresentado em tela.
+
+---
+
+#### **Cadastrar Restrição Alimentar (CSU05)**
+**Sumário:** O Usuário registra alergias ou preferências restritivas para filtrar o planejamento alimentar.  
+**Ator Primário:** Usuário.  
+**Ator Secundário:** Banco de Dados.  
+**Pré-condições:** O Usuário deve estar autenticado.  
+
+**Fluxo Principal:**
+1. O Usuário solicita a manutenção de suas restrições alimentares.  
+2. O Sistema apresenta as opções de inclusão, alteração ou remoção de restrições.  
+3. O Usuário seleciona a operação e fornece os dados (ex: "Sem Glúten", "Sem Lactose").  
+4. O Sistema valida a seleção e atualiza o perfil do Usuário no Banco de Dados.
+
+**Pós-condições:** As restrições alimentares foram atualizadas.
+
+---
+
+#### **Planejar Refeições (CSU06)**
+**Sumário:** O Usuário organiza seu cronograma alimentar (Café, Almoço ou Jantar) com base nas receitas e no estoque.  
+**Ator Primário:** Usuário.  
+**Ator Secundário:** Banco de Dados.  
+**Pré-condições:** O Usuário deve estar autenticado.  
+
+**Fluxo Principal:**
+1. O Usuário solicita o planejamento de uma nova refeição.  
+2. O Sistema apresenta as categorias (Café da Manhã, Almoço, Jantar).  
+3. O Usuário seleciona o tipo de refeição.  
+4. O Sistema verifica o estoque disponível e apresenta as receitas possíveis.  
+5. O Usuário seleciona a receita desejada.  
+6. O Sistema registra a refeição na agenda do Usuário.
+
+**Pós-condições:** Uma nova refeição foi agendada no cronograma.
+
+---
+
+#### **Gerenciar Lista de Compras (CSU07)**
+**Sumário:** O Usuário realiza a gestão dos itens que pretende adquirir.  
+**Ator Primário:** Usuário.  
+**Ator Secundário:** Banco de Dados.  
+**Pré-condições:** O Usuário deve estar autenticado.  
+
+**Fluxo Principal:**
+1. O Usuário acessa a funcionalidade de lista de compras.  
+2. O Sistema apresenta os itens cadastrados e opções de manutenção.  
+3. O Usuário seleciona a operação desejada (adicionar, remover ou marcar como comprado).  
+4. O Sistema atualiza a lista de compras.
+
+**Pós-condições:** A lista de compras foi modificada ou consultada.
+
+---
+
+#### **Organizar Agenda de Refeições (CSU08)**
+**Sumário:** O Usuário define e ajusta o cronograma de horários para as refeições planejadas.  
+**Ator Primário:** Usuário.  
+**Pré-condições:** O Usuário deve possuir refeições planejadas.  
+
+**Fluxo Principal:**
+1. O Usuário acessa a agenda de refeições.  
+2. O Sistema apresenta a lista de refeições agendadas.  
+3. O Usuário seleciona uma refeição e define o horário de consumo.  
+4. O Sistema registra os horários no cronograma pessoal.
+
+**Pós-condições:** Os horários das refeições foram estabelecidos.
+
+---
+
+#### **Consultar Receitas (CSU09)**
+**Sumário:** O Usuário realiza a busca e visualização de receitas cadastradas no sistema.  
+**Ator Primário:** Usuário.  
+**Ator Secundário:** Banco de Dados.  
+**Pré-condições:** O Usuário deve estar autenticado.  
+
+**Fluxo Principal:**
+1. O Usuário solicita a consulta de receitas.  
+2. O Sistema apresenta opções de busca (por nome, tipo ou ingrediente).  
+3. O Usuário insere o termo de busca desejado.  
+4. O Sistema consulta o Banco de Dados e retorna as opções encontradas.  
+5. O Usuário seleciona uma receita para visualizar o modo de preparo.
+
+**Pós-condições:** Os detalhes da receita foram apresentados ao Usuário.
+
+---
+
+#### **Consultar Estoque (CSU10)**
+**Sumário:** O Sistema verifica a disponibilidade de ingredientes cadastrados.  
+**Ator Primário:** Usuário (ou outro módulo que necessite da informação).  
+**Ator Secundário:** Banco de Dados.  
+
+**Fluxo Principal:**
+1. O Sistema acessa os registros de ingredientes.  
+2. O Sistema filtra os itens com saldo disponível.  
+3. O Sistema apresenta a lista de ingredientes ao Usuário.
+
+**Pós-condições:** A lista de ingredientes disponíveis foi exibida ao Usuário.
+
+---
+
+#### **Consultar Estoque (CSU10)**
+**Sumário:** O Sistema verifica a disponibilidade de ingredientes no Banco de Dados.  
+**Ator Primário:** Usuário (ou disparado internamente por outros CSUs).  
+**Ator Secundário:** Banco de Dados.  
+
+**Fluxo Principal:**
+1. O Sistema acessa os registros de ingredientes.  
+2. O Sistema filtra os itens com saldo disponível.  
+3. O Sistema apresenta a lista de ingredientes ao Usuário.
+
+**Pós-condições:** A lista de ingredientes disponíveis foi exibida ou enviada ao CSU chamador.
 
 
 #### Gerenciar Inventário de Alimentos (CSU02)
