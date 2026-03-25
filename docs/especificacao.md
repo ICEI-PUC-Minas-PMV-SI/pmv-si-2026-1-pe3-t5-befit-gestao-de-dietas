@@ -359,19 +359,33 @@ c) O caso de uso é encerrado.
 ---
 
 #### **Consultar Receitas (CSU09)**
-**Sumário:** O Usuário realiza a busca e visualização de receitas cadastradas no sistema.  
-**Ator Primário:** Usuário.  
-**Ator Secundário:** Banco de Dados.  
-**Pré-condições:** O Usuário deve estar autenticado.  
+
+**Sumário:** Permite ao usuário pesquisar receitas cadastradas, visualizar modo de preparo, nível de complexidade e informações nutricionais.
+**Ator Primário:** Usuário.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O usuário deve estar autenticado no sistema.
 
 **Fluxo Principal:**
-1. O Usuário solicita a consulta de receitas.  
-2. O Sistema apresenta opções de busca (por nome, tipo ou ingrediente).  
-3. O Usuário insere o termo de busca desejado.  
-4. O Sistema consulta o Banco de Dados e retorna as opções encontradas.  
-5. O Usuário seleciona uma receita para visualizar o modo de preparo.
 
-**Pós-condições:** Os detalhes da receita foram apresentados ao Usuário.
+1. O usuário acessa a funcionalidade de consulta de receitas.
+2. O sistema apresenta filtros de busca por nome, tipo, ingrediente ou complexidade.
+3. O usuário informa os critérios desejados.
+4. O sistema consulta o banco de dados.
+5. O sistema apresenta as receitas encontradas.
+6. O usuário seleciona uma receita para visualização detalhada.
+7. O sistema exibe ingredientes, modo de preparo, complexidade e informações nutricionais da receita.
+
+**Fluxo Alternativo A – Nenhuma receita encontrada:**
+a) O sistema não localiza receitas com os critérios informados.
+b) O sistema informa ausência de resultados.
+c) O fluxo retorna ao passo 2.
+
+**Fluxo Alternativo B – Filtros inválidos ou incompletos:**
+a) O sistema identifica preenchimento inadequado dos filtros.
+b) O sistema solicita correção dos critérios de busca.
+c) O fluxo retorna ao passo 2.
+
+**Pós-condições:** As informações detalhadas da receita selecionada são apresentadas ao usuário.
 
 ---
 
