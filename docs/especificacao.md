@@ -1,20 +1,27 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
-Nesta parte do trabalho você deve detalhar a documentação dos requisitos do sistema proposto de acordo com as seções a seguir. Ressalta-se que aqui é utilizado como exemplo um sistema de gestão de cursos de aperfeiçoamento.
-
 ## 3.1 Objetivos deste documento
-Descrever e especificar as necessidades da Coordenação do Curso de Sistemas de Informação da PUC Minas que devem ser atendidas pelo projeto SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento.
+Descrever e especificar as necessidades dos usuários do aplicativo BEFIT, que devem ser atendidas pelo sistema, com foco na melhoria da qualidade de vida por meio da organização alimentar, acompanhamento de saúde e suporte à adesão a dietas personalizadas.
 
 ## 3.2 Escopo do produto
 
+O BEFIT é um aplicativo desenvolvido para auxiliar pessoas na organização da sua rotina alimentar e no acompanhamento de indicadores básicos de saúde, com o objetivo de contribuir para a melhoria da qualidade de vida. O sistema permite ao usuário cadastrar uma dieta específica, preferencialmente com base na orientação de um profissional de saúde, e, a partir dessas informações, receber sugestões de refeições compatíveis com o padrão alimentar definido. Além disso, o aplicativo possibilita aplicar filtros relacionados a restrições alimentares e alergênicos, acompanhar dados como peso e IMC, planejar refeições semanais e gerar listas de compras de forma prática e organizada. Assim, o BEFIT atua como uma ferramenta de apoio ao planejamento alimentar, promovendo mais controle, praticidade e incentivo à adoção de hábitos saudáveis.
+
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto será denominado SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento. Ele terá somente um componente (módulo) com os devidos elementos necessários à gestão de cursos.
+O produto será denominado BEFIT – Aplicativo de Gestão Alimentar e Qualidade de Vida.
+O sistema será composto por um módulo principal, contendo os seguintes elementos:
+Cadastro de dietas personalizadas
+Sugestão de refeições com base em filtros alimentares
+Controle de alergênicos e restrições alimentares
+Acompanhamento de indicadores de saúde (peso e IMC)
+Planejamento semanal de refeições
+Geração automática de lista de compras
 
 ### 3.2.2 Missão do produto
-Gerenciar informações sobre a oferta de cursos de aperfeiçoamento, gerenciar a composição das turmas, alunos, professores e matrículas. 
+Promover a melhoria da qualidade de vida dos usuários por meio da organização da rotina alimentar, facilitando o acompanhamento de dietas prescritas por profissionais de saúde, incentivando hábitos saudáveis e oferecendo ferramentas práticas para planejamento alimentar. 
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+O BEFIT não substitui o acompanhamento de profissionais de saúde, sendo apenas uma ferramenta de apoio. O sistema não realiza: prescrição automática de dietas sem orientação profissional, diagnósticos médicos ou nutricionais, integração direta com sistemas hospitalares ou clínicos (nesta versão), controle de medicamentos ou tratamentos clínicos. 
 
 ### 3.2.4 Benefícios do produto
 
@@ -22,8 +29,8 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 |--------------------|------------------------------------|----------------------------------------|
 |1	| Organização da rotina diária alimentar |	Essencial |
 |2 | Acompanhamento dos resultados | Essencial | 
-|3 | Facilitação na produção de alimentos diferenciados| Essencial | 
-|4	| Melhoria da saúde	| Recomendável | 
+|3 | Geração automática de lista de compras| Essencial | 
+|4	| Melhoria de qualidade de vida	| Recomendável | 
 
 ## 3.3 Descrição geral do produto
 
