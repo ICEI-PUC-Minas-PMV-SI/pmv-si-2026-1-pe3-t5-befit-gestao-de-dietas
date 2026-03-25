@@ -418,6 +418,36 @@ c) O caso de uso é encerrado sem exibição dos dados.
 
 ---
 
+#### **Gerar Relatórios de Consumo (CSU11)**
+
+**Sumário:** Permite ao Cliente gerar relatórios de consumo alimentar nos períodos diário, semanal e mensal, com base nos registros armazenados pelo sistema.
+**Ator Primário:** Cliente.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O Cliente deve estar autenticado no sistema e possuir registros de consumo cadastrados.
+
+**Fluxo Principal:**
+
+1. O Cliente acessa a funcionalidade de relatórios de consumo.
+2. O sistema apresenta as opções de período de consulta: diário, semanal e mensal.
+3. O Cliente seleciona o período desejado.
+4. O sistema consulta os registros de consumo do Cliente no banco de dados.
+5. O sistema processa os dados recuperados.
+6. O sistema apresenta o relatório com os alimentos consumidos, quantidades registradas e resumo nutricional do período selecionado.
+
+**Fluxo Alternativo A – Ausência de registros no período selecionado:**
+a) O sistema identifica que não existem registros de consumo para o período informado.
+b) O sistema informa que não há dados disponíveis para geração do relatório.
+c) O caso de uso é encerrado sem emissão de relatório.
+
+**Fluxo Alternativo B – Falha na consulta dos dados:**
+a) O sistema identifica erro ao recuperar os registros de consumo.
+b) O sistema informa indisponibilidade temporária ao Cliente.
+c) O caso de uso é encerrado sem apresentação do relatório.
+
+**Pós-condições:** O relatório de consumo do período selecionado é exibido ao Cliente, quando houver dados disponíveis.
+
+---
+
 ### 3.4.3 Diagrama de Classes 
 
 A Figura 2 apresenta o diagrama de classes do sistema BEFIT. Nele, a classe Users centraliza os dados cadastrais e objetivos do Cliente, enquanto Foods e Meals representam os alimentos e refeições disponíveis no sistema. A relação entre refeições e ingredientes é modelada por Meal_Ingredients, e o planejamento alimentar é organizado por Meal_Plans e Meal_Plan_Items. O acompanhamento do consumo é registrado em Consumption_Logs, a lista de compras é controlada por Shopping_Lists, o estoque doméstico é mantido em User_Inventories e a evolução de peso e IMC é armazenada em Weight_Histories. A classe Migrations possui função técnica de controle da estrutura do banco de dados.
