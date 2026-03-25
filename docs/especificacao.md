@@ -208,18 +208,31 @@ c) O fluxo retorna ao passo 4.
 ---
 
 #### **Calcular IMC (CSU04)**
-**Sumário:** O Usuário fornece dados antropométricos para obter seu Índice de Massa Corporal.  
-**Ator Primário:** Usuário.  
-**Pré-condições:** O Usuário deve estar logado no sistema.  
+
+**Sumário:** Permite ao usuário calcular seu Índice de Massa Corporal a partir dos dados de peso e altura.
+**Ator Primário:** Usuário.
+**Pré-condições:** O usuário deve estar autenticado no sistema.
 
 **Fluxo Principal:**
-1. O Usuário solicita o cálculo de IMC.  
-2. O Sistema apresenta campos para preenchimento de peso e altura.  
-3. O Usuário fornece os dados solicitados.  
-4. O Sistema verifica a validade dos dados.  
-5. O Sistema realiza o cálculo e apresenta o resultado e a classificação.
 
-**Pós-condições:** O IMC foi calculado e apresentado em tela.
+1. O usuário acessa a funcionalidade de cálculo de IMC.
+2. O sistema apresenta os campos para preenchimento de peso e altura.
+3. O usuário informa os valores solicitados.
+4. O sistema valida os dados informados.
+5. O sistema realiza o cálculo do IMC.
+6. O sistema apresenta o valor calculado e sua classificação correspondente.
+
+**Fluxo Alternativo A – Dados não preenchidos:**
+a) O sistema identifica ausência de peso ou altura.
+b) O sistema solicita o preenchimento dos campos obrigatórios.
+c) O fluxo retorna ao passo 2.
+
+**Fluxo Alternativo B – Dados inválidos:**
+a) O sistema identifica valores incompatíveis, negativos ou nulos.
+b) O sistema informa erro nos dados inseridos.
+c) O fluxo retorna ao passo 2.
+
+**Pós-condições:** O IMC do usuário é calculado e exibido em tela.
 
 ---
 
