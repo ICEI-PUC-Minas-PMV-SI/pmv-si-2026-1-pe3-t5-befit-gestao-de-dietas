@@ -298,18 +298,33 @@ c) O caso de uso é encerrado sem registro de refeição.
 ---
 
 #### **Gerenciar Lista de Compras (CSU07)**
-**Sumário:** O Usuário realiza a gestão dos itens que pretende adquirir.  
-**Ator Primário:** Usuário.  
-**Ator Secundário:** Banco de Dados.  
-**Pré-condições:** O Usuário deve estar autenticado.  
+
+**Sumário:** Permite ao usuário criar, atualizar e acompanhar sua lista de compras a partir do planejamento alimentar e do inventário disponível.
+**Ator Primário:** Usuário.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O usuário deve estar autenticado no sistema.
 
 **Fluxo Principal:**
-1. O Usuário acessa a funcionalidade de lista de compras.  
-2. O Sistema apresenta os itens cadastrados e opções de manutenção.  
-3. O Usuário seleciona a operação desejada (adicionar, remover ou marcar como comprado).  
-4. O Sistema atualiza a lista de compras.
 
-**Pós-condições:** A lista de compras foi modificada ou consultada.
+1. O usuário acessa a funcionalidade de lista de compras.
+2. O sistema apresenta os itens atualmente cadastrados e as opções de manutenção.
+3. O usuário escolhe adicionar, remover, editar ou marcar itens como comprados.
+4. O usuário informa ou confirma os dados necessários.
+5. O sistema valida a operação.
+6. O sistema atualiza a lista de compras no banco de dados.
+7. O sistema apresenta a lista atualizada ao usuário.
+
+**Fluxo Alternativo A – Geração automática a partir do planejamento:**
+a) O usuário solicita a geração automática da lista com base nas refeições planejadas.
+b) O sistema compara os ingredientes necessários com o inventário atual.
+c) O sistema adiciona à lista os itens faltantes.
+
+**Fluxo Alternativo B – Dados inválidos:**
+a) O sistema identifica inconsistência nos dados informados.
+b) O sistema informa erro ao usuário.
+c) O fluxo retorna ao passo 3.
+
+**Pós-condições:** A lista de compras permanece atualizada conforme a necessidade do usuário.
 
 ---
 
