@@ -236,19 +236,33 @@ c) O fluxo retorna ao passo 2.
 
 ---
 
-#### **Cadastrar Restrição Alimentar (CSU05)**
-**Sumário:** O Usuário registra alergias ou preferências restritivas para filtrar o planejamento alimentar.  
-**Ator Primário:** Usuário.  
-**Ator Secundário:** Banco de Dados.  
-**Pré-condições:** O Usuário deve estar autenticado.  
+#### **Gerenciar Preferências e Restrições Alimentares (CSU05)**
+
+**Sumário:** Permite ao usuário registrar, alterar e remover preferências e restrições alimentares para personalizar recomendações e planejamentos.
+**Ator Primário:** Usuário.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O usuário deve estar autenticado no sistema.
 
 **Fluxo Principal:**
-1. O Usuário solicita a manutenção de suas restrições alimentares.  
-2. O Sistema apresenta as opções de inclusão, alteração ou remoção de restrições.  
-3. O Usuário seleciona a operação e fornece os dados (ex: "Sem Glúten", "Sem Lactose").  
-4. O Sistema valida a seleção e atualiza o perfil do Usuário no Banco de Dados.
 
-**Pós-condições:** As restrições alimentares foram atualizadas.
+1. O usuário acessa a área de preferências alimentares.
+2. O sistema apresenta as opções cadastradas e as categorias disponíveis.
+3. O usuário seleciona a operação desejada: adicionar, editar ou remover preferência ou restrição.
+4. O usuário informa os dados desejados, como vegetariano, low carb, sem glúten ou sem lactose.
+5. O sistema valida a seleção realizada.
+6. O sistema atualiza o perfil alimentar do usuário no banco de dados.
+7. O sistema confirma a atualização realizada.
+
+**Fluxo Alternativo A – Dados não selecionados:**
+a) O sistema identifica ausência de seleção válida.
+b) O sistema informa a necessidade de escolher ao menos uma opção válida.
+c) O fluxo retorna ao passo 2.
+
+**Fluxo Alternativo B – Operação cancelada:**
+a) O usuário cancela a operação antes da confirmação.
+b) O sistema encerra o caso de uso sem alterações.
+
+**Pós-condições:** O perfil alimentar do usuário é atualizado.
 
 ---
 
