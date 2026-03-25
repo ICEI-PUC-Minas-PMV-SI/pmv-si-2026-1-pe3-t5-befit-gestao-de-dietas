@@ -329,17 +329,32 @@ c) O fluxo retorna ao passo 3.
 ---
 
 #### **Organizar Agenda de Refeições (CSU08)**
-**Sumário:** O Usuário define e ajusta o cronograma de horários para as refeições planejadas.  
-**Ator Primário:** Usuário.  
-**Pré-condições:** O Usuário deve possuir refeições planejadas.  
+
+**Sumário:** Permite ao usuário definir e ajustar os horários das refeições planejadas ao longo da semana.
+**Ator Primário:** Usuário.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O usuário deve estar autenticado e possuir ao menos uma refeição planejada.
 
 **Fluxo Principal:**
-1. O Usuário acessa a agenda de refeições.  
-2. O Sistema apresenta a lista de refeições agendadas.  
-3. O Usuário seleciona uma refeição e define o horário de consumo.  
-4. O Sistema registra os horários no cronograma pessoal.
 
-**Pós-condições:** Os horários das refeições foram estabelecidos.
+1. O usuário acessa a agenda de refeições.
+2. O sistema apresenta as refeições planejadas e seus respectivos dias.
+3. O usuário seleciona uma refeição para definir ou alterar horário.
+4. O usuário informa o horário desejado.
+5. O sistema valida o horário informado.
+6. O sistema registra a agenda atualizada no cronograma pessoal do usuário.
+
+**Fluxo Alternativo A – Horário inválido:**
+a) O sistema identifica formato inválido ou conflito de horário.
+b) O sistema informa a inconsistência ao usuário.
+c) O fluxo retorna ao passo 3.
+
+**Fluxo Alternativo B – Ausência de refeições planejadas:**
+a) O sistema identifica que não existem refeições cadastradas na agenda.
+b) O sistema informa que é necessário planejar refeições antes de organizar horários.
+c) O caso de uso é encerrado.
+
+**Pós-condições:** Os horários das refeições ficam registrados ou atualizados.
 
 ---
 
