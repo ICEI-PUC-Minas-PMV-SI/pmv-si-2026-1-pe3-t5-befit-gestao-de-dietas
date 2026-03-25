@@ -117,23 +117,46 @@ c) O caso de uso é encerrado sem autenticação.
 ---
 
 #### **Fazer Cadastro (CSU02)**
-**Sumário:** O Usuário realiza o seu registro inicial para utilizar as funcionalidades do sistema.  
-**Ator Primário:** Usuário.  
-**Ator Secundário:** Banco de Dados.  
-**Pré-condições:** O Usuário não deve possuir cadastro prévio com o e-mail informado.  
+
+**Sumário:** Permite que um novo usuário crie uma conta para utilizar os recursos do sistema.
+**Ator Primário:** Usuário.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O usuário não pode possuir cadastro prévio com o e-mail informado.
 
 **Fluxo Principal:**
-1. O Usuário solicita a criação de uma nova conta.  
-2. O Sistema apresenta o formulário de cadastro (Nome, E-mail, Idade e Senha).  
-3. O Usuário fornece os dados solicitados.  
-4. O Sistema verifica a idade mínima de 18 anos.  
-5. O Sistema valida os dados e armazena no Banco de Dados.
 
-**Fluxo Alternativo – Idade insuficiente:**  
-a) O Sistema identifica que o Usuário possui menos de 18 anos.  
-b) O Sistema reporta a impossibilidade de cadastro e encerra o caso de uso.
+1. O usuário acessa a opção de cadastro.
+2. O sistema apresenta o formulário de cadastro com os campos nome, e-mail, idade e senha.
+3. O usuário preenche os dados solicitados.
+4. O sistema valida o preenchimento e o formato dos dados informados.
+5. O sistema verifica se o e-mail informado já está cadastrado.
+6. O sistema verifica se o usuário possui idade mínima de 18 anos.
+7. O sistema registra os dados do novo usuário no banco de dados.
+8. O sistema confirma a criação da conta.
+9. O sistema redireciona o usuário para a tela de login.
 
-**Pós-condições:** Um novo perfil de usuário foi criado no sistema.
+**Fluxo Alternativo A – Campos inválidos ou incompletos:**
+a) O sistema identifica campos obrigatórios não preenchidos ou em formato inválido.
+b) O sistema exibe mensagem solicitando a correção dos dados.
+c) O fluxo retorna ao passo 2.
+
+**Fluxo Alternativo B – E-mail já cadastrado:**
+a) O sistema identifica que o e-mail informado já pertence a uma conta existente.
+b) O sistema informa que já existe cadastro vinculado ao e-mail.
+c) O sistema orienta o usuário a realizar login ou informar outro e-mail.
+d) O fluxo retorna ao passo 2.
+
+**Fluxo Alternativo C – Idade insuficiente:**
+a) O sistema identifica que o usuário possui menos de 18 anos.
+b) O sistema informa a impossibilidade de conclusão do cadastro.
+c) O caso de uso é encerrado sem criação de conta.
+
+**Fluxo Alternativo D – Falha ao salvar cadastro:**
+a) O sistema identifica erro no armazenamento das informações.
+b) O sistema informa falha ao concluir o cadastro.
+c) O caso de uso é encerrado sem criação de conta.
+
+**Pós-condições:** Um novo perfil de usuário é criado e fica disponível para autenticação.
 
 ---
 
