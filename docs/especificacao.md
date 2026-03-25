@@ -167,28 +167,43 @@ c) O caso de uso é encerrado sem criação de conta.
 
 ---
 
-#### **Gerenciar Estoque (CSU03)**
-**Sumário:** O Usuário realiza a gestão (inclusão, remoção, alteração e consulta) dos ingredientes disponíveis.  
-**Ator Primário:** Usuário.  
-**Ator Secundário:** Banco de Dados.  
-**Pré-condições:** O Usuário deve estar autenticado.  
+#### **Gerenciar Inventário de Alimentos (CSU03)**
+
+**Sumário:** Permite ao usuário cadastrar, editar, remover e consultar alimentos do estoque doméstico.
+**Ator Primário:** Usuário.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O usuário deve estar autenticado no sistema.
 
 **Fluxo Principal:**
-1. O Usuário requisita manutenção do estoque.  
-2. O Sistema apresenta as operações: inclusão de ingrediente, alteração, exclusão e consulta de saldo.  
-3. O Usuário seleciona a operação desejada ou opta por finalizar.  
-4. Se o Usuário desejar continuar, o caso de uso retorna ao passo 2; caso contrário, termina.
 
-**Fluxo Alternativo – Inclusão:**  
-a) O Usuário requisita a inclusão de um ingrediente.  
-b) O Sistema solicita o nome e a quantidade do item.  
-c) O Sistema verifica se o item já existe. Se não, inclui o novo registro; se sim, atualiza a quantidade.
+1. O usuário acessa o módulo de inventário de alimentos.
+2. O sistema apresenta os alimentos atualmente cadastrados no estoque.
+3. O usuário seleciona a operação desejada: adicionar, editar, remover ou consultar item.
+4. O sistema apresenta os campos necessários para a operação escolhida.
+5. O usuário informa ou altera os dados do alimento, como nome, quantidade, unidade de medida e validade, quando aplicável.
+6. O sistema valida os dados informados.
+7. O sistema registra a operação no banco de dados.
+8. O sistema atualiza a lista de itens do inventário.
 
-**Fluxo Alternativo – Remoção/Alteração:**  
-a) O Usuário seleciona o ingrediente e solicita a alteração de dados ou exclusão.  
-b) O Sistema valida a operação e atualiza o banco de dados.
+**Fluxo Alternativo A – Inclusão de alimento já existente:**
+a) O sistema identifica que o alimento já está cadastrado no inventário.
+b) O sistema oferece a opção de atualizar a quantidade existente.
+c) O usuário confirma a atualização.
+d) O sistema atualiza o item no estoque.
 
-**Pós-condições:** O estoque foi atualizado ou consultado com sucesso.
+**Fluxo Alternativo B – Remoção de alimento:**
+a) O usuário seleciona um alimento cadastrado.
+b) O usuário escolhe a opção de exclusão.
+c) O sistema solicita confirmação da operação.
+d) O usuário confirma a exclusão.
+e) O sistema remove o alimento do inventário.
+
+**Fluxo Alternativo C – Dados inválidos:**
+a) O sistema identifica inconsistência nos dados informados.
+b) O sistema exibe mensagem de erro.
+c) O fluxo retorna ao passo 4.
+
+**Pós-condições:** O inventário do usuário permanece atualizado.
 
 ---
 
