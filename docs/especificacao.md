@@ -417,39 +417,6 @@ c) O caso de uso é encerrado sem exibição dos dados.
 
 ---
 
-#### Gerenciar Inventário de Alimentos (CSU02)
-
-Sumário: Permite cadastrar, editar ou remover alimentos do estoque doméstico.
-
-Ator Primário: Usuário.
-
-Pré-condições: Usuário deve estarr autenticado no sistema.
-
-Fluxo Principal:
-
-1)  O usuário acessa o módulo de estoque.
-2) 	O sistema apresenta os alimentos cadastrados.
-3) 	O usuário seleciona a opção adicionar alimento.
-4) 	O sistema valida os dados.
-5) 	O usuário informa nome do alimento, quantidade e unidade.
-6) 	O sistema registra o alimento no estoque.
-    	
-Fluxo Alternativo (1): Atualizar quantidade
-
-a)	O usuário seleciona um alimento existente. <br>
-b)	O usuário altera a quantidade disponível. <br>
-c)	O sistema atualiza o estoque. <br>
-
-Fluxo Alternativo (2): Dados inválidos
-
-a)	O usuário seleciona um alimento cadastrado. <br>
-b)	O usuário escolhe a opção excluir. <br>
-c)	O sistema remove o alimento do estoque. <br>
-
-Pós-condições: O estoque de alimentos fica atualizado.
-
-
-
 ### 3.4.3 Diagrama de Classes 
 
 A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
