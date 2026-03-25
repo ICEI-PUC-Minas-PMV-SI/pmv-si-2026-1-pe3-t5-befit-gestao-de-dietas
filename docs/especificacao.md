@@ -267,20 +267,33 @@ b) O sistema encerra o caso de uso sem alterações.
 ---
 
 #### **Planejar Refeições (CSU06)**
-**Sumário:** O Usuário organiza seu cronograma alimentar (Café, Almoço ou Jantar) com base nas receitas e no estoque.  
-**Ator Primário:** Usuário.  
-**Ator Secundário:** Banco de Dados.  
-**Pré-condições:** O Usuário deve estar autenticado.  
+
+**Sumário:** Permite ao usuário montar refeições com base em seu perfil alimentar, nas receitas disponíveis e nos ingredientes existentes no estoque.
+**Ator Primário:** Usuário.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O usuário deve estar autenticado e possuir preferências alimentares cadastradas, quando aplicável.
 
 **Fluxo Principal:**
-1. O Usuário solicita o planejamento de uma nova refeição.  
-2. O Sistema apresenta as categorias (Café da Manhã, Almoço, Jantar).  
-3. O Usuário seleciona o tipo de refeição.  
-4. O Sistema verifica o estoque disponível e apresenta as receitas possíveis.  
-5. O Usuário seleciona a receita desejada.  
-6. O Sistema registra a refeição na agenda do Usuário.
 
-**Pós-condições:** Uma nova refeição foi agendada no cronograma.
+1. O usuário acessa a funcionalidade de planejamento de refeições.
+2. O sistema apresenta as categorias de refeição, como café da manhã, almoço e jantar.
+3. O usuário seleciona o tipo de refeição que deseja planejar.
+4. O sistema consulta o perfil alimentar do usuário e o estoque disponível.
+5. O sistema apresenta receitas compatíveis com o perfil e com os ingredientes disponíveis.
+6. O usuário seleciona a refeição desejada.
+7. O sistema registra a refeição planejada no cronograma do usuário.
+
+**Fluxo Alternativo A – Estoque insuficiente:**
+a) O sistema identifica ausência de ingredientes necessários para determinadas receitas.
+b) O sistema sinaliza indisponibilidade e apresenta opções alternativas.
+c) O usuário escolhe outra receita ou encerra a operação.
+
+**Fluxo Alternativo B – Nenhuma receita compatível encontrada:**
+a) O sistema não localiza receitas compatíveis com o perfil alimentar e o estoque atual.
+b) O sistema informa a indisponibilidade de opções no momento.
+c) O caso de uso é encerrado sem registro de refeição.
+
+**Pós-condições:** Uma refeição é planejada e vinculada ao cronograma do usuário.
 
 ---
 
