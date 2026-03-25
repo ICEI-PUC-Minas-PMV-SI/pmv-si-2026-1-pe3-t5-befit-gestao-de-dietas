@@ -20,10 +20,10 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 | # | Benefício | Valor para o Cliente |
 |--------------------|------------------------------------|----------------------------------------|
-|1	| Facilidade no cadastro de dados |	Essencial |
-|2 | Facilidade na recuperação de informações | Essencial | 
-|3 | Segurança no cadastro de matrículas | Essencial | 
-|4	| Melhoria na comunicação com os alunos	| Recomendável | 
+|1	| Organização da rotina diária alimentar |	Essencial |
+|2 | Acompanhamento dos resultados | Essencial | 
+|3 | Facilitação na produção de alimentos diferenciados| Essencial | 
+|4	| Melhoria da saúde	| Recomendável | 
 
 ## 3.3 Descrição geral do produto
 
