@@ -79,23 +79,40 @@ Cada caso de uso do Sistema de Gestão de Dietas está detalhado nesta seção, 
 ---
 
 #### **Fazer Login (CSU01)**
-**Sumário:** O Usuário realiza a autenticação no sistema para acessar as funcionalidades.  
-**Ator Primário:** Usuário.  
-**Ator Secundário:** Banco de Dados.  
-**Pré-condições:** O Usuário deve possuir cadastro prévio.  
+
+**Sumário:** Permite que o usuário se autentique no sistema para acessar funcionalidades e dados pessoais.
+**Ator Primário:** Usuário.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O usuário deve possuir cadastro prévio e estar com acesso disponível ao sistema.
 
 **Fluxo Principal:**
-1. O Usuário solicita acesso ao sistema.  
-2. O Sistema apresenta os campos para inserção de e-mail e senha.  
-3. O Usuário fornece as credenciais solicitadas.  
-4. O Sistema executa a verificação da senha.  
-5. O Sistema valida o acesso e redireciona para a tela principal.
 
-**Fluxo Alternativo – Erro de Login:**  
-a) O Sistema identifica que os dados são inválidos ou inexistentes.  
-b) O Sistema reporta o erro e permite que o Usuário tente novamente.
+1. O usuário acessa a tela de login do sistema.
+2. O sistema apresenta os campos de e-mail e senha.
+3. O usuário informa suas credenciais de acesso.
+4. O sistema valida o preenchimento dos campos obrigatórios.
+5. O sistema consulta o banco de dados para localizar o usuário informado.
+6. O sistema verifica se a senha informada corresponde à senha cadastrada.
+7. O sistema autentica o usuário.
+8. O sistema inicia a sessão e redireciona o usuário para a tela principal.
 
-**Pós-condições:** O Usuário está autenticado e com acesso liberado.
+**Fluxo Alternativo A – Campos não preenchidos:**
+a) O sistema identifica ausência de preenchimento em um ou mais campos obrigatórios.
+b) O sistema exibe mensagem de erro solicitando o preenchimento correto.
+c) O fluxo retorna ao passo 2.
+
+**Fluxo Alternativo B – Credenciais inválidas:**
+a) O sistema identifica que o e-mail não está cadastrado ou que a senha está incorreta.
+b) O sistema informa que as credenciais são inválidas.
+c) O sistema permite nova tentativa de autenticação.
+d) O fluxo retorna ao passo 2.
+
+**Fluxo Alternativo C – Falha de comunicação com o banco de dados:**
+a) O sistema identifica indisponibilidade no acesso aos dados de autenticação.
+b) O sistema informa indisponibilidade temporária.
+c) O caso de uso é encerrado sem autenticação.
+
+**Pós-condições:** O usuário é autenticado e passa a acessar as funcionalidades restritas do sistema.
 
 ---
 
