@@ -72,7 +72,8 @@ O BEFIT não substitui o acompanhamento de profissionais de saúde, sendo apenas
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
+
+Como observado no diagrama de casos de uso da Figura 1, o Cliente interage com as principais funcionalidades do sistema BEFIT, podendo realizar cadastro e login, visualizar refeições, monitorar peso por meio do IMC, gerenciar preferências alimentares, organizar a agenda de refeições, visualizar informações nutricionais, gerenciar o inventário de alimentos, gerar lista de compras e emitir relatórios de consumo. O Sistema atua no processamento das validações e consultas internas, enquanto o Administrador participa das rotinas de apoio e manutenção relacionadas às funcionalidades da aplicação.
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
@@ -419,7 +420,7 @@ c) O caso de uso é encerrado sem exibição dos dados.
 
 ### 3.4.3 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
+A Figura 2 apresenta o diagrama de classes do sistema BEFIT. Nele, a classe Users centraliza os dados cadastrais e objetivos do Cliente, enquanto Foods e Meals representam os alimentos e refeições disponíveis no sistema. A relação entre refeições e ingredientes é modelada por Meal_Ingredients, e o planejamento alimentar é organizado por Meal_Plans e Meal_Plan_Items. O acompanhamento do consumo é registrado em Consumption_Logs, a lista de compras é controlada por Shopping_Lists, o estoque doméstico é mantido em User_Inventories e a evolução de peso e IMC é armazenada em Weight_Histories. A classe Migrations possui função técnica de controle da estrutura do banco de dados.
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
