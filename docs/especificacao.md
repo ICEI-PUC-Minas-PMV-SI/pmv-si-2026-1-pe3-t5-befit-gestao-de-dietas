@@ -390,31 +390,32 @@ c) O fluxo retorna ao passo 2.
 ---
 
 #### **Consultar Estoque (CSU10)**
-**Sumário:** O Sistema verifica a disponibilidade de ingredientes cadastrados.  
-**Ator Primário:** Usuário (ou outro módulo que necessite da informação).  
-**Ator Secundário:** Banco de Dados.  
+
+**Sumário:** Permite ao usuário visualizar os alimentos disponíveis em seu inventário, incluindo quantidades e situação de disponibilidade.
+**Ator Primário:** Usuário.
+**Ator Secundário:** Banco de Dados.
+**Pré-condições:** O usuário deve estar autenticado no sistema.
 
 **Fluxo Principal:**
-1. O Sistema acessa os registros de ingredientes.  
-2. O Sistema filtra os itens com saldo disponível.  
-3. O Sistema apresenta a lista de ingredientes ao Usuário.
 
-**Pós-condições:** A lista de ingredientes disponíveis foi exibida ao Usuário.
+1. O usuário acessa a funcionalidade de consulta de estoque.
+2. O sistema consulta os registros do inventário do usuário.
+3. O sistema organiza os alimentos cadastrados por nome, quantidade e unidade de medida.
+4. O sistema exibe a lista de itens disponíveis ao usuário.
+
+**Fluxo Alternativo A – Estoque vazio:**
+a) O sistema identifica que não existem alimentos cadastrados no inventário.
+b) O sistema informa que o estoque está vazio.
+c) O caso de uso é encerrado.
+
+**Fluxo Alternativo B – Falha de consulta:**
+a) O sistema identifica erro ao recuperar os dados do inventário.
+b) O sistema informa indisponibilidade temporária.
+c) O caso de uso é encerrado sem exibição dos dados.
+
+**Pós-condições:** A situação atual do estoque é apresentada ao usuário.
 
 ---
-
-#### **Consultar Estoque (CSU10)**
-**Sumário:** O Sistema verifica a disponibilidade de ingredientes no Banco de Dados.  
-**Ator Primário:** Usuário (ou disparado internamente por outros CSUs).  
-**Ator Secundário:** Banco de Dados.  
-
-**Fluxo Principal:**
-1. O Sistema acessa os registros de ingredientes.  
-2. O Sistema filtra os itens com saldo disponível.  
-3. O Sistema apresenta a lista de ingredientes ao Usuário.
-
-**Pós-condições:** A lista de ingredientes disponíveis foi exibida ou enviada ao CSU chamador.
-
 
 #### Gerenciar Inventário de Alimentos (CSU02)
 
