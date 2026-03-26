@@ -8,14 +8,17 @@ Descrever e especificar as necessidades dos Clientes do aplicativo BEFIT, que de
 O BEFIT é um aplicativo desenvolvido para auxiliar pessoas na organização da sua rotina alimentar e no acompanhamento de indicadores básicos de saúde, com o objetivo de contribuir para a melhoria da qualidade de vida. O sistema permite ao Cliente cadastrar uma dieta específica, preferencialmente com base na orientação de um profissional de saúde, e, a partir dessas informações, receber sugestões de refeições compatíveis com o padrão alimentar definido. Além disso, o aplicativo possibilita aplicar filtros relacionados a restrições alimentares e alergênicos, acompanhar dados como peso e IMC, planejar refeições semanais e gerar listas de compras de forma prática e organizada. Assim, o BEFIT atua como uma ferramenta de apoio ao planejamento alimentar, promovendo mais controle, praticidade e incentivo à adoção de hábitos saudáveis.
 
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto será denominado BEFIT – Aplicativo de Gestão Alimentar e Qualidade de Vida.
+
+O produto será denominado **BEFIT – Aplicativo de Gestão Alimentar e Qualidade de Vida**.
+
 O sistema será composto por um módulo principal, contendo os seguintes elementos:
-Cadastro de dietas personalizadas
-Sugestão de refeições com base em filtros alimentares
-Controle de alergênicos e restrições alimentares
-Acompanhamento de indicadores de saúde (peso e IMC)
-Planejamento semanal de refeições
-Geração automática de lista de compras
+
+- Cadastro de dietas personalizadas;
+- Sugestão de refeições com base em filtros alimentares;
+- Controle de alergênicos e restrições alimentares;
+- Acompanhamento de indicadores de saúde (peso e IMC);
+- Planejamento semanal de refeições;
+- Geração automática de lista de compras.
 
 ### 3.2.2 Missão do produto
 Promover a melhoria da qualidade de vida dos Clientes por meio da organização da rotina alimentar, facilitando o acompanhamento de dietas prescritas por profissionais de saúde, incentivando hábitos saudáveis e oferecendo ferramentas práticas para planejamento alimentar. 
