@@ -1,7 +1,8 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
 ## 3.1 Objetivos deste documento
-Descrever e especificar as necessidades dos Clientes do aplicativo BEFIT, que devem ser atendidas pelo sistema, com foco na melhoria da qualidade de vida por meio da organização alimentar, acompanhamento de saúde e suporte à adesão a dietas personalizadas.
+
+Este documento especifica os requisitos funcionais e não funcionais do sistema **BEFIT**, detalhando as funcionalidades e restrições da aplicação. A especificação visa atender às necessidades de organização da rotina alimentar, planejamento de dietas e controle de indicadores de saúde (como peso e IMC), garantindo ao usuário as ferramentas necessárias para o acompanhamento de sua evolução física e nutricional de forma autônoma.
 
 ## 3.2 Escopo do produto
 
