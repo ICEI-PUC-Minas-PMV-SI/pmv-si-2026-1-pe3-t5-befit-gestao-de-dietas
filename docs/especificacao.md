@@ -80,7 +80,7 @@ Como observado no diagrama de casos de uso da Figura 1, o Cliente interage com a
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-<img width="745" height="580" alt="Diagrama de casos de uso_v3 drawio" src="https://github.com/user-attachments/assets/c8a6c5ba-63c3-464c-92ab-f39ddcb3f7d6" />
+<img width="754" height="580" alt="Diagrama de casos de uso_v3 drawio" src="https://github.com/user-attachments/assets/7cf1379c-d99c-4486-94d1-8477bcd747dd" />
 
  
 ### 3.4.2 Descrições de Casos de Uso
