@@ -274,7 +274,6 @@ b) O sistema encerra o caso de uso sem alterações.
 
 **Sumário:** Permite ao Cliente montar refeições com base em seu perfil alimentar, nas receitas disponíveis e nos ingredientes existentes no estoque.
 **Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
 **Pré-condições:** O Cliente deve estar autenticado e possuir preferências alimentares cadastradas, quando aplicável.
 
 **Fluxo Principal:**
@@ -305,7 +304,6 @@ c) O caso de uso é encerrado sem registro de refeição.
 
 **Sumário:** Permite ao Cliente criar, atualizar e acompanhar sua lista de compras a partir do planejamento alimentar e do inventário disponível.
 **Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
 **Pré-condições:** O Cliente deve estar autenticado no sistema.
 
 **Fluxo Principal:**
@@ -336,7 +334,6 @@ c) O fluxo retorna ao passo 3.
 
 **Sumário:** Permite ao Cliente definir e ajustar os horários das refeições planejadas ao longo da semana.
 **Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
 **Pré-condições:** O Cliente deve estar autenticado e possuir ao menos uma refeição planejada.
 
 **Fluxo Principal:**
@@ -366,7 +363,6 @@ c) O caso de uso é encerrado.
 
 **Sumário:** Permite ao Cliente pesquisar receitas cadastradas, visualizar modo de preparo, nível de complexidade e informações nutricionais.
 **Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
 **Pré-condições:** O Cliente deve estar autenticado no sistema.
 
 **Fluxo Principal:**
@@ -397,7 +393,6 @@ c) O fluxo retorna ao passo 2.
 
 **Sumário:** Permite ao Cliente visualizar os alimentos disponíveis em seu inventário, incluindo quantidades e situação de disponibilidade.
 **Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
 **Pré-condições:** O Cliente deve estar autenticado no sistema.
 
 **Fluxo Principal:**
@@ -425,7 +420,6 @@ c) O caso de uso é encerrado sem exibição dos dados.
 
 **Sumário:** Permite ao Cliente gerar relatórios de consumo alimentar nos períodos diário, semanal e mensal, com base nos registros armazenados pelo sistema.
 **Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
 **Pré-condições:** O Cliente deve estar autenticado no sistema e possuir registros de consumo cadastrados.
 
 **Fluxo Principal:**
