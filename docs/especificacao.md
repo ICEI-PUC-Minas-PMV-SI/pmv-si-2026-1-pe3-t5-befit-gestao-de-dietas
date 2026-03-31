@@ -438,7 +438,8 @@ A Figura 2 apresenta o diagrama de classes do sistema BEFIT. Nele, a classe User
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
-<img width="721" height="1665" alt="diagrama_classes" src="https://github.com/user-attachments/assets/4e499b92-d91e-4cc7-96ef-98fedccc53bb" />
+<img width="6123" height="8192" alt="diagrama_classe" src="https://github.com/user-attachments/assets/626751ca-2cca-466a-be8d-a81c1065d718" />
+
 
 
 ### 3.4.4 Descrições das Classes 
