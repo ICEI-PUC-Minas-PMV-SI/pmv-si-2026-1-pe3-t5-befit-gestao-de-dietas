@@ -46,7 +46,7 @@ O BEFIT não substitui o acompanhamento de profissionais de saúde, sendo apenas
 | RF-002 | Visualizar Refeições por Complexidade | O sistema deve permitir que o Cliente visualize opções de refeições organizadas por complexidade, considerando o tempo de preparo. | ALTA |
 | RF-003 | Gerar Lista de Compras | O sistema deve sugerir automaticamente uma lista de compras com base no plano de refeições escolhido pelo Cliente. | MÉDIA |
 | RF-004 | Exibir Informações Nutricionais | O sistema deve fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.). | ALTA |
-| RF-005 | Monitorar Peso (IMC) | O sistema deve disponibilizar uma ferramenta para monitoramento do peso por meio do cálculo do IMC (Índice de Massa Corporal). | MÉDIA |
+| RF-005 | Monitorar Peso (IMC) | O sistema deve permitir o monitoramento do peso por meio do cálculo do IMC (Índice de Massa Corporal). | MÉDIA |
 | RF-006 | Organizar Agenda de Refeições | O sistema deve permitir que o Cliente organize uma agenda semanal de refeições (café da manhã, almoço e jantar). | ALTA |
 | RF-007 | Gerenciar Inventário de Alimentos | O sistema deve fornecer um sistema de inventário de alimentos integrado às refeições diárias do Cliente. | MÉDIA |
 | RF-008 | Gerar Relatórios de Consumo | O sistema deve disponibilizar relatórios dos alimentos consumidos nos períodos diário, semanal e mensal. | BAIXA |
@@ -91,10 +91,9 @@ Cada caso de uso do Sistema de Gestão de Dietas está detalhado nesta seção, 
 
 #### **Fazer Login (CSU01)**
 
-**Sumário:** Permite que o Cliente se autentique no sistema para acessar funcionalidades e dados pessoais.
-**Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
-**Pré-condições:** O Cliente deve possuir cadastro prévio e estar com acesso disponível ao sistema.
+**Sumário:** Permite que o Cliente se autentique no sistema para acessar funcionalidades e dados pessoais.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve possuir cadastro prévio e estar com acesso disponível ao sistema.<br>
 
 **Fluxo Principal:**
 
@@ -108,20 +107,23 @@ Cada caso de uso do Sistema de Gestão de Dietas está detalhado nesta seção, 
 8. O sistema inicia a sessão e redireciona o Cliente para a tela principal.
 
 **Fluxo Alternativo A – Campos não preenchidos:**
-a) O sistema identifica ausência de preenchimento em um ou mais campos obrigatórios.
-b) O sistema exibe mensagem de erro solicitando o preenchimento correto.
-c) O fluxo retorna ao passo 2.
+
+a) O sistema identifica ausência de preenchimento em um ou mais campos obrigatórios.<br>
+b) O sistema exibe mensagem de erro solicitando o preenchimento correto.<br>
+c) O fluxo retorna ao passo 2.<br>
 
 **Fluxo Alternativo B – Credenciais inválidas:**
+
 a) O sistema identifica que o e-mail não está cadastrado ou que a senha está incorreta.
-b) O sistema informa que as credenciais são inválidas.
-c) O sistema permite nova tentativa de autenticação.
-d) O fluxo retorna ao passo 2.
+b) O sistema informa que as credenciais são inválidas.<br>
+c) O sistema permite nova tentativa de autenticação.<br>
+d) O fluxo retorna ao passo 2.<br>
 
 **Fluxo Alternativo C – Falha de comunicação com o banco de dados:**
-a) O sistema identifica indisponibilidade no acesso aos dados de autenticação.
-b) O sistema informa indisponibilidade temporária.
-c) O caso de uso é encerrado sem autenticação.
+
+a) O sistema identifica indisponibilidade no acesso aos dados de autenticação.<br>
+b) O sistema informa indisponibilidade temporária.<br>
+c) O caso de uso é encerrado sem autenticação.<br>
 
 **Pós-condições:** O Cliente é autenticado e passa a acessar as funcionalidades restritas do sistema.
 
@@ -129,10 +131,9 @@ c) O caso de uso é encerrado sem autenticação.
 
 #### **Fazer Cadastro (CSU02)**
 
-**Sumário:** Permite que um novo Cliente crie uma conta para utilizar os recursos do sistema.
-**Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
-**Pré-condições:** O Cliente não pode possuir cadastro prévio com o e-mail informado.
+**Sumário:** Permite que um novo Cliente crie uma conta para utilizar os recursos do sistema.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente não pode possuir cadastro prévio com o e-mail informado.<br>
 
 **Fluxo Principal:**
 
@@ -147,25 +148,29 @@ c) O caso de uso é encerrado sem autenticação.
 9. O sistema redireciona o Cliente para a tela de login.
 
 **Fluxo Alternativo A – Campos inválidos ou incompletos:**
-a) O sistema identifica campos obrigatórios não preenchidos ou em formato inválido.
-b) O sistema exibe mensagem solicitando a correção dos dados.
-c) O fluxo retorna ao passo 2.
+
+a) O sistema identifica campos obrigatórios não preenchidos ou em formato inválido.<br>
+b) O sistema exibe mensagem solicitando a correção dos dados.<br>
+c) O fluxo retorna ao passo 2.<br>
 
 **Fluxo Alternativo B – E-mail já cadastrado:**
-a) O sistema identifica que o e-mail informado já pertence a uma conta existente.
-b) O sistema informa que já existe cadastro vinculado ao e-mail.
-c) O sistema orienta o Cliente a realizar login ou informar outro e-mail.
-d) O fluxo retorna ao passo 2.
+
+a) O sistema identifica que o e-mail informado já pertence a uma conta existente.<br>
+b) O sistema informa que já existe cadastro vinculado ao e-mail.<br>
+c) O sistema orienta o Cliente a realizar login ou informar outro e-mail.<br>
+d) O fluxo retorna ao passo 2.<br>
 
 **Fluxo Alternativo C – Idade insuficiente:**
-a) O sistema identifica que o Cliente possui menos de 18 anos.
-b) O sistema informa a impossibilidade de conclusão do cadastro.
-c) O caso de uso é encerrado sem criação de conta.
+
+a) O sistema identifica que o Cliente possui menos de 18 anos.<br>
+b) O sistema informa a impossibilidade de conclusão do cadastro.<br>
+c) O caso de uso é encerrado sem criação de conta.<br>
 
 **Fluxo Alternativo D – Falha ao salvar cadastro:**
-a) O sistema identifica erro no armazenamento das informações.
-b) O sistema informa falha ao concluir o cadastro.
-c) O caso de uso é encerrado sem criação de conta.
+
+a) O sistema identifica erro no armazenamento das informações.<br>
+b) O sistema informa falha ao concluir o cadastro.<br>
+c) O caso de uso é encerrado sem criação de conta.<br>
 
 **Pós-condições:** Um novo perfil de Cliente é criado e fica disponível para autenticação.
 
@@ -173,10 +178,9 @@ c) O caso de uso é encerrado sem criação de conta.
 
 #### **Gerenciar Inventário de Alimentos (CSU03)**
 
-**Sumário:** Permite ao Cliente cadastrar, editar, remover e consultar alimentos do estoque doméstico.
-**Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
-**Pré-condições:** O Cliente deve estar autenticado no sistema.
+**Sumário:** Permite ao Cliente cadastrar, editar, remover e consultar alimentos do estoque doméstico.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -190,22 +194,25 @@ c) O caso de uso é encerrado sem criação de conta.
 8. O sistema atualiza a lista de itens do inventário.
 
 **Fluxo Alternativo A – Inclusão de alimento já existente:**
-a) O sistema identifica que o alimento já está cadastrado no inventário.
-b) O sistema oferece a opção de atualizar a quantidade existente.
-c) O Cliente confirma a atualização.
-d) O sistema atualiza o item no estoque.
+
+a) O sistema identifica que o alimento já está cadastrado no inventário.<br>
+b) O sistema oferece a opção de atualizar a quantidade existente.<br>
+c) O Cliente confirma a atualização.<br>
+d) O sistema atualiza o item no estoque.<br>
 
 **Fluxo Alternativo B – Remoção de alimento:**
-a) O Cliente seleciona um alimento cadastrado.
-b) O Cliente escolhe a opção de exclusão.
-c) O sistema solicita confirmação da operação.
-d) O Cliente confirma a exclusão.
-e) O sistema remove o alimento do inventário.
+
+a) O Cliente seleciona um alimento cadastrado.<br>
+b) O Cliente escolhe a opção de exclusão.<br>
+c) O sistema solicita confirmação da operação.<br>
+d) O Cliente confirma a exclusão.<br>
+e) O sistema remove o alimento do inventário.<br>
 
 **Fluxo Alternativo C – Dados inválidos:**
-a) O sistema identifica inconsistência nos dados informados.
-b) O sistema exibe mensagem de erro.
-c) O fluxo retorna ao passo 4.
+
+a) O sistema identifica inconsistência nos dados informados.<br>
+b) O sistema exibe mensagem de erro.<br>
+c) O fluxo retorna ao passo 4.<br>
 
 **Pós-condições:** O inventário do Cliente permanece atualizado.
 
@@ -213,9 +220,9 @@ c) O fluxo retorna ao passo 4.
 
 #### **Calcular IMC (CSU04)**
 
-**Sumário:** Permite ao Cliente calcular seu Índice de Massa Corporal a partir dos dados de peso e altura.
-**Ator Primário:** Cliente.
-**Pré-condições:** O Cliente deve estar autenticado no sistema.
+**Sumário:** Permite ao Cliente calcular seu Índice de Massa Corporal a partir dos dados de peso e altura.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -227,14 +234,16 @@ c) O fluxo retorna ao passo 4.
 6. O sistema apresenta o valor calculado e sua classificação correspondente.
 
 **Fluxo Alternativo A – Dados não preenchidos:**
-a) O sistema identifica ausência de peso ou altura.
-b) O sistema solicita o preenchimento dos campos obrigatórios.
-c) O fluxo retorna ao passo 2.
+
+a) O sistema identifica ausência de peso ou altura.<br>
+b) O sistema solicita o preenchimento dos campos obrigatórios.<br>
+c) O fluxo retorna ao passo 2.<br>
 
 **Fluxo Alternativo B – Dados inválidos:**
-a) O sistema identifica valores incompatíveis, negativos ou nulos.
-b) O sistema informa erro nos dados inseridos.
-c) O fluxo retorna ao passo 2.
+
+a) O sistema identifica valores incompatíveis, negativos ou nulos.<br>
+b) O sistema informa erro nos dados inseridos.<br>
+c) O fluxo retorna ao passo 2.<br>
 
 **Pós-condições:** O IMC do Cliente é calculado e exibido em tela.
 
@@ -242,10 +251,9 @@ c) O fluxo retorna ao passo 2.
 
 #### **Gerenciar Preferências e Restrições Alimentares (CSU05)**
 
-**Sumário:** Permite ao Cliente registrar, alterar e remover preferências e restrições alimentares para personalizar recomendações e planejamentos.
-**Ator Primário:** Cliente.
-**Ator Secundário:** Banco de Dados.
-**Pré-condições:** O Cliente deve estar autenticado no sistema.
+**Sumário:** Permite ao Cliente registrar, alterar e remover preferências e restrições alimentares para personalizar recomendações e planejamentos.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -258,13 +266,15 @@ c) O fluxo retorna ao passo 2.
 7. O sistema confirma a atualização realizada.
 
 **Fluxo Alternativo A – Dados não selecionados:**
-a) O sistema identifica ausência de seleção válida.
-b) O sistema informa a necessidade de escolher ao menos uma opção válida.
-c) O fluxo retorna ao passo 2.
+
+a) O sistema identifica ausência de seleção válida.<br>
+b) O sistema informa a necessidade de escolher ao menos uma opção válida.<br>
+c) O fluxo retorna ao passo 2.<br>
 
 **Fluxo Alternativo B – Operação cancelada:**
-a) O Cliente cancela a operação antes da confirmação.
-b) O sistema encerra o caso de uso sem alterações.
+
+a) O Cliente cancela a operação antes da confirmação.<br>
+b) O sistema encerra o caso de uso sem alterações.<br>
 
 **Pós-condições:** O perfil alimentar do Cliente é atualizado.
 
@@ -272,9 +282,9 @@ b) O sistema encerra o caso de uso sem alterações.
 
 #### **Planejar Refeições (CSU06)**
 
-**Sumário:** Permite ao Cliente montar refeições com base em seu perfil alimentar, nas receitas disponíveis e nos ingredientes existentes no estoque.
-**Ator Primário:** Cliente.
-**Pré-condições:** O Cliente deve estar autenticado e possuir preferências alimentares cadastradas, quando aplicável.
+**Sumário:** Permite ao Cliente montar refeições com base em seu perfil alimentar, nas receitas disponíveis e nos ingredientes existentes no estoque.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado e possuir preferências alimentares cadastradas, quando aplicável.<br>
 
 **Fluxo Principal:**
 
@@ -287,14 +297,16 @@ b) O sistema encerra o caso de uso sem alterações.
 7. O sistema registra a refeição planejada no cronograma do Cliente.
 
 **Fluxo Alternativo A – Estoque insuficiente:**
-a) O sistema identifica ausência de ingredientes necessários para determinadas receitas.
-b) O sistema sinaliza indisponibilidade e apresenta opções alternativas.
-c) O Cliente escolhe outra receita ou encerra a operação.
+
+a) O sistema identifica ausência de ingredientes necessários para determinadas receitas.<br>
+b) O sistema sinaliza indisponibilidade e apresenta opções alternativas.<br>
+c) O Cliente escolhe outra receita ou encerra a operação.<br>
 
 **Fluxo Alternativo B – Nenhuma receita compatível encontrada:**
-a) O sistema não localiza receitas compatíveis com o perfil alimentar e o estoque atual.
-b) O sistema informa a indisponibilidade de opções no momento.
-c) O caso de uso é encerrado sem registro de refeição.
+
+a) O sistema não localiza receitas compatíveis com o perfil alimentar e o estoque atual.<br>
+b) O sistema informa a indisponibilidade de opções no momento.<br>
+c) O caso de uso é encerrado sem registro de refeição.<br>
 
 **Pós-condições:** Uma refeição é planejada e vinculada ao cronograma do Cliente.
 
@@ -302,9 +314,9 @@ c) O caso de uso é encerrado sem registro de refeição.
 
 #### **Gerenciar Lista de Compras (CSU07)**
 
-**Sumário:** Permite ao Cliente criar, atualizar e acompanhar sua lista de compras a partir do planejamento alimentar e do inventário disponível.
-**Ator Primário:** Cliente.
-**Pré-condições:** O Cliente deve estar autenticado no sistema.
+**Sumário:** Permite ao Cliente criar, atualizar e acompanhar sua lista de compras a partir do planejamento alimentar e do inventário disponível.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -317,14 +329,16 @@ c) O caso de uso é encerrado sem registro de refeição.
 7. O sistema apresenta a lista atualizada ao Cliente.
 
 **Fluxo Alternativo A – Geração automática a partir do planejamento:**
-a) O Cliente solicita a geração automática da lista com base nas refeições planejadas.
-b) O sistema compara os ingredientes necessários com o inventário atual.
-c) O sistema adiciona à lista os itens faltantes.
+
+a) O Cliente solicita a geração automática da lista com base nas refeições planejadas.<br>
+b) O sistema compara os ingredientes necessários com o inventário atual.<br>
+c) O sistema adiciona à lista os itens faltantes.<br>
 
 **Fluxo Alternativo B – Dados inválidos:**
-a) O sistema identifica inconsistência nos dados informados.
-b) O sistema informa erro ao Cliente.
-c) O fluxo retorna ao passo 3.
+
+a) O sistema identifica inconsistência nos dados informados.<br>
+b) O sistema informa erro ao Cliente.<br>
+c) O fluxo retorna ao passo 3.<br>
 
 **Pós-condições:** A lista de compras permanece atualizada conforme a necessidade do Cliente.
 
@@ -332,9 +346,9 @@ c) O fluxo retorna ao passo 3.
 
 #### **Organizar Agenda de Refeições (CSU08)**
 
-**Sumário:** Permite ao Cliente definir e ajustar os horários das refeições planejadas ao longo da semana.
-**Ator Primário:** Cliente.
-**Pré-condições:** O Cliente deve estar autenticado e possuir ao menos uma refeição planejada.
+**Sumário:** Permite ao Cliente definir e ajustar os horários das refeições planejadas ao longo da semana.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado e possuir ao menos uma refeição planejada.<br>
 
 **Fluxo Principal:**
 
@@ -346,14 +360,16 @@ c) O fluxo retorna ao passo 3.
 6. O sistema registra a agenda atualizada no cronograma pessoal do Cliente.
 
 **Fluxo Alternativo A – Horário inválido:**
-a) O sistema identifica formato inválido ou conflito de horário.
-b) O sistema informa a inconsistência ao Cliente.
-c) O fluxo retorna ao passo 3.
+
+a) O sistema identifica formato inválido ou conflito de horário.<br>
+b) O sistema informa a inconsistência ao Cliente.<br>
+c) O fluxo retorna ao passo 3.<br>
 
 **Fluxo Alternativo B – Ausência de refeições planejadas:**
-a) O sistema identifica que não existem refeições cadastradas na agenda.
-b) O sistema informa que é necessário planejar refeições antes de organizar horários.
-c) O caso de uso é encerrado.
+
+a) O sistema identifica que não existem refeições cadastradas na agenda.<br>
+b) O sistema informa que é necessário planejar refeições antes de organizar horários.<br>
+c) O caso de uso é encerrado.<br>
 
 **Pós-condições:** Os horários das refeições ficam registrados ou atualizados.
 
@@ -361,9 +377,9 @@ c) O caso de uso é encerrado.
 
 #### **Consultar Receitas (CSU09)**
 
-**Sumário:** Permite ao Cliente pesquisar receitas cadastradas, visualizar modo de preparo, nível de complexidade e informações nutricionais.
-**Ator Primário:** Cliente.
-**Pré-condições:** O Cliente deve estar autenticado no sistema.
+**Sumário:** Permite ao Cliente pesquisar receitas cadastradas, visualizar modo de preparo, nível de complexidade e informações nutricionais.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -376,14 +392,14 @@ c) O caso de uso é encerrado.
 7. O sistema exibe ingredientes, modo de preparo, complexidade e informações nutricionais da receita.
 
 **Fluxo Alternativo A – Nenhuma receita encontrada:**
-a) O sistema não localiza receitas com os critérios informados.
-b) O sistema informa ausência de resultados.
-c) O fluxo retorna ao passo 2.
+a) O sistema não localiza receitas com os critérios informados.<br>
+b) O sistema informa ausência de resultados.<br>
+c) O fluxo retorna ao passo 2.<br>
 
 **Fluxo Alternativo B – Filtros inválidos ou incompletos:**
-a) O sistema identifica preenchimento inadequado dos filtros.
-b) O sistema solicita correção dos critérios de busca.
-c) O fluxo retorna ao passo 2.
+a) O sistema identifica preenchimento inadequado dos filtros.<br>
+b) O sistema solicita correção dos critérios de busca.<br>
+c) O fluxo retorna ao passo 2.<br>
 
 **Pós-condições:** As informações detalhadas da receita selecionada são apresentadas ao Cliente.
 
@@ -391,9 +407,9 @@ c) O fluxo retorna ao passo 2.
 
 #### **Consultar Estoque (CSU10)**
 
-**Sumário:** Permite ao Cliente visualizar os alimentos disponíveis em seu inventário, incluindo quantidades e situação de disponibilidade.
-**Ator Primário:** Cliente.
-**Pré-condições:** O Cliente deve estar autenticado no sistema.
+**Sumário:** Permite ao Cliente visualizar os alimentos disponíveis em seu inventário, incluindo quantidades e situação de disponibilidade.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -403,14 +419,16 @@ c) O fluxo retorna ao passo 2.
 4. O sistema exibe a lista de itens disponíveis ao Cliente.
 
 **Fluxo Alternativo A – Estoque vazio:**
-a) O sistema identifica que não existem alimentos cadastrados no inventário.
-b) O sistema informa que o estoque está vazio.
-c) O caso de uso é encerrado.
+
+a) O sistema identifica que não existem alimentos cadastrados no inventário.<br>
+b) O sistema informa que o estoque está vazio.<br>
+c) O caso de uso é encerrado.<br>
 
 **Fluxo Alternativo B – Falha de consulta:**
-a) O sistema identifica erro ao recuperar os dados do inventário.
-b) O sistema informa indisponibilidade temporária.
-c) O caso de uso é encerrado sem exibição dos dados.
+
+a) O sistema identifica erro ao recuperar os dados do inventário.<br>
+b) O sistema informa indisponibilidade temporária.<br>
+c) O caso de uso é encerrado sem exibição dos dados.<br>
 
 **Pós-condições:** A situação atual do estoque é apresentada ao Cliente.
 
@@ -418,9 +436,9 @@ c) O caso de uso é encerrado sem exibição dos dados.
 
 #### **Gerar Relatórios de Consumo (CSU11)**
 
-**Sumário:** Permite ao Cliente gerar relatórios de consumo alimentar nos períodos diário, semanal e mensal, com base nos registros armazenados pelo sistema.
-**Ator Primário:** Cliente.
-**Pré-condições:** O Cliente deve estar autenticado no sistema e possuir registros de consumo cadastrados.
+**Sumário:** Permite ao Cliente gerar relatórios de consumo alimentar nos períodos diário, semanal e mensal, com base nos registros armazenados pelo sistema.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado no sistema e possuir registros de consumo cadastrados.<br>
 
 **Fluxo Principal:**
 
@@ -432,14 +450,16 @@ c) O caso de uso é encerrado sem exibição dos dados.
 6. O sistema apresenta o relatório com os alimentos consumidos, quantidades registradas e resumo nutricional do período selecionado.
 
 **Fluxo Alternativo A – Ausência de registros no período selecionado:**
-a) O sistema identifica que não existem registros de consumo para o período informado.
-b) O sistema informa que não há dados disponíveis para geração do relatório.
-c) O caso de uso é encerrado sem emissão de relatório.
+
+a) O sistema identifica que não existem registros de consumo para o período informado.<br>
+b) O sistema informa que não há dados disponíveis para geração do relatório.<br>
+c) O caso de uso é encerrado sem emissão de relatório.<br>
 
 **Fluxo Alternativo B – Falha na consulta dos dados:**
-a) O sistema identifica erro ao recuperar os registros de consumo.
-b) O sistema informa indisponibilidade temporária ao Cliente.
-c) O caso de uso é encerrado sem apresentação do relatório.
+
+a) O sistema identifica erro ao recuperar os registros de consumo.<br>
+b) O sistema informa indisponibilidade temporária ao Cliente.<br>
+c) O caso de uso é encerrado sem apresentação do relatório.<br>
 
 **Pós-condições:** O relatório de consumo do período selecionado é exibido ao Cliente, quando houver dados disponíveis.
 
@@ -461,7 +481,7 @@ A Figura 2 apresenta o diagrama de classes do sistema BEFIT. Nele, a classe User
 | 1	|	Users |	Armazena o perfil completo do Cliente, incluindo dados cadastrais, altura, idade, objetivos e preferências alimentares. |
 | 2	| Foods |	Catálogo de alimentos com porções unitárias e detalhamento nutricional (calorias, proteínas, carboidratos e gorduras). |
 | 3 |	Meals |	Define as refeições especificando complexidade, tempo de preparo e valores nutricionais. |
-| 4 |	Meal_Ingredients |	Relaciona alimentos a refeições, definindo a quantidade exata de cada ingrediente por refeição. |
+| 4 |	Meal_Ingredients |	Relaciona alimentos à refeições, definindo a quantidade exata de cada ingrediente por refeição. |
 | 5	|	Meal_Plans |	Estabelece o cronograma alimentar do Cliente, definindo os períodos de início e fim da dieta planejada. |
 | 6 |	Meal_Plan_Items |	Detalha a agenda do plano, vinculando o dia da semana e o tipo de refeição (café, almoço, jantar) às refeições cadastradas. |
 | 7 |	Consumption_Logs |	Registra o histórico real de consumo do Cliente, facilitando o acompanhamento diário da dieta. |
