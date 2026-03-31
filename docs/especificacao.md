@@ -69,7 +69,7 @@ O BEFIT não substitui o acompanhamento de profissionais de saúde, sendo apenas
 | Ator | Descrição |
 |--------------------|------------------------------------|
 | Cliente | Usuário final do sistema responsável por planejar sua alimentação, definir objetivos nutricionais (emagrecimento, ganho de massa, etc.), visualizar refeições, registrar consumo alimentar e acompanhar sua evolução. |
-| Gestor de Dados | Responsável pela gestão e manutenção dos dados da plataforma, incluindo cadastro, atualização e organização de alimentos, refeições e informações nutricionais. |
+| Gestor de Dados | Responsável pela gestão e manutenção dos dados da plataforma, atualização e organização de alimentos, refeições e informações nutricionais. |
 
 ## 3.4 Modelagem do Sistema
 
