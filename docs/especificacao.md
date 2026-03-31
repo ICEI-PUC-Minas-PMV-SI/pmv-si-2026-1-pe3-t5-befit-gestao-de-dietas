@@ -279,39 +279,7 @@ b) O sistema encerra o caso de uso sem alterações.<br>
 
 ---
 
-#### **Planejar Refeições (CSU06)**
-
-**Sumário:** Permite ao Cliente montar refeições com base em seu perfil alimentar, nas receitas disponíveis e nos ingredientes existentes no estoque.<br>
-**Ator Primário:** Cliente.<br>
-**Pré-condições:** O Cliente deve estar autenticado e possuir preferências alimentares cadastradas, quando aplicável.<br>
-
-**Fluxo Principal:**
-
-1. O Cliente acessa a funcionalidade de planejamento de refeições.
-2. O sistema apresenta as categorias de refeição, como café da manhã, almoço e jantar.
-3. O Cliente seleciona o tipo de refeição que deseja planejar.
-4. O sistema consulta o perfil alimentar do Cliente e o estoque disponível.
-5. O sistema apresenta receitas compatíveis com o perfil e com os ingredientes disponíveis.
-6. O Cliente seleciona a refeição desejada.
-7. O sistema registra a refeição planejada no cronograma do Cliente.
-
-**Fluxo Alternativo A – Estoque insuficiente:**
-
-a) O sistema identifica ausência de ingredientes necessários para determinadas receitas.<br>
-b) O sistema sinaliza indisponibilidade e apresenta opções alternativas.<br>
-c) O Cliente escolhe outra receita ou encerra a operação.<br>
-
-**Fluxo Alternativo B – Nenhuma receita compatível encontrada:**
-
-a) O sistema não localiza receitas compatíveis com o perfil alimentar e o estoque atual.<br>
-b) O sistema informa a indisponibilidade de opções no momento.<br>
-c) O caso de uso é encerrado sem registro de refeição.<br>
-
-**Pós-condições:** Uma refeição é planejada e vinculada ao cronograma do Cliente.
-
----
-
-#### **Gerenciar Lista de Compras (CSU07)**
+#### **Gerenciar Lista de Compras (CSU06)**
 
 **Sumário:** Permite ao Cliente criar, atualizar e acompanhar sua lista de compras a partir do planejamento alimentar e do inventário disponível.<br>
 **Ator Primário:** Cliente.<br>
@@ -343,7 +311,7 @@ c) O fluxo retorna ao passo 3.<br>
 
 ---
 
-#### **Organizar Agenda de Refeições (CSU08)**
+#### **Organizar Agenda de Refeições (CSU07)**
 
 **Sumário:** Permite ao Cliente definir e ajustar os horários das refeições planejadas ao longo da semana.<br>
 **Ator Primário:** Cliente.<br>
@@ -374,7 +342,7 @@ c) O caso de uso é encerrado.<br>
 
 ---
 
-#### **Consultar Receitas (CSU09)**
+#### **Consultar Receitas (CSU08)**
 
 **Sumário:** Permite ao Cliente pesquisar receitas cadastradas, visualizar modo de preparo, nível de complexidade e informações nutricionais.<br>
 **Ator Primário:** Cliente.<br>
@@ -404,7 +372,7 @@ c) O fluxo retorna ao passo 2.<br>
 
 ---
 
-#### **Consultar Estoque (CSU10)**
+#### **Consultar Estoque (CSU09)**
 
 **Sumário:** Permite ao Cliente visualizar os alimentos disponíveis em seu inventário, incluindo quantidades e situação de disponibilidade.<br>
 **Ator Primário:** Cliente.<br>
@@ -433,7 +401,7 @@ c) O caso de uso é encerrado sem exibição dos dados.<br>
 
 ---
 
-#### **Gerar Relatórios de Consumo (CSU11)**
+#### **Gerar Relatórios de Consumo (CSU10)**
 
 **Sumário:** Permite ao Cliente gerar relatórios de consumo alimentar nos períodos diário, semanal e mensal, com base nos registros armazenados pelo sistema.<br>
 **Ator Primário:** Cliente.<br>
