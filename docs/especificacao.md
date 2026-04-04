@@ -89,19 +89,18 @@ Nesta seção, são detalhadas as interações entre os atores e o sistema para 
 
 #### **Fazer Login (CSU01)**
 
-**Sumário:** Permite que o Cliente ou o Gestor de Dados se autentiquem no sistema. O acesso é diferenciado pelo perfil (`role`): o Cliente utiliza sua conta criada no sistema, enquanto o Gestor de Dados utiliza credenciais administrativas pré-configuradas internamente para fins de segurança e gestão.<br>
-**Ator Primário:** Cliente  
-**Ator Secundário:** Gestor de Dados  
-**Pré-condições:** O usuário deve possuir cadastro ativo (via CSU02 para Clientes ou via cadastro interno para o Gestor de Dados).<br>
+**Sumário:** Permite que o Cliente se autentique no sistema para acessar funcionalidades e dados pessoais.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve possuir cadastro ativo.<br>
 
 **Fluxo Principal:**
 
-1. O Cliente ou Gestor de Dados acessa a tela de login do sistema.
+1. O Cliente acessa a tela de login do sistema.
 2. O sistema apresenta os campos de e-mail e senha.
-3. O usuário informa suas credenciais de acesso.
+3. O Cliente informa suas credenciais de acesso.
 4. O sistema valida o preenchimento dos campos obrigatórios.
 5. O sistema valida as credenciais informadas e **Verifica senha** `<<include>>`.
-6. O sistema identifica o perfil de acesso do usuário (Cliente ou Gestor de Dados) e direciona para a área correspondente do sistema.
+6. O sistema identifica o perfil de acesso do Cliente e direciona para a área correspondente do sistema.
 7. O sistema autentica o usuário, inicia a sessão e o redireciona para a tela principal.
 
 **Fluxo Alternativo A – Campos não preenchidos:**
@@ -112,18 +111,18 @@ c) O fluxo retorna ao passo 2.<br>
 
 **Fluxo Alternativo B – Erro de login:**
 
-a) O sistema identifica que as credenciais são inválidas ou o usuário não existe.<br>
+a) O sistema identifica que as credenciais são inválidas ou o Cliente não existe.<br>
 b) O sistema apresenta mensagem de erro de autenticação.<br>
 c) O fluxo retorna ao passo 2.<br>
 
-**Pós-condições:** O usuário é autenticado e acessa o sistema com as permissões devidas ao seu perfil.
+**Pós-condições:** O usuário é autenticado e passa a acessar as funcionalidades restritas do sistema.
 
 
 #### **Fazer Cadastro (CSU02)**
 
-**Sumário:** Permite que um novo Cliente realize o seu auto-cadastro na plataforma para utilizar os recursos do sistema. Por questões de segurança e integridade dos dados, esta funcionalidade é restrita à criação de contas do tipo "Cliente".<br>
+**Sumário:** Permite que um novo Cliente realize o seu auto-cadastro na plataforma para utilizar os recursos do sistema.<br>
 **Ator Primário:** Cliente.<br>
-**Pré-condições:** O interessado não deve possuir cadastro prévio com o e-mail informado.<br>
+**Pré-condições:** O Cliente não deve possuir cadastro prévio com o e-mail informado.<br>
 
 **Fluxo Principal:**
 
@@ -146,9 +145,10 @@ c) O caso de uso é encerrado.<br>
 
 #### **Visualizar Refeições (CSU03)**
 
-**Sumário:** Permite ao Cliente e ao Gestor de Dados visualizar as refeições disponíveis no sistema.  
-**Ator Primário:** Cliente  
-**Pré-condições:** O usuário deve estar autenticado no sistema.  
+**Sumário:** Permite ao Cliente e ao Gestor de Dados visualizar as refeições disponíveis no sistema.O Gestor de Dados atua indiretamente, garantindo que as refeições estejam cadastradas e atualizadas. <br> 
+**Ator Primário:** Cliente.<br>
+**Ator Secundário:** Gestor de Dados.<br>
+**Pré-condições:** O usuário deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -199,9 +199,10 @@ c) O caso de uso é encerrado.<br>
 
 #### **Organizar Agenda de Refeições (CSU06)**
 
-**Sumário:** Permite ao Cliente e ao Gestor de Dados organizar o planejamento de refeições.  
-**Ator Primário:** Cliente   
-**Pré-condições:** O usuário deve estar autenticado no sistema.  
+**Sumário:** Permite ao Cliente e ao Gestor de Dados organizar o planejamento de refeições. O Gestor de Dados atua previamente garantindo que as refeições e seus dados estejam disponíveis no sistema. <br>
+**Ator Primário:** Cliente.<br>
+**Ator Secundário:** Gestor de Dados.<br>
+**Pré-condições:** O usuário deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -218,9 +219,10 @@ c) O caso de uso é encerrado.<br>
 
 #### **Visualizar Informações Nutricionais (CSU07)**
 
-**Sumário:** Permite ao Cliente visualizar o detalhamento nutricional de alimentos ou refeições.  
-**Ator Primário:** Cliente  
-**Pré-condições:** O usuário deve estar autenticado no sistema.  
+**Sumário:** Permite ao Cliente visualizar o detalhamento nutricional de alimentos ou refeições. O Gestor de Dados garante previamente que as informações nutricionais estejam cadastradas corretamente. <br>
+**Ator Primário:** Cliente.<br>
+**Ator Secundário:** Gestor de Dados.<br>
+**Pré-condições:** O usuário deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -233,9 +235,9 @@ c) O caso de uso é encerrado.<br>
 
 #### **Gerenciar Inventário de Alimentos (CSU08)**
 
-**Sumário:** Permite ao Cliente gerenciar o inventário de alimentos disponíveis no sistema.  
-**Ator Primário:** Cliente  
-**Pré-condições:** O Cliente deve estar autenticado no sistema.  
+**Sumário:** Permite ao Cliente gerenciar o inventário de alimentos disponíveis no sistema.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
@@ -266,9 +268,9 @@ c) O caso de uso é encerrado.<br>
 
 #### **Gerar Relatórios (CSU10)**
 
-**Sumário:** Permite ao Cliente gerar relatórios de acompanhamento de dieta e progresso.  
-**Ator Primário:** Cliente  
-**Pré-condições:** O Cliente deve estar autenticado no sistema.  
+**Sumário:** Permite ao Cliente gerar relatórios de acompanhamento de dieta e progresso.<br>
+**Ator Primário:** Cliente.<br>
+**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>  
 
 **Fluxo Principal:**
 
