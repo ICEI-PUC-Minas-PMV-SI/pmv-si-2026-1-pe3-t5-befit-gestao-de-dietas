@@ -2,7 +2,7 @@
 
 ## 3.1 Objetivos deste documento
 
-Este documento especifica os requisitos funcionais e não funcionais do sistema **BEFIT**, detalhando as funcionalidades e restrições da aplicação. A especificação visa atender às necessidades de organização da rotina alimentar, planejamento de dietas e controle de indicadores de saúde (como peso e IMC), garantindo ao usuário as ferramentas necessárias para o acompanhamento de sua evolução física e nutricional de forma autônoma.
+Este documento especifica os requisitos funcionais e não funcionais do sistema **BEFIT**, detalhando as funcionalidades e restrições da aplicação. A especificação visa atender às necessidades de organização da rotina alimentar, planejamento de dietas e controle de indicadores de saúde (como peso e IMC), garantindo ao Cliente as ferramentas necessárias para o acompanhamento de sua evolução física e nutricional de forma autônoma.
 
 ## 3.2 Escopo do produto
 
@@ -41,22 +41,22 @@ O BEFIT não substitui o acompanhamento de profissionais de saúde, sendo apenas
 ### 3.3.1 Requisitos Funcionais
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição | Prioridade |
-|--------|--------------------------------------|-----------|------------|
-| RF-001 | Gerenciar Preferências Alimentares | O sistema deve permitir que o Cliente cadastre suas preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.). | MÉDIA |
-| RF-002 | Visualizar Refeições por Complexidade | O sistema deve permitir que o Cliente visualize opções de refeições organizadas por complexidade, considerando o tempo de preparo. | ALTA |
-| RF-003 | Gerar Lista de Compras | O sistema deve sugerir automaticamente uma lista de compras com base no plano de refeições escolhido pelo Cliente. | MÉDIA |
-| RF-004 | Exibir Informações Nutricionais | O sistema deve fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.). | ALTA |
+|--------------------|------------------------------------|---------------------------------------------------------------------------------------------------|------------|
+| RF-001 | Cadastro de Cliente | O sistema deve permitir que o Cliente realize cadastro na plataforma informando seus dados pessoais. | ALTA |
+| RF-002 | Login de Cliente | O sistema deve permitir que o Cliente realize login na plataforma utilizando suas credenciais. | ALTA |
+| RF-003 | Gerenciar Preferências Alimentares | O sistema deve permitir que o Cliente cadastre suas preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.). | MÉDIA |
+| RF-004 | Visualizar Refeições por Complexidade | O sistema deve permitir que o Cliente visualize opções de refeições organizadas por complexidade, considerando o tempo de preparo. | ALTA |
 | RF-005 | Monitorar Peso (IMC) | O sistema deve permitir o monitoramento do peso por meio do cálculo do IMC (Índice de Massa Corporal). | MÉDIA |
 | RF-006 | Organizar Agenda de Refeições | O sistema deve permitir que o Cliente organize uma agenda semanal de refeições (café da manhã, almoço e jantar). | ALTA |
-| RF-007 | Gerenciar Inventário de Alimentos | O sistema deve fornecer um sistema de inventário de alimentos integrado às refeições diárias do Cliente. | MÉDIA |
-| RF-008 | Gerar Relatórios de Consumo | O sistema deve disponibilizar relatórios dos alimentos consumidos nos períodos diário, semanal e mensal. | BAIXA |
-| RF-009 | Cadastro de Cliente | O sistema deve permitir que o Cliente realize cadastro na plataforma informando seus dados pessoais. | ALTA |
-| RF-010 | Login de Cliente | O sistema deve permitir que o Cliente realize login na plataforma utilizando suas credenciais. | ALTA |
+| RF-007 | Exibir Informações Nutricionais | O sistema deve fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.). | ALTA |
+| RF-008 | Gerenciar Inventário de Alimentos | O sistema deve fornecer um sistema de inventário de alimentos integrado às refeições diárias do Cliente. | MÉDIA |
+| RF-009 | Gerar Lista de Compras | O sistema deve sugerir automaticamente uma lista de compras com base no plano de refeições escolhido pelo Cliente. | MÉDIA |
+| RF-010 | Gerar Relatórios de Consumo | O sistema deve disponibilizar relatórios dos alimentos consumidos nos períodos diário, semanal e mensal. | BAIXA |
 
 ### 3.3.2 Requisitos Não Funcionais
 
-| ID      | Descrição do Requisito                                                                            | Prioridade |
-| ------- | ------------------------------------------------------------------------------------------------- | ---------- |
+| ID      | Requisito Não Funcional (Restrição)                                                                            | Prioridade |
+|--------------------|---------------------------------------------------------------------------------------------------|------------|
 | RNF-001 | O sistema deve ser multiplataforma, funcionando em dispositivos móveis e computadores.            | MÉDIA      |
 | RNF-002 | O sistema deve possuir interface simples e intuitiva.                                             | ALTA       |
 | RNF-003 | O sistema deve ser desenvolvido utilizando JavaScript, HTML e CSS.                                | ALTA       |
@@ -67,7 +67,7 @@ O BEFIT não substitui o acompanhamento de profissionais de saúde, sendo apenas
 
 ### 3.3.3 Clientes 
 | Ator | Descrição |
-|--------------------|------------------------------------|
+|--------------------|--------------------------------------|
 | Cliente | Usuário final do sistema responsável por planejar sua alimentação, definir objetivos nutricionais (emagrecimento, ganho de massa, etc.), visualizar refeições, registrar consumo alimentar e acompanhar sua evolução. |
 | Gestor de Dados | Responsável pela gestão e manutenção dos dados da plataforma, atualização e organização de alimentos, refeições e informações nutricionais. |
 
@@ -75,35 +75,34 @@ O BEFIT não substitui o acompanhamento de profissionais de saúde, sendo apenas
 
 ### 3.4.1 Diagrama de Casos de Uso
 
-Como observado no diagrama de casos de uso da Figura 1, o Cliente interage com as principais funcionalidades do sistema BEFIT, podendo realizar cadastro e login, visualizar refeições, monitorar peso por meio do IMC, gerenciar preferências alimentares, organizar a agenda de refeições, visualizar informações nutricionais, gerenciar o inventário de alimentos, gerar lista de compras e emitir relatórios de consumo. O Sistema atua no processamento das validações e consultas internas, enquanto o Administrador participa das rotinas de apoio e manutenção relacionadas às funcionalidades da aplicação.
+Como observado no diagrama de casos de uso da Figura 1, o Cliente interage com as principais funcionalidades do sistema BEFIT, podendo realizar cadastro e login, visualizar refeições, monitorar peso por meio do IMC, gerenciar preferências alimentares, organizar a agenda de refeições, visualizar informações nutricionais, gerenciar o inventário de alimentos, gerar lista de compras e emitir relatórios de consumo. O Sistema atua no processamento das validações e consultas internas, enquanto o Gestor de Dados participa das rotinas de apoio e manutenção relacionadas às funcionalidades da aplicação.
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
 <img width="754" height="580" alt="Diagrama de casos de uso_v3 drawio" src="https://github.com/user-attachments/assets/7cf1379c-d99c-4486-94d1-8477bcd747dd" />
 
- 
+
 ### 3.4.2 Descrições de Casos de Uso
 
-Cada caso de uso do Sistema de Gestão de Dietas está detalhado nesta seção, seguindo o padrão de fluxos principais e alternativos conforme as normas do projeto.
+Nesta seção, são detalhadas as interações entre os atores e o sistema para cada funcionalidade identificada, incluindo fluxos principais, fluxos alternativos e condições de sucesso para a execução de cada caso de uso.
 
----
 
 #### **Fazer Login (CSU01)**
 
-**Sumário:** Permite que o Cliente se autentique no sistema para acessar funcionalidades e dados pessoais.<br>
-**Ator Primário:** Cliente.<br>
-**Pré-condições:** O Cliente deve possuir cadastro prévio e estar com acesso disponível ao sistema.<br>
+**Sumário:** Permite que o Cliente ou o Gestor de Dados se autentiquem no sistema. O acesso é diferenciado pelo perfil (`role`): o Cliente utiliza sua conta criada no sistema, enquanto o Gestor de Dados utiliza credenciais administrativas pré-configuradas internamente para fins de segurança e gestão.<br>
+**Ator Primário:** Cliente  
+**Ator Secundário:** Gestor de Dados  
+**Pré-condições:** O usuário deve possuir cadastro ativo (via CSU02 para Clientes ou via cadastro interno para o Gestor de Dados).<br>
 
 **Fluxo Principal:**
 
-1. O Cliente acessa a tela de login do sistema.
+1. O Cliente ou Gestor de Dados acessa a tela de login do sistema.
 2. O sistema apresenta os campos de e-mail e senha.
-3. O Cliente informa suas credenciais de acesso.
+3. O usuário informa suas credenciais de acesso.
 4. O sistema valida o preenchimento dos campos obrigatórios.
-5. O sistema consulta o banco de dados para localizar o Cliente informado.
-6. O sistema verifica se a senha informada corresponde à senha cadastrada.
-7. O sistema autentica o Cliente.
-8. O sistema inicia a sessão e redireciona o Cliente para a tela principal.
+5. O sistema valida as credenciais informadas e **Verifica senha** `<<include>>`.
+6. O sistema identifica o perfil de acesso do usuário (Cliente ou Gestor de Dados) e direciona para a área correspondente do sistema.
+7. O sistema autentica o usuário, inicia a sessão e o redireciona para a tela principal.
 
 **Fluxo Alternativo A – Campos não preenchidos:**
 
@@ -111,326 +110,178 @@ a) O sistema identifica ausência de preenchimento em um ou mais campos obrigat�
 b) O sistema exibe mensagem de erro solicitando o preenchimento correto.<br>
 c) O fluxo retorna ao passo 2.<br>
 
-**Fluxo Alternativo B – Credenciais inválidas:**
+**Fluxo Alternativo B – Erro de login:**
 
-a) O sistema identifica que o e-mail não está cadastrado ou que a senha está incorreta.
-b) O sistema informa que as credenciais são inválidas.<br>
-c) O sistema permite nova tentativa de autenticação.<br>
-d) O fluxo retorna ao passo 2.<br>
+a) O sistema identifica que as credenciais são inválidas ou o usuário não existe.<br>
+b) O sistema apresenta mensagem de erro de autenticação.<br>
+c) O fluxo retorna ao passo 2.<br>
 
-**Fluxo Alternativo C – Falha de comunicação com o banco de dados:**
+**Pós-condições:** O usuário é autenticado e acessa o sistema com as permissões devidas ao seu perfil.
 
-a) O sistema identifica indisponibilidade no acesso aos dados de autenticação.<br>
-b) O sistema informa indisponibilidade temporária.<br>
-c) O caso de uso é encerrado sem autenticação.<br>
-
-**Pós-condições:** O Cliente é autenticado e passa a acessar as funcionalidades restritas do sistema.
-
----
 
 #### **Fazer Cadastro (CSU02)**
 
-**Sumário:** Permite que um novo Cliente crie uma conta para utilizar os recursos do sistema.<br>
+**Sumário:** Permite que um novo Cliente realize o seu auto-cadastro na plataforma para utilizar os recursos do sistema. Por questões de segurança e integridade dos dados, esta funcionalidade é restrita à criação de contas do tipo "Cliente".<br>
 **Ator Primário:** Cliente.<br>
-**Pré-condições:** O Cliente não pode possuir cadastro prévio com o e-mail informado.<br>
+**Pré-condições:** O interessado não deve possuir cadastro prévio com o e-mail informado.<br>
 
 **Fluxo Principal:**
 
-1. O Cliente acessa a opção de cadastro.
-2. O sistema apresenta o formulário de cadastro com os campos nome, e-mail, idade e senha.
+1. O Cliente acessa a opção de cadastro na tela inicial.
+2. O sistema apresenta o formulário com os campos de identificação (nome, e-mail, idade, senha).
 3. O Cliente preenche os dados solicitados.
-4. O sistema valida o preenchimento e o formato dos dados informados.
-5. O sistema verifica se o e-mail informado já está cadastrado.
-6. O sistema verifica se o Cliente possui idade mínima de 18 anos.
-7. O sistema registra os dados do novo Cliente no banco de dados.
-8. O sistema confirma a criação da conta.
-9. O sistema redireciona o Cliente para a tela de login.
+4. O sistema valida o preenchimento e o formato dos dados.
+5. O sistema executa a funcionalidade **Verificar idade mínima de 18 anos** `<<include>>`.
+6. O sistema registra o novo usuário no banco de dados com o papel (`role`) definido automaticamente como "Cliente".
+7. O sistema confirma a criação da conta e redireciona o novo Cliente para a tela de login.
 
-**Fluxo Alternativo A – Campos inválidos ou incompletos:**
-
-a) O sistema identifica campos obrigatórios não preenchidos ou em formato inválido.<br>
-b) O sistema exibe mensagem solicitando a correção dos dados.<br>
-c) O fluxo retorna ao passo 2.<br>
-
-**Fluxo Alternativo B – E-mail já cadastrado:**
-
-a) O sistema identifica que o e-mail informado já pertence a uma conta existente.<br>
-b) O sistema informa que já existe cadastro vinculado ao e-mail.<br>
-c) O sistema orienta o Cliente a realizar login ou informar outro e-mail.<br>
-d) O fluxo retorna ao passo 2.<br>
-
-**Fluxo Alternativo C – Idade insuficiente:**
+**Fluxo Alternativo A – Idade insuficiente:**
 
 a) O sistema identifica que o Cliente possui menos de 18 anos.<br>
-b) O sistema informa a impossibilidade de conclusão do cadastro.<br>
-c) O caso de uso é encerrado sem criação de conta.<br>
+b) O sistema informa a impossibilidade de conclusão do cadastro por restrição de idade.<br>
+c) O caso de uso é encerrado.<br>
 
-**Fluxo Alternativo D – Falha ao salvar cadastro:**
+**Pós-condições:** Um novo usuário é criado e pode realizar login no sistema.
 
-a) O sistema identifica erro no armazenamento das informações.<br>
-b) O sistema informa falha ao concluir o cadastro.<br>
-c) O caso de uso é encerrado sem criação de conta.<br>
 
-**Pós-condições:** Um novo perfil de Cliente é criado e fica disponível para autenticação.
+## **Visualizar Refeições (CSU03)**
 
----
+**Sumário:** Permite ao Cliente e ao Gestor de Dados visualizar as refeições disponíveis no sistema.  
+**Ator Primário:** Cliente  
+**Ator Secundário:** Gestor de Dados  
+**Pré-condições:** O usuário deve estar autenticado no sistema.  
 
-#### **Gerenciar Inventário de Alimentos (CSU03)**
+**Fluxo Principal:**
 
-**Sumário:** Permite ao Cliente cadastrar, editar, remover e consultar alimentos do estoque doméstico.<br>
+1. O Cliente ou Gestor de Dados acessa a funcionalidade de visualização de refeições.
+2. O sistema exibe a lista de refeições disponíveis.
+3. O Cliente ou Gestor de Dados seleciona uma refeição.
+4. O sistema apresenta os detalhes da refeição selecionada.
+
+**Pós-condições:** A refeição selecionada é exibida ao usuário.
+
+
+#### **Monitorar Peso (IMC) (CSU04)**
+
+**Sumário:** Permite ao Cliente registrar o peso e calcular o Índice de Massa Corporal (IMC).<br>
 **Ator Primário:** Cliente.<br>
 **Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
-1. O Cliente acessa o módulo de inventário de alimentos.
-2. O sistema apresenta os alimentos atualmente cadastrados no estoque.
-3. O Cliente seleciona a operação desejada: adicionar, editar, remover ou consultar item.
-4. O sistema apresenta os campos necessários para a operação escolhida.
-5. O Cliente informa ou altera os dados do alimento, como nome, quantidade, unidade de medida e validade, quando aplicável.
-6. O sistema valida os dados informados.
-7. O sistema registra a operação no banco de dados.
-8. O sistema atualiza a lista de itens do inventário.
-
-**Fluxo Alternativo A – Inclusão de alimento já existente:**
-
-a) O sistema identifica que o alimento já está cadastrado no inventário.<br>
-b) O sistema oferece a opção de atualizar a quantidade existente.<br>
-c) O Cliente confirma a atualização.<br>
-d) O sistema atualiza o item no estoque.<br>
-
-**Fluxo Alternativo B – Remoção de alimento:**
-
-a) O Cliente seleciona um alimento cadastrado.<br>
-b) O Cliente escolhe a opção de exclusão.<br>
-c) O sistema solicita confirmação da operação.<br>
-d) O Cliente confirma a exclusão.<br>
-e) O sistema remove o alimento do inventário.<br>
-
-**Fluxo Alternativo C – Dados inválidos:**
-
-a) O sistema identifica inconsistência nos dados informados.<br>
-b) O sistema exibe mensagem de erro.<br>
-c) O fluxo retorna ao passo 4.<br>
-
-**Pós-condições:** O inventário do Cliente permanece atualizado.
-
----
-
-#### **Calcular IMC (CSU04)**
-
-**Sumário:** Permite ao Cliente calcular seu Índice de Massa Corporal a partir dos dados de peso e altura.<br>
-**Ator Primário:** Cliente.<br>
-**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
-
-**Fluxo Principal:**
-
-1. O Cliente acessa a funcionalidade de cálculo de IMC.
-2. O sistema apresenta os campos para preenchimento de peso e altura.
-3. O Cliente informa os valores solicitados.
-4. O sistema valida os dados informados.
-5. O sistema realiza o cálculo do IMC.
+1. O Cliente acessa a funcionalidade de monitoramento de peso/IMC.
+2. O sistema apresenta o histórico de registros.
+3. O Cliente informa o peso atual.
+4. O sistema recupera a altura cadastrada no perfil.
+5. O sistema realiza o cálculo automático do IMC.
 6. O sistema apresenta o valor calculado e sua classificação correspondente.
+7. O sistema salva o novo registro no histórico.
 
-**Fluxo Alternativo A – Dados não preenchidos:**
+**Pós-condições:** O peso é registrado e o IMC é calculado e armazenado no sistema.
 
-a) O sistema identifica ausência de peso ou altura.<br>
-b) O sistema solicita o preenchimento dos campos obrigatórios.<br>
-c) O fluxo retorna ao passo 2.<br>
 
-**Fluxo Alternativo B – Dados inválidos:**
+#### **Gerenciar Preferências Alimentares (CSU05)**
 
-a) O sistema identifica valores incompatíveis, negativos ou nulos.<br>
-b) O sistema informa erro nos dados inseridos.<br>
-c) O fluxo retorna ao passo 2.<br>
-
-**Pós-condições:** O IMC do Cliente é calculado e exibido em tela.
-
----
-
-#### **Gerenciar Preferências e Restrições Alimentares (CSU05)**
-
-**Sumário:** Permite ao Cliente registrar, alterar e remover preferências e restrições alimentares para personalizar recomendações e planejamentos.<br>
+**Sumário:** Permite ao Cliente definir restrições e preferências alimentares para personalizar o sistema.<br>
 **Ator Primário:** Cliente.<br>
 **Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
 
 **Fluxo Principal:**
 
-1. O Cliente acessa a área de preferências alimentares.
-2. O sistema apresenta as opções cadastradas e as categorias disponíveis.
-3. O Cliente seleciona a operação desejada: adicionar, editar ou remover preferência ou restrição.
-4. O Cliente informa os dados desejados, como vegetariano, low carb, sem glúten ou sem lactose.
-5. O sistema valida a seleção realizada.
-6. O sistema atualiza o perfil alimentar do Cliente no banco de dados.
-7. O sistema confirma a atualização realizada.
+1. O Cliente acessa as configurações de perfil alimentar.
+2. O sistema apresenta as preferências cadastradas e novas categorias disponíveis.
+3. O Cliente seleciona ou altera as opções desejadas (ex: Vegano, Sem Glúten).
+4. O sistema valida as alterações.
+5. O sistema atualiza o perfil do Cliente no banco de dados.
+6. O sistema confirma a atualização realizada.
 
-**Fluxo Alternativo A – Dados não selecionados:**
+**Pós-condições:** As preferências alimentares do Cliente são atualizadas no sistema.
 
-a) O sistema identifica ausência de seleção válida.<br>
-b) O sistema informa a necessidade de escolher ao menos uma opção válida.<br>
-c) O fluxo retorna ao passo 2.<br>
 
-**Fluxo Alternativo B – Operação cancelada:**
+## **Organizar Agenda de Refeições (CSU06)**
 
-a) O Cliente cancela a operação antes da confirmação.<br>
-b) O sistema encerra o caso de uso sem alterações.<br>
-
-**Pós-condições:** O perfil alimentar do Cliente é atualizado.
-
----
-
-#### **Gerenciar Lista de Compras (CSU06)**
-
-**Sumário:** Permite ao Cliente criar, atualizar e acompanhar sua lista de compras a partir do planejamento alimentar e do inventário disponível.<br>
-**Ator Primário:** Cliente.<br>
-**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
+**Sumário:** Permite ao Cliente e ao Gestor de Dados organizar o planejamento de refeições.  
+**Ator Primário:** Cliente  
+**Ator Secundário:** Gestor de Dados  
+**Pré-condições:** O usuário deve estar autenticado no sistema.  
 
 **Fluxo Principal:**
 
-1. O Cliente acessa a funcionalidade de lista de compras.
-2. O sistema apresenta os itens atualmente cadastrados e as opções de manutenção.
-3. O Cliente escolhe adicionar, remover, editar ou marcar itens como comprados.
-4. O Cliente informa ou confirma os dados necessários.
-5. O sistema valida a operação.
-6. O sistema atualiza a lista de compras no banco de dados.
-7. O sistema apresenta a lista atualizada ao Cliente.
+1. O Cliente ou Gestor de Dados acessa a agenda de refeições.
+2. O sistema exibe os dias e horários disponíveis.
+3. O usuário seleciona um dia e horário.
+4. O usuário escolhe uma refeição.
+5. O sistema executa o caso de uso **Consultar estoque** `<<include>>`.
+6. O sistema valida a disponibilidade dos alimentos.
+7. O sistema salva a refeição na agenda.
 
-**Fluxo Alternativo A – Geração automática a partir do planejamento:**
+**Pós-condições:** A agenda de refeições é atualizada com o novo planejamento.
 
-a) O Cliente solicita a geração automática da lista com base nas refeições planejadas.<br>
-b) O sistema compara os ingredientes necessários com o inventário atual.<br>
-c) O sistema adiciona à lista os itens faltantes.<br>
 
-**Fluxo Alternativo B – Dados inválidos:**
+## **Visualizar Informações Nutricionais (CSU07)**
 
-a) O sistema identifica inconsistência nos dados informados.<br>
-b) O sistema informa erro ao Cliente.<br>
-c) O fluxo retorna ao passo 3.<br>
-
-**Pós-condições:** A lista de compras permanece atualizada conforme a necessidade do Cliente.
-
----
-
-#### **Organizar Agenda de Refeições (CSU07)**
-
-**Sumário:** Permite ao Cliente definir e ajustar os horários das refeições planejadas ao longo da semana.<br>
-**Ator Primário:** Cliente.<br>
-**Pré-condições:** O Cliente deve estar autenticado e possuir ao menos uma refeição planejada.<br>
+**Sumário:** Permite ao Cliente e ao Gestor de Dados visualizar o detalhamento nutricional de alimentos ou refeições.  
+**Ator Primário:** Cliente  
+**Ator Secundário:** Gestor de Dados  
+**Pré-condições:** O usuário deve estar autenticado no sistema.  
 
 **Fluxo Principal:**
 
-1. O Cliente acessa a agenda de refeições.
-2. O sistema apresenta as refeições planejadas e seus respectivos dias.
-3. O Cliente seleciona uma refeição para definir ou alterar horário.
-4. O Cliente informa o horário desejado.
-5. O sistema valida o horário informado.
-6. O sistema registra a agenda atualizada no cronograma pessoal do Cliente.
+1. O Cliente ou Gestor de Dados seleciona um alimento ou refeição.
+2. O sistema executa o caso de uso **Consultar estoque** `<<include>>`.
+3. O sistema exibe os dados nutricionais (calorias, proteínas, carboidratos e gorduras).
 
-**Fluxo Alternativo A – Horário inválido:**
+**Pós-condições:** As informações nutricionais são exibidas ao usuário.
 
-a) O sistema identifica formato inválido ou conflito de horário.<br>
-b) O sistema informa a inconsistência ao Cliente.<br>
-c) O fluxo retorna ao passo 3.<br>
 
-**Fluxo Alternativo B – Ausência de refeições planejadas:**
+## **Gerenciar Inventário de Alimentos (CSU08)**
 
-a) O sistema identifica que não existem refeições cadastradas na agenda.<br>
-b) O sistema informa que é necessário planejar refeições antes de organizar horários.<br>
-c) O caso de uso é encerrado.<br>
-
-**Pós-condições:** Os horários das refeições ficam registrados ou atualizados.
-
----
-
-#### **Consultar Receitas (CSU08)**
-
-**Sumário:** Permite ao Cliente pesquisar receitas cadastradas, visualizar modo de preparo, nível de complexidade e informações nutricionais.<br>
-**Ator Primário:** Cliente.<br>
-**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
+**Sumário:** Permite ao Cliente gerenciar o inventário de alimentos disponíveis no sistema.  
+**Ator Primário:** Cliente  
+**Pré-condições:** O Cliente deve estar autenticado no sistema.  
 
 **Fluxo Principal:**
 
-1. O Cliente acessa a funcionalidade de consulta de receitas.
-2. O sistema apresenta filtros de busca por nome, tipo, ingrediente ou complexidade.
-3. O Cliente informa os critérios desejados.
-4. O sistema consulta o banco de dados.
-5. O sistema apresenta as receitas encontradas.
-6. O Cliente seleciona uma receita para visualização detalhada.
-7. O sistema exibe ingredientes, modo de preparo, complexidade e informações nutricionais da receita.
+1. O Cliente acessa o módulo de inventário.
+2. O sistema exibe os alimentos cadastrados.
+3. O Cliente adiciona, altera ou remove alimentos.
+4. O sistema valida os dados informados.
+5. O sistema atualiza o inventário e executa o caso de uso **Consultar estoque** `<<include>>`.
 
-**Fluxo Alternativo A – Nenhuma receita encontrada:**
-a) O sistema não localiza receitas com os critérios informados.<br>
-b) O sistema informa ausência de resultados.<br>
-c) O fluxo retorna ao passo 2.<br>
+**Pós-condições:** O inventário de alimentos é atualizado.
 
-**Fluxo Alternativo B – Filtros inválidos ou incompletos:**
-a) O sistema identifica preenchimento inadequado dos filtros.<br>
-b) O sistema solicita correção dos critérios de busca.<br>
-c) O fluxo retorna ao passo 2.<br>
 
-**Pós-condições:** As informações detalhadas da receita selecionada são apresentadas ao Cliente.
+## **Gerar Lista de Compras (CSU09)**
 
----
-
-#### **Consultar Estoque (CSU09)**
-
-**Sumário:** Permite ao Cliente visualizar os alimentos disponíveis em seu inventário, incluindo quantidades e situação de disponibilidade.<br>
-**Ator Primário:** Cliente.<br>
-**Pré-condições:** O Cliente deve estar autenticado no sistema.<br>
+**Sumário:** Permite ao Cliente gerar listas de compras com base em sua rotina alimentar.  
+**Ator Primário:** Cliente  
+**Pré-condições:** O Cliente deve estar autenticado no sistema.  
 
 **Fluxo Principal:**
 
-1. O Cliente acessa a funcionalidade de consulta de estoque.
-2. O sistema consulta os registros do inventário do Cliente.
-3. O sistema organiza os alimentos cadastrados por nome, quantidade e unidade de medida.
-4. O sistema exibe a lista de itens disponíveis ao Cliente.
+1. O Cliente solicita a geração da lista de compras.
+2. O sistema analisa os alimentos necessários e **Consultar estoque** `<<include>>`.
+3. O sistema gera a lista de compras.
+4. O sistema exibe a lista ao Cliente.
 
-**Fluxo Alternativo A – Estoque vazio:**
+**Pós-condições:** A lista de compras é gerada e disponibilizada ao Cliente.
 
-a) O sistema identifica que não existem alimentos cadastrados no inventário.<br>
-b) O sistema informa que o estoque está vazio.<br>
-c) O caso de uso é encerrado.<br>
 
-**Fluxo Alternativo B – Falha de consulta:**
+## **Gerar Relatórios (CSU10)**
 
-a) O sistema identifica erro ao recuperar os dados do inventário.<br>
-b) O sistema informa indisponibilidade temporária.<br>
-c) O caso de uso é encerrado sem exibição dos dados.<br>
-
-**Pós-condições:** A situação atual do estoque é apresentada ao Cliente.
-
----
-
-#### **Gerar Relatórios de Consumo (CSU10)**
-
-**Sumário:** Permite ao Cliente gerar relatórios de consumo alimentar nos períodos diário, semanal e mensal, com base nos registros armazenados pelo sistema.<br>
-**Ator Primário:** Cliente.<br>
-**Pré-condições:** O Cliente deve estar autenticado no sistema e possuir registros de consumo cadastrados.<br>
+**Sumário:** Permite ao Cliente gerar relatórios de acompanhamento de dieta e progresso.  
+**Ator Primário:** Cliente  
+**Pré-condições:** O Cliente deve estar autenticado no sistema.  
 
 **Fluxo Principal:**
 
-1. O Cliente acessa a funcionalidade de relatórios de consumo.
-2. O sistema apresenta as opções de período de consulta: diário, semanal e mensal.
-3. O Cliente seleciona o período desejado.
-4. O sistema consulta os registros de consumo do Cliente no banco de dados.
-5. O sistema processa os dados recuperados.
-6. O sistema apresenta o relatório com os alimentos consumidos, quantidades registradas e resumo nutricional do período selecionado.
+1. O Cliente solicita a geração de relatórios.
+2. O sistema coleta os dados de acompanhamento.
+3. O sistema gera um ou mais relatórios.
+4. O sistema exibe os relatórios ao Cliente.
 
-**Fluxo Alternativo A – Ausência de registros no período selecionado:**
+**Pós-condições:** Os relatórios são gerados e disponibilizados ao Cliente.
 
-a) O sistema identifica que não existem registros de consumo para o período informado.<br>
-b) O sistema informa que não há dados disponíveis para geração do relatório.<br>
-c) O caso de uso é encerrado sem emissão de relatório.<br>
-
-**Fluxo Alternativo B – Falha na consulta dos dados:**
-
-a) O sistema identifica erro ao recuperar os registros de consumo.<br>
-b) O sistema informa indisponibilidade temporária ao Cliente.<br>
-c) O caso de uso é encerrado sem apresentação do relatório.<br>
-
-**Pós-condições:** O relatório de consumo do período selecionado é exibido ao Cliente, quando houver dados disponíveis.
-
----
 
 ### 3.4.3 Diagrama de Classes 
 
