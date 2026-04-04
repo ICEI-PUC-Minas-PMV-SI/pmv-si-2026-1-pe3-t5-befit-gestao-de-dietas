@@ -144,16 +144,15 @@ c) O caso de uso é encerrado.<br>
 **Pós-condições:** Um novo usuário é criado e pode realizar login no sistema.
 
 
-## **Visualizar Refeições (CSU03)**
+#### **Visualizar Refeições (CSU03)**
 
 **Sumário:** Permite ao Cliente e ao Gestor de Dados visualizar as refeições disponíveis no sistema.  
 **Ator Primário:** Cliente  
-**Ator Secundário:** Gestor de Dados  
 **Pré-condições:** O usuário deve estar autenticado no sistema.  
 
 **Fluxo Principal:**
 
-1. O Cliente ou Gestor de Dados acessa a funcionalidade de visualização de refeições.
+1. O Cliente acessa a funcionalidade de visualização de refeições.
 2. O sistema exibe a lista de refeições disponíveis.
 3. O Cliente ou Gestor de Dados seleciona uma refeição.
 4. O sistema apresenta os detalhes da refeição selecionada.
@@ -198,16 +197,15 @@ c) O caso de uso é encerrado.<br>
 **Pós-condições:** As preferências alimentares do Cliente são atualizadas no sistema.
 
 
-## **Organizar Agenda de Refeições (CSU06)**
+#### **Organizar Agenda de Refeições (CSU06)**
 
 **Sumário:** Permite ao Cliente e ao Gestor de Dados organizar o planejamento de refeições.  
-**Ator Primário:** Cliente  
-**Ator Secundário:** Gestor de Dados  
+**Ator Primário:** Cliente   
 **Pré-condições:** O usuário deve estar autenticado no sistema.  
 
 **Fluxo Principal:**
 
-1. O Cliente ou Gestor de Dados acessa a agenda de refeições.
+1. O Cliente acessa a agenda de refeições.
 2. O sistema exibe os dias e horários disponíveis.
 3. O usuário seleciona um dia e horário.
 4. O usuário escolhe uma refeição.
@@ -218,23 +216,22 @@ c) O caso de uso é encerrado.<br>
 **Pós-condições:** A agenda de refeições é atualizada com o novo planejamento.
 
 
-## **Visualizar Informações Nutricionais (CSU07)**
+#### **Visualizar Informações Nutricionais (CSU07)**
 
-**Sumário:** Permite ao Cliente e ao Gestor de Dados visualizar o detalhamento nutricional de alimentos ou refeições.  
+**Sumário:** Permite ao Cliente visualizar o detalhamento nutricional de alimentos ou refeições.  
 **Ator Primário:** Cliente  
-**Ator Secundário:** Gestor de Dados  
 **Pré-condições:** O usuário deve estar autenticado no sistema.  
 
 **Fluxo Principal:**
 
-1. O Cliente ou Gestor de Dados seleciona um alimento ou refeição.
+1. O Cliente seleciona seleciona uma categoria de refeição (Café da Manhã, Almoço ou Jantar).
 2. O sistema executa o caso de uso **Consultar estoque** `<<include>>`.
 3. O sistema exibe os dados nutricionais (calorias, proteínas, carboidratos e gorduras).
 
-**Pós-condições:** As informações nutricionais são exibidas ao usuário.
+**Pós-condições:** As informações nutricionais são exibidas ao Cliente.
 
 
-## **Gerenciar Inventário de Alimentos (CSU08)**
+#### **Gerenciar Inventário de Alimentos (CSU08)**
 
 **Sumário:** Permite ao Cliente gerenciar o inventário de alimentos disponíveis no sistema.  
 **Ator Primário:** Cliente  
@@ -251,7 +248,7 @@ c) O caso de uso é encerrado.<br>
 **Pós-condições:** O inventário de alimentos é atualizado.
 
 
-## **Gerar Lista de Compras (CSU09)**
+#### **Gerar Lista de Compras (CSU09)**
 
 **Sumário:** Permite ao Cliente gerar listas de compras com base em sua rotina alimentar.  
 **Ator Primário:** Cliente  
@@ -267,7 +264,7 @@ c) O caso de uso é encerrado.<br>
 **Pós-condições:** A lista de compras é gerada e disponibilizada ao Cliente.
 
 
-## **Gerar Relatórios (CSU10)**
+#### **Gerar Relatórios (CSU10)**
 
 **Sumário:** Permite ao Cliente gerar relatórios de acompanhamento de dieta e progresso.  
 **Ator Primário:** Cliente  
