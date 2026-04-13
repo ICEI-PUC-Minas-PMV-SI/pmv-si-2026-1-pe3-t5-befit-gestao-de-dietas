@@ -82,6 +82,96 @@ Para a construção das personas, foram utilizadas como referência as orientaç
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
+## 4.2 Mapa de Empatia
+
+O Mapa de Empatia é uma ferramenta utilizada para compreender melhor o usuário, permitindo analisar seus pensamentos, sentimentos, comportamentos, dores e necessidades. A partir dessa análise, é possível desenvolver soluções mais alinhadas ao público-alvo.
+
+Para cada persona definida no projeto BEFIT, foi elaborado um mapa de empatia com o objetivo de aprofundar a compreensão sobre seus perfis e melhorar a experiência do usuário no sistema.
+
+---
+
+### Persona 1 – Lucas Andrade
+
+**O que pensa e sente?**  
+- Quer ganhar massa muscular de forma eficiente  
+- Fica frustrado com informações confusas  
+
+**O que vê?**  
+- Muitos conteúdos sobre dieta e treino na internet  
+- Aplicativos complicados  
+
+**O que ouve?**  
+- Dicas de amigos e influenciadores fitness  
+- Recomendações de treinos e dietas  
+
+**O que fala e faz?**  
+- Reclama da dificuldade de montar dieta  
+- Busca soluções rápidas  
+
+**Dores:**  
+- Falta de tempo  
+- Falta de orientação clara  
+
+**Ganhos:**  
+- Praticidade  
+- Resultados rápidos  
+
+---
+
+### Persona 2 – Mariana Souza
+
+**O que pensa e sente?**  
+- Quer emagrecer com saúde  
+- Se preocupa com bem-estar  
+
+**O que vê?**  
+- Diversas dietas diferentes  
+- Conteúdos contraditórios  
+
+**O que ouve?**  
+- Conselhos sobre alimentação saudável  
+- Pressão por resultados  
+
+**O que fala e faz?**  
+- Testa diferentes dietas  
+- Busca manter rotina saudável  
+
+**Dores:**  
+- Dificuldade em manter constância  
+- Falta de clareza nas informações  
+
+**Ganhos:**  
+- Organização  
+- Resultados consistentes  
+
+---
+
+### Persona 3 – Carlos Henrique
+
+**O que pensa e sente?**  
+- Quer melhorar a saúde  
+- Tem receio de tecnologias complexas  
+
+**O que vê?**  
+- Sistemas difíceis de usar  
+- Muitas informações técnicas  
+
+**O que ouve?**  
+- Recomendações médicas  
+- Dicas de alimentação  
+
+**O que fala e faz?**  
+- Busca soluções simples  
+- Evita tecnologias complicadas  
+
+**Dores:**  
+- Dificuldade com tecnologia  
+- Falta de conhecimento nutricional  
+
+**Ganhos:**  
+- Facilidade de uso  
+- Orientações simples e práticas  
+
 ## 4.3 Protótipos das Interfaces
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
 
