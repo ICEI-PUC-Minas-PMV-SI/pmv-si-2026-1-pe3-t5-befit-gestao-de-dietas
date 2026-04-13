@@ -3,6 +3,82 @@
 ## 4.1 Personas
 Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar uma persona por integrante do projeto. Para mais informações sobre personas consulte: https://www.rdstation.com/blog/marketing/persona-o-que-e/. Sugere-se a utilização de um template do Canva: https://www.canva.com/pt_br/modelos/s/persona/
 
+## 4.1 Personas
+
+Nesta seção foram definidas as personas do projeto BEFIT, representando os principais perfis de usuários do sistema. Cada integrante do grupo desenvolveu uma persona, considerando características como idade, profissão, objetivos, comportamentos, dores e necessidades.
+
+As personas foram criadas com o objetivo de compreender melhor o público-alvo e orientar o desenvolvimento das funcionalidades do sistema, como o cálculo de IMC e a sugestão de dietas personalizadas de acordo com o objetivo do usuário (emagrecimento, ganho de massa ou melhoria da saúde).
+
+Para a construção das personas, foram utilizadas como referência as orientações disponíveis no site da RD Station e templates de apoio, como os disponibilizados pelo Canva.
+
+---
+
+### Persona 1 – Lucas Andrade
+
+**Idade:** 22 anos  
+**Profissão:** Estudante / trabalha e estuda  
+**Objetivo:** Ganhar massa muscular  
+
+**Comportamento:**  
+- Treina cedo e possui rotina corrida  
+- Utiliza o celular para a maioria das atividades  
+- Prefere soluções rápidas e práticas  
+
+**Dores:**  
+- Dificuldade em montar uma dieta adequada  
+- Falta de tempo no dia a dia  
+- Excesso de informações confusas na internet  
+
+**Necessidades:**  
+- Calcular o IMC de forma rápida  
+- Receber sugestões de dieta conforme seu objetivo  
+- Interface simples e intuitiva  
+
+---
+
+### Persona 2 – Mariana Souza
+
+**Idade:** 30 anos  
+**Profissão:** Analista Administrativa  
+**Objetivo:** Emagrecer com saúde  
+
+**Comportamento:**  
+- Já tentou diferentes dietas  
+- Utiliza aplicativos de saúde  
+- Preocupa-se com bem-estar e qualidade de vida  
+
+**Dores:**  
+- Dificuldade em manter consistência na dieta  
+- Falta de orientação clara  
+- Resultados demorados  
+
+**Necessidades:**  
+- Sugestões de dietas simples  
+- Facilidade de acompanhamento  
+- Informações claras e confiáveis  
+
+---
+
+### Persona 3 – Carlos Henrique
+
+**Idade:** 40 anos  
+**Profissão:** Autônomo  
+**Objetivo:** Melhorar a saúde e qualidade de vida  
+
+**Comportamento:**  
+- Possui pouca familiaridade com tecnologia  
+- Prefere soluções simples  
+- Busca melhorar hábitos alimentares  
+
+**Dores:**  
+- Dificuldade em usar sistemas complexos  
+- Falta de conhecimento sobre alimentação saudável  
+
+**Necessidades:**  
+- Interface fácil de usar  
+- Explicações simples  
+- Orientações práticas para o dia a dia  
+
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
