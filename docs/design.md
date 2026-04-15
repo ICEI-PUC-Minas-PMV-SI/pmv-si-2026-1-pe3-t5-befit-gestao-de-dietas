@@ -15,7 +15,7 @@ Para a construção das personas, foram utilizadas como referência as orientaç
 
 ### Persona 1 – Amanda Santos
 
-<img width="1920" height="1080" alt="persona_amanda" src="https://github.com/user-attachments/assets/83f50d6a-5e8a-48a9-9461-ddec0e67b71d" />
+<img width="1920" height="1080" alt="persona_amanda" src="https://github.com/user-attachments/assets/4b725a60-e33f-4d8d-a28a-8250ecd039fa" />
 
 
 ### Persona 1 – Lucas Andrade
