@@ -13,6 +13,11 @@ Para a construção das personas, foram utilizadas como referência as orientaç
 
 ---
 
+### Persona 1 – Amanda Santos
+
+<img width="1920" height="1080" alt="persona_amanda" src="https://github.com/user-attachments/assets/83f50d6a-5e8a-48a9-9461-ddec0e67b71d" />
+
+
 ### Persona 1 – Lucas Andrade
 
 **Idade:** 22 anos  
@@ -89,6 +94,11 @@ O Mapa de Empatia é uma ferramenta utilizada para compreender melhor o usuário
 Para cada persona definida no projeto BEFIT, foi elaborado um mapa de empatia com o objetivo de aprofundar a compreensão sobre seus perfis e melhorar a experiência do usuário no sistema.
 
 ---
+
+### Persona 1 – Amanda Santos
+
+<img width="1920" height="1080" alt="persona_amanda_mapa" src="https://github.com/user-attachments/assets/8b0a6b83-6b80-4b74-9d77-93ece54182b8" />
+
 
 ### Persona 1 – Lucas Andrade
 
