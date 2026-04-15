@@ -17,6 +17,10 @@ Para a construção das personas, foram utilizadas como referência as orientaç
 
 <img width="1920" height="1080" alt="persona_amanda" src="https://github.com/user-attachments/assets/4b725a60-e33f-4d8d-a28a-8250ecd039fa" />
 
+### Persona 2 – Fernando Carvalho
+
+<img width="1920" height="1080" alt="persona_fernando" src="https://github.com/user-attachments/assets/e688d9f3-5a43-4247-8f42-3a1446461eea" />
+
 
 ### Persona 1 – Lucas Andrade
 
@@ -98,6 +102,10 @@ Para cada persona definida no projeto BEFIT, foi elaborado um mapa de empatia co
 ### Persona 1 – Amanda Santos
 
 <img width="1920" height="1080" alt="persona_amanda_mapa" src="https://github.com/user-attachments/assets/8b0a6b83-6b80-4b74-9d77-93ece54182b8" />
+
+### Persona 2 – Fernando Carvalho
+
+<img width="1920" height="1080" alt="persona_fernando_mapa" src="https://github.com/user-attachments/assets/83eefc2d-0580-448c-bfc5-236ef388c9df" />
 
 
 ### Persona 1 – Lucas Andrade
