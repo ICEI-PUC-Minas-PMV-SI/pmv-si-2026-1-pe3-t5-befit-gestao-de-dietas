@@ -1,194 +1,58 @@
 # 4. PROJETO DO DESIGN DE INTERAÇÃO
 
 ## 4.1 Personas
-Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar uma persona por integrante do projeto. Para mais informações sobre personas consulte: https://www.rdstation.com/blog/marketing/persona-o-que-e/. Sugere-se a utilização de um template do Canva: https://www.canva.com/pt_br/modelos/s/persona/
 
-## 4.1 Personas
+### Persona 1: Juliana Lopes
 
-Nesta seção foram definidas as personas do projeto BEFIT, representando os principais perfis de usuários do sistema. Cada integrante do grupo desenvolveu uma persona, considerando características como idade, profissão, objetivos, comportamentos, dores e necessidades.
+![persona-1](../src/img/persona-1.png)
 
-As personas foram criadas com o objetivo de compreender melhor o público-alvo e orientar o desenvolvimento das funcionalidades do sistema, como o cálculo de IMC e a sugestão de dietas personalizadas de acordo com o objetivo do usuário (emagrecimento, ganho de massa ou melhoria da saúde).
+### Persona 2: Lucas Andrade
 
-Para a construção das personas, foram utilizadas como referência as orientações disponíveis no site da RD Station e templates de apoio, como os disponibilizados pelo Canva.
+![persona-2](../src/img/persona-2.png) 
 
----
+### Persona 3: Mariana Souza
 
-### Persona 1 – Amanda Santos
+![persona-3](../src/img/persona-3.png) 
 
-<img width="1920" height="1080" alt="persona_amanda" src="https://github.com/user-attachments/assets/4b725a60-e33f-4d8d-a28a-8250ecd039fa" />
+### Persona 4: Carlos Henrique
 
-### Persona 2 – Fernando Carvalho
+![persona-4](../src/img/persona-4.png) 
 
-<img width="1920" height="1080" alt="persona_fernando" src="https://github.com/user-attachments/assets/e688d9f3-5a43-4247-8f42-3a1446461eea" />
+### Persona 5: Amanda Santos
 
+![persona-5](../src/img/persona-5.png) 
 
-### Persona 1 – Lucas Andrade
+### Persona 6: Fernado Carvalho
 
-**Idade:** 22 anos  
-**Profissão:** Estudante / trabalha e estuda  
-**Objetivo:** Ganhar massa muscular  
+![persona-6](../src/img/persona-6.png) 
 
-**Comportamento:**  
-- Treina cedo e possui rotina corrida  
-- Utiliza o celular para a maioria das atividades  
-- Prefere soluções rápidas e práticas  
-
-**Dores:**  
-- Dificuldade em montar uma dieta adequada  
-- Falta de tempo no dia a dia  
-- Excesso de informações confusas na internet  
-
-**Necessidades:**  
-- Calcular o IMC de forma rápida  
-- Receber sugestões de dieta conforme seu objetivo  
-- Interface simples e intuitiva  
-
----
-
-### Persona 2 – Mariana Souza
-
-**Idade:** 30 anos  
-**Profissão:** Analista Administrativa  
-**Objetivo:** Emagrecer com saúde  
-
-**Comportamento:**  
-- Já tentou diferentes dietas  
-- Utiliza aplicativos de saúde  
-- Preocupa-se com bem-estar e qualidade de vida  
-
-**Dores:**  
-- Dificuldade em manter consistência na dieta  
-- Falta de orientação clara  
-- Resultados demorados  
-
-**Necessidades:**  
-- Sugestões de dietas simples  
-- Facilidade de acompanhamento  
-- Informações claras e confiáveis  
-
----
-
-### Persona 3 – Carlos Henrique
-
-**Idade:** 40 anos  
-**Profissão:** Autônomo  
-**Objetivo:** Melhorar a saúde e qualidade de vida  
-
-**Comportamento:**  
-- Possui pouca familiaridade com tecnologia  
-- Prefere soluções simples  
-- Busca melhorar hábitos alimentares  
-
-**Dores:**  
-- Dificuldade em usar sistemas complexos  
-- Falta de conhecimento sobre alimentação saudável  
-
-**Necessidades:**  
-- Interface fácil de usar  
-- Explicações simples  
-- Orientações práticas para o dia a dia  
-
-## 4.2 Mapa de Empatia
-Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
 ## 4.2 Mapa de Empatia
 
-O Mapa de Empatia é uma ferramenta utilizada para compreender melhor o usuário, permitindo analisar seus pensamentos, sentimentos, comportamentos, dores e necessidades. A partir dessa análise, é possível desenvolver soluções mais alinhadas ao público-alvo.
+### Persona 1: Juliana Lopes
 
-Para cada persona definida no projeto BEFIT, foi elaborado um mapa de empatia com o objetivo de aprofundar a compreensão sobre seus perfis e melhorar a experiência do usuário no sistema.
+![persona-1](../src/img/mapa-da-empatia-1.png) 
 
----
+### Persona 2: Lucas Andrade
 
-### Persona 1 – Amanda Santos
+![persona-2](../src/img/mapa-da-empatia-2.png) 
 
-<img width="1920" height="1080" alt="persona_amanda_mapa" src="https://github.com/user-attachments/assets/8b0a6b83-6b80-4b74-9d77-93ece54182b8" />
+### Persona 3: Mariana Souza
 
-### Persona 2 – Fernando Carvalho
+![persona-3](../src/img/mapa-da-empatia-3.png) 
 
-<img width="1920" height="1080" alt="persona_fernando_mapa" src="https://github.com/user-attachments/assets/83eefc2d-0580-448c-bfc5-236ef388c9df" />
+### Persona 4: Carlos Henrique
 
+![persona-4](../src/img/mapa-da-empatia-4.png) 
 
-### Persona 1 – Lucas Andrade
+### Persona 5: Amanda Santos
 
-**O que pensa e sente?**  
-- Quer ganhar massa muscular de forma eficiente  
-- Fica frustrado com informações confusas  
+![persona-5](../src/img/mapa-da-empatia-5.png)
 
-**O que vê?**  
-- Muitos conteúdos sobre dieta e treino na internet  
-- Aplicativos complicados  
+### Persona 6: Fernado Carvalho
 
-**O que ouve?**  
-- Dicas de amigos e influenciadores fitness  
-- Recomendações de treinos e dietas  
+![persona-6](../src/img/mapa-da-empatia-6.png)
 
-**O que fala e faz?**  
-- Reclama da dificuldade de montar dieta  
-- Busca soluções rápidas  
-
-**Dores:**  
-- Falta de tempo  
-- Falta de orientação clara  
-
-**Ganhos:**  
-- Praticidade  
-- Resultados rápidos  
-
----
-
-### Persona 2 – Mariana Souza
-
-**O que pensa e sente?**  
-- Quer emagrecer com saúde  
-- Se preocupa com bem-estar  
-
-**O que vê?**  
-- Diversas dietas diferentes  
-- Conteúdos contraditórios  
-
-**O que ouve?**  
-- Conselhos sobre alimentação saudável  
-- Pressão por resultados  
-
-**O que fala e faz?**  
-- Testa diferentes dietas  
-- Busca manter rotina saudável  
-
-**Dores:**  
-- Dificuldade em manter constância  
-- Falta de clareza nas informações  
-
-**Ganhos:**  
-- Organização  
-- Resultados consistentes  
-
----
-
-### Persona 3 – Carlos Henrique
-
-**O que pensa e sente?**  
-- Quer melhorar a saúde  
-- Tem receio de tecnologias complexas  
-
-**O que vê?**  
-- Sistemas difíceis de usar  
-- Muitas informações técnicas  
-
-**O que ouve?**  
-- Recomendações médicas  
-- Dicas de alimentação  
-
-**O que fala e faz?**  
-- Busca soluções simples  
-- Evita tecnologias complicadas  
-
-**Dores:**  
-- Dificuldade com tecnologia  
-- Falta de conhecimento nutricional  
-
-**Ganhos:**  
-- Facilidade de uso  
-- Orientações simples e práticas  
 
 ## 4.3 Protótipos das Interfaces
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
