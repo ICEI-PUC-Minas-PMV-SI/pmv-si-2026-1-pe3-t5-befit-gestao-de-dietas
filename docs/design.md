@@ -62,13 +62,9 @@
 
 
 ## 4.3 Protótipos das Interfaces
-
 <img width="1414" height="2000" alt="1" src="https://github.com/user-attachments/assets/81d3d6b0-5fa7-41f6-8768-bdc6737a629a" />
-
 <img width="1414" height="2000" alt="2" src="https://github.com/user-attachments/assets/bac93681-36a2-4962-b6a7-5657915ae12b" />
-
 <img width="1414" height="2000" alt="3" src="https://github.com/user-attachments/assets/7c4f2e91-ea86-41b8-8ebe-268756461625" />
-
 
 ## 4.4 Testes com Protótipos
 Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
