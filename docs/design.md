@@ -28,7 +28,9 @@
 
 ### Persona 7: Aurora Martins
 
-<img width="1057" height="587" alt="Persona Aurora Martins" src="https://github.com/user-attachments/assets/97651a90-738c-454f-8de6-9b76409ea98b" />
+<img width="1059" height="594" alt="Descrição Persona Aurora Martins" src="https://github.com/user-attachments/assets/68b53189-f2f6-4ff8-b79a-de3751346034" /><img width="1691" height="930" alt="Mapa Aurora Martins" src="https://github.com/user-attachments/assets/caff2634-8efb-425f-bc6b-12868bf4b19e" />
+<img width="1691" height="930" alt="Mapa Aurora Martins" src="https://github.com/user-attachments/assets/a0f1c984-1ee4-4a34-bfa6-090150053645" />
+
 
 ## 4.2 Mapa de Empatia
 
@@ -58,7 +60,8 @@
 
 ### Persona 7: Aurora Martins
 
-<img width="1059" height="594" alt="Descrição Persona Aurora Martins" src="https://github.com/user-attachments/assets/68b53189-f2f6-4ff8-b79a-de3751346034" />
+<img width="1691" height="930" alt="Mapa Aurora Martins" src="https://github.com/user-attachments/assets/cb1277cb-c52d-47b7-a62c-efd6ebc207d6" />
+
 
 
 ## 4.3 Protótipos das Interfaces
