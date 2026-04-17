@@ -68,6 +68,8 @@
 
 ## 4.4 Testes com Protótipos
 
+<img width="1920" height="1080" alt="Teste de Usuário Conclusões" src="https://github.com/user-attachments/assets/dfd951ee-76db-4b75-a4da-645d093ec377" />
+
 Teste de Usabilidade com Usuário
 Persona: Aurora Martins
 
@@ -75,11 +77,13 @@ A usuária foi convidada a realizar as seguintes tarefas: criar uma conta e faze
 
 Tarefa 1
 Criar uma conta
+
 Tempo: 1 min 10s
 Resultado: Concluído com sucesso
 
 Observações:
-Aurora encontrou facilmente o botão “Novo usuário”. O formulário é simples e direto.
+Aurora encontrou facilmente o botão “Novo usuário”. 
+O formulário é simples e direto.
 
 Problema:
 Nenhuma indicação visual de erro ou validação de campos.
@@ -108,15 +112,3 @@ O sistema BeFit apresenta uma boa base de usabilidade e atende às necessidades 
 
 
 
-
-
-
-EXPLICAÇÃO SOBRE ESSA PARTE : 
-
-Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
-
-Cada integrante do grupo deverá aplicar o teste com um usuário distinto, preferencialmente alinhado ao perfil das personas criadas. Devem ser definidas previamente as tarefas que o usuário deverá executar no protótipo (por exemplo: realizar um cadastro, buscar um produto, concluir uma compra).
-
-Durante a aplicação do teste, registre observações sobre comportamentos, dúvidas, erros e comentários feitos pelo usuário, bem como o tempo necessário para a execução de cada tarefa. Ao final, colete o feedback do participante, destacando pontos positivos e aspectos a serem melhorados.
-
-Os resultados obtidos por todos os integrantes devem ser consolidados, apresentando uma análise geral com os principais problemas encontrados, oportunidades de melhoria e as ações previstas para o projeto final. 
