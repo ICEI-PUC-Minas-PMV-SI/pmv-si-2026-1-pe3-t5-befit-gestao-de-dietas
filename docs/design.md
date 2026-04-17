@@ -49,7 +49,7 @@
 
 ![persona-5](../src/img/mapa-da-empatia-5.png)
 
-### Persona 6: Fernado Carvalho
+### Persona 6: Fernando Carvalho
 
 ![persona-6](../src/img/mapa-da-empatia-6.png)
 
