@@ -71,14 +71,9 @@
 Teste de Usabilidade com Usuário
 Persona: Aurora Martins
 
-Nome: Aurora Martins
-Idade: 27 anos
-Perfil: Jovem profissional preocupada com saúde e alimentação equilibrada, com rotina ocupada e pouco tempo para planejar refeições.
-
-Tarefas propostas
-
 A usuária foi convidada a realizar as seguintes tarefas: criar uma conta e fazer login.
 
+Tarefa 1
 Criar uma conta
 Tempo: 1 min 10s
 Resultado: Concluído com sucesso
