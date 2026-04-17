@@ -28,21 +28,7 @@
 
 ### Persona 7: Aurora Martins
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![persona-6](../src/img/persona-6.png) 
+<img width="1057" height="587" alt="Persona Aurora Martins" src="https://github.com/user-attachments/assets/97651a90-738c-454f-8de6-9b76409ea98b" />
 
 ## 4.2 Mapa de Empatia
 
