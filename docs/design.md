@@ -67,6 +67,57 @@
 <img width="1414" height="2000" alt="3" src="https://github.com/user-attachments/assets/7c4f2e91-ea86-41b8-8ebe-268756461625" />
 
 ## 4.4 Testes com Protótipos
+
+Teste de Usabilidade com Usuário
+Persona: Aurora Martins
+
+Nome: Aurora Martins
+Idade: 27 anos
+Perfil: Jovem profissional preocupada com saúde e alimentação equilibrada, com rotina ocupada e pouco tempo para planejar refeições.
+
+Tarefas propostas
+
+A usuária foi convidada a realizar as seguintes tarefas: criar uma conta e fazer login.
+
+Criar uma conta
+Tempo: 1 min 10s
+Resultado: Concluído com sucesso
+
+Observações:
+Aurora encontrou facilmente o botão “Novo usuário”. O formulário é simples e direto.
+
+Problema:
+Nenhuma indicação visual de erro ou validação de campos.
+
+Tarefa 2: Login
+Tempo: 40s
+Resultado: Concluído
+Observações:
+Interface clara e objetiva.
+Problema:
+O botão poderia estar mais destacado.
+
+Feedback da usuária (Aurora Martins)
+
+Pontos positivos:
+Interface simples e organizada
+Funcionalidades úteis para o dia a dia
+Boa estrutura geral do sistema
+
+Dificuldades:
+Botões pouco destacados
+Com base no teste realizado, foi possível identificar:
+
+O sistema BeFit apresenta uma boa base de usabilidade e atende às necessidades da persona Aurora Martins. No entanto, melhorias na clareza das informações e na hierarquia visual são necessárias para tornar a experiência mais intuitiva e eficiente.
+
+
+
+
+
+
+
+EXPLICAÇÃO SOBRE ESSA PARTE : 
+
 Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
 
 Cada integrante do grupo deverá aplicar o teste com um usuário distinto, preferencialmente alinhado ao perfil das personas criadas. Devem ser definidas previamente as tarefas que o usuário deverá executar no protótipo (por exemplo: realizar um cadastro, buscar um produto, concluir uma compra).
