@@ -26,6 +26,23 @@
 
 ![persona-6](../src/img/persona-6.png) 
 
+### Persona 7: Aurora Martins
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![persona-6](../src/img/persona-6.png) 
 
 ## 4.2 Mapa de Empatia
 
