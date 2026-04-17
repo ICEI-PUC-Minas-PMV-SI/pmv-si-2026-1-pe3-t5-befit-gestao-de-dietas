@@ -22,7 +22,7 @@
 
 ![persona-5](../src/img/persona-5.png) 
 
-### Persona 6: Fernando Carvalho * contém erro no nome da persona na imagem .
+### Persona 6: Fernando Carvalho 
 
 ![persona-6](../src/img/persona-6.png) 
 
