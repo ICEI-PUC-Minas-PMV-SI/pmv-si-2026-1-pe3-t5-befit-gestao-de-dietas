@@ -58,7 +58,8 @@
 
 ### Persona 7: Aurora Martins
 
-<img width="1691" height="930" alt="Mapa Aurora Martins" src="https://github.com/user-attachments/assets/7c7f56a1-5192-4673-a1fd-22fb9f733bf9" />
+<img width="1059" height="594" alt="Descrição Persona Aurora Martins" src="https://github.com/user-attachments/assets/68b53189-f2f6-4ff8-b79a-de3751346034" />
+
 
 ## 4.3 Protótipos das Interfaces
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
