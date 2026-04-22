@@ -92,21 +92,21 @@ Uma prática recomendada é definir um conjunto padrão de perguntas para os usu
 
 Segue um conjunto de perguntas sugeridas:
 
-1 - Ao acessar a página inicial, você compreendeu rapidamente o objetivo do sistema?
-2 - O menu e os botões estão posicionados de forma intuitiva?
-3 - A nomenclatura das seções (menus, botões e links) é clara?
-4 - Foi fácil localizar as informações ou funcionalidades desejadas?
-5 - As etapas para realizar as tarefas estão claras e bem organizadas?
-6 - Os elementos visuais (cores, ícones e layout) ajudam a identificar o que é clicável?
-7 - Há elementos que geram confusão ou chamam atenção de forma inadequada?
-8 - Os textos e rótulos são claros e auxiliam na navegação?
-9 - Houve dificuldade para visualizar, clicar ou entender algum elemento?
-10 - As instruções e mensagens são compreensíveis?
-11 - Há termos técnicos ou expressões confusas?
-12 - Você se sentiu seguro(a) ao utilizar o protótipo, sem necessidade de ajuda?
-13 - O que você mais gostou na interface?
-14 - O que você melhoraria?
-15 - Gostaria de acrescentar mais algum comentário?
+1 - Ao acessar a página inicial, você compreendeu rapidamente o objetivo do sistema?<br>
+2 - O menu e os botões estão posicionados de forma intuitiva?<br>
+3 - A nomenclatura das seções (menus, botões e links) é clara?<br>
+4 - Foi fácil localizar as informações ou funcionalidades desejadas?<br>
+5 - As etapas para realizar as tarefas estão claras e bem organizadas?<br>
+6 - Os elementos visuais (cores, ícones e layout) ajudam a identificar o que é clicável?<br>
+7 - Há elementos que geram confusão ou chamam atenção de forma inadequada?<br>
+8 - Os textos e rótulos são claros e auxiliam na navegação?<br>
+9 - Houve dificuldade para visualizar, clicar ou entender algum elemento?<br>
+10 - As instruções e mensagens são compreensíveis?<br>
+11 - Há termos técnicos ou expressões confusas?<br>
+12 - Você se sentiu seguro(a) ao utilizar o protótipo, sem necessidade de ajuda?<br>
+13 - O que você mais gostou na interface?<br>
+14 - O que você melhoraria?<br>
+15 - Gostaria de acrescentar mais algum comentário?<br>
 
 <img width="1920" height="1080" alt="Teste de Usuário Conclusões" src="https://github.com/user-attachments/assets/dfd951ee-76db-4b75-a4da-645d093ec377" />
 
