@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UZ-Compatible" content="ie=edge">
+    <script src="../mock/receitas.js"></script>
+    <script src="receitas.js"></script>
+    <link rel="stylesheet" href="../style_befit.css">
+    <link rel="stylesheet" href="receitas.css">
+
+    <title>BeFit</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+			<a href="../login_and_home/home.html"><img src="../imgs/Logo_Befit.png" alt="imagem tela incial" class="logo"></a>
+			
+			<div class="menu-desktop">
+				
+				<ul>
+					<li><a href="../login_and_home/home.html">Home</a></li>
+					<li><a href="../index_befit.html">Cadastro</a></li>
+					<li><a href="../Relatorio/relatorios.html">Relatórios</a></li>
+					<li><a href="../Cadastrar_dieta/index_cadastro.html">Dietas</a></li>
+					<li><a href="../receitas/receitas.html">Receitas</a></li>
+					<li><a href="../Cadastrar_dieta/compras.html">Lista de Compras</a></li>
+					<li><a href="../IMC/index_imc.html">IMC</a></li>
+				</ul>
+				<a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="imagem login btn" class="login_btn"></a>
+			</div>
+
+			<div>
+				<!-- Checkbox controlador -->
+				<input type="checkbox" id="menu-checkbox">
+
+				<!-- Botão hamburger (lado direito) -->
+				<label class="menu-toggle" for="menu-checkbox">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
+
+				<!-- Menu lateral (direita) -->
+				<nav class="sidebar">
+					<a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="imagem login btn" class="login_btn_reps"></a>
+					<ul>
+						<li><a href="../login_and_home/home.html">Home</a></li>
+						<li><a href="../index_befit.html">Cadastro</a></li>
+						<li><a href="../Relatorio/relatorios.html">Relatórios</a></li>
+						<li><a href="../Cadastrar_dieta/index_cadastro.html">Dietas</a></li>
+						<li><a href="../receitas/receitas.html">Receitas</a></li>
+						<li><a href="../Cadastrar_dieta/compras.html">Lista de Compras</a></li>
+						<li><a href="../IMC/index_imc.html">IMC</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+        <section class="left">
+            <div class="overlay" id="popupReceitas">
+                <div class="popup">
+                    <h2 id="popupTitle"></h2>
+                    <p id="modoPreparo"></p>
+                    <button onclick="window.print()">Imprimir</button>
+                    <button onclick="fecharPopup('popupReceitas')">Fechar</button>
+                </div>
+            </div>
+
+            <div class="left">
+                <div class="pagRec">
+                    <h2>Receitas</h2>
+                    <p>Aqui você tem um gostinho do que a nossa aplicação oferece:</p>
+                    <p>Receitas personalizadas de acordo com o seu protocolo alimentar. 
+                    Navegue por opções deliciosas ordenando por complexidade, tempo de preparo e escolha a que mais te agradar.
+                        
+                    </p>
+                    <p>Tudo pensado para tornar sua alimentação prática, saborosa e sob medida!</p>
+                    <div class="style-tabela">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <thead>
+                                <tr class="top center" style="padding: 8px;">
+                                    <th>Receita</th>
+                                    <th>
+                                        <div style="display: flex; align-items: center; justify-content: center; padding: 8px;">
+                                            Tempo de Preparo
+                                            <img src="../imgs/ordenacao.png" alt="ordenacao" onclick="ordenarTabela(1)"
+                                                width="20" style="margin-left: 8px; cursor: pointer;" />
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div style="display: flex; align-items: center; justify-content: center; padding: 8px;">
+                                            Complexidade
+                                            <img src="../imgs/ordenacao.png" alt="ordenacao" onclick="ordenarTabela(2)"
+                                                width="20" style="margin-left: 8px; cursor: pointer;" />
+                                        </div>
+                                    </th>
+                                    <th>Favorita</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="right">
+            <div class="right" style="background-color:#F79D31;">
+                <p class="img_01"><img src="../imgs/img_receitas.png" alt" " class=" inicio";></p>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p>Copyright 2025 - BeFit- Todos os direitos reservados</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
