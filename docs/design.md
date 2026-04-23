@@ -27,37 +27,37 @@
 ![persona-6](../src/img/persona-6.png) 
 
 ### Persona 7: Aurora Martins
-<img width="1059" height="594" alt="Descrição Persona Aurora Martins" src="https://github.com/user-attachments/assets/6b4d412f-c6a6-4d45-85b6-ff6e58283423" />
+![persona-7](../src/img/persona-7.png) 
 
 ## 4.2 Mapa de Empatia
 
 ### Persona 1: Juliana Lopes
 
-![persona-1](../src/img/mapa-da-empatia-1.png) 
+![persona-1](../src/img/mapa-de-empatia-1.png) 
 
 ### Persona 2: Lucas Andrade
 
-![persona-2](../src/img/mapa-da-empatia-2.png) 
+![persona-2](../src/img/mapa-de-empatia-2.png) 
 
 ### Persona 3: Mariana Souza
 
-![persona-3](../src/img/mapa-da-empatia-3.png) 
+![persona-3](../src/img/mapa-de-empatia-3.png) 
 
 ### Persona 4: Carlos Henrique
 
-![persona-4](../src/img/mapa-da-empatia-4.png) 
+![persona-4](../src/img/mapa-de-empatia-4.png) 
 
 ### Persona 5: Amanda Santos
 
-![persona-5](../src/img/mapa-da-empatia-5.png)
+![persona-5](../src/img/mapa-de-empatia-5.png)
 
 ### Persona 6: Fernando Carvalho
 
-![persona-6](../src/img/mapa-da-empatia-6.png)
+![persona-6](../src/img/mapa-de-empatia-6.png)
 
 ### Persona 7: Aurora Martins
 
-<img width="1691" height="930" alt="Mapa Aurora Martins" src="https://github.com/user-attachments/assets/cb1277cb-c52d-47b7-a62c-efd6ebc207d6" />
+![persona-7](../src/img/mapa-de-empatia-7.png)
 
 
 
