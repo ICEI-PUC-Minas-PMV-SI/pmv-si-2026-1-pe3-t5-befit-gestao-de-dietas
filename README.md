@@ -31,7 +31,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 | ETAPA 4        |[Testes de Software](docs/testes.md) |
 | ETAPA 5         | [Apresentação](docs/apresentacao.md) |
 
-
 # Código
 
 <li><a href="src/codigo.md"> Código Fonte</a></li>
