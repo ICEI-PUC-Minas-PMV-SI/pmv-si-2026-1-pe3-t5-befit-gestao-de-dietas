@@ -27,12 +27,12 @@ function cadastrar(){
             
             // Mensagem de cadastro com sucesso
             msg.setAttribute('style', 'background-color: #7efc00');
-            msg.innerHTML = "<strong> Cadastrado com sucesso! </strong>"
+            msg.innerHTML = "<strong>Cadastro realizado com sucesso!</strong>"
 
 
         // Delay de 1s após efetuar cadastro
         setTimeout(() => {
-            location.reload();
+            window.location.href = 'login.html';
           }, 1000);
    
     }
@@ -44,6 +44,7 @@ function cadastrar(){
 
 
 // Verificador automático do confirmar senha
+if (senha && senha2) {
 senha2.addEventListener('keyup', () => {
 
     if (senha2.value != senha.value) {
@@ -53,6 +54,7 @@ senha2.addEventListener('keyup', () => {
     }
 
 });
+}
 
 // LOGIN DO USUÁRIO
 
@@ -68,9 +70,9 @@ function login(){
         senha: ''
     }
 
-    listaUser = JSON.parse(localStorage.getItem('listaUser'))
+    listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
 
-    if (loginn.value == "" || senhaLogin == "") {
+    if (loginn.value == "" || senhaLogin.value == "") {
         alert("Você precisa preencher os campos!");
     } else {
         listaUser.forEach((item) => {
@@ -85,7 +87,7 @@ function login(){
         })
     
         if(loginn.value == userValid.user && senhaLogin.value == userValid.senha) {
-            window.location.href = './paginalogada.html'
+            window.location.href = './home.html'
     
             // Criação de Token
             let token = Math.random().toString(16).substring(2);
@@ -109,5 +111,5 @@ function login(){
 
 function logout(){
     localStorage.removeItem('token');
-    window.location.href = 'index.html'
+    window.location.href = '../index_befit.html'
 }

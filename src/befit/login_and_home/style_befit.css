@@ -555,3 +555,80 @@ main h2 {
       'footer footer footer footer footer footer';
   }
 }
+
+/* ===== MELHORIAS DE CADASTRO E LOGIN ===== */
+body {
+  min-height: 100vh;
+}
+
+.div-center {
+  width: min(92vw, 420px);
+  height: auto;
+  min-height: auto;
+  padding: 24px;
+  background-color: transparent;
+}
+
+.form {
+  width: 100%;
+  max-width: 420px;
+  padding: 28px;
+  border-top: 6px solid var(--color-laranja);
+}
+
+.fechar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: none;
+  margin: 0 0 10px auto;
+  padding: 0;
+  font-weight: 700;
+}
+
+.form-title {
+  margin: 16px 0 6px;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--color-verde-escuro);
+}
+
+.form-subtitle {
+  margin: 0 0 22px;
+  color: #5f5f5f;
+  font-size: 15px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 14px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--color-text-dark);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 13px 14px;
+  border-color: #d6d9d2;
+  box-shadow: none;
+}
+
+.input-container input:focus {
+  border-color: var(--color-verde-claro);
+  box-shadow: 0 0 0 3px rgba(118, 174, 29, 0.16);
+}
+
+.submit {
+  margin: 20px auto 16px;
+}
+
+.signup-link {
+  margin: 0;
+}

@@ -5,6 +5,7 @@ let tipoRelatorio = '';
 
 function irParaPeriodo(tipo) {
   tipoRelatorio = tipo;
+  document.querySelectorAll('input[name="periodo"]').forEach(cb => cb.checked = false);
   mostrarTela('periodo');
 }
 
@@ -17,8 +18,11 @@ function irParaFinal() {
     return;
   }
 
-  document.getElementById("titulo-relatorio").innerText = `Relatório de ${tipoRelatorio.toUpperCase()}`;
+  const tipoFormatado = tipoRelatorio === 'imc' ? 'IMC' : 'consumo';
+  document.getElementById("titulo-relatorio").innerText = `Relatório de ${tipoFormatado}`;
   document.getElementById("resumo-relatorio").innerText = `Períodos selecionados: ${periodos.join(', ')}`;
+  document.getElementById("valor-imc").innerHTML = '';
+  document.getElementById("listaAgenda").innerHTML = '';
   mostrarTela('final');
 }
 
@@ -72,23 +76,22 @@ function mostrarResultadoSalvo() {
 function listarAgenda() {
   const dados = JSON.parse(localStorage.getItem('db_agenda') || '[]');
 
-  // Seleciona o elemento da página onde os dados serão exibidos
   const container = document.getElementById('listaAgenda');
-  container.innerHTML = ''; // Limpa conteúdo anterior, se houver
+  container.innerHTML = '';
 
-  dados.forEach((item, index) => {
-    // Exibe no console (opcional)
-    //console.log(`--- Receita ${index + 1} ---`);
-    //console.log(item);
-	
-	const textoSemChaves = JSON.stringify(item, null, 2).replace(/[{}",]/g, ' ');
-	
-    // Cria um elemento para exibir na página
+  if (dados.length === 0) {
+    container.innerHTML = '<div class="agenda-item"><strong>Nenhuma receita encontrada.</strong><span>Adicione receitas na agenda para visualizar aqui.</span></div>';
+    return dados;
+  }
+
+  dados.forEach((item) => {
     const receitaDiv = document.createElement('div');
+    receitaDiv.className = 'agenda-item';
+    const nome = item.receita?.nomeReceita || 'Receita sem nome';
+    const dia = item.id || '-';
     receitaDiv.innerHTML = `
-      <h4>Receita ${index + 1}</h4>
-      <pre>${textoSemChaves}</pre>
-      <hr/>
+      <strong>${nome}</strong>
+      <span>Dia ${dia}</span>
     `;
     container.appendChild(receitaDiv);
   });

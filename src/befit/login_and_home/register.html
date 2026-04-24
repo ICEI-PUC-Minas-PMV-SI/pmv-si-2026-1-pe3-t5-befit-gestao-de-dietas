@@ -1,84 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UZ-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style_befit.css">
-    <title>Document</title>
+    <title>Cadastro - BeFit</title>
 </head>
 
 <body>
-    <header>
-
-    </header>
-    </div>
+    <header></header>
     <main>
-
-
-
-
         <div class="div-center">
-            <!---
-            <form class="form">
-                <button class="fechar" onclick= "window.location.href='../index_befit.html'">X</button>
-
-                <a class="fechar" href="../index_befit.html">X</a>
-                <p class="form-title">Cadastre-se </p>
-                <div class="input-container">
-                    <input type="text" placeholder="Nome">
-                    <span>
-                    </span>
-                </div>
-                <div class="input-container">
-                    <input type="text" placeholder="e-mail">
-                    <span>
-                    </span>
-                </div>
-                <div class="input-container">
-                    <input type="password" placeholder="Senha">
-                </div>
-                <div class="input-container">
-                    <input type="password" placeholder="confirme sua senha">
-                </div>
-                <button type="submit" class="submit" onclick="cadastrar()">
-                    Cadastrar
-                </button>
-
-                <p class="signup-link">
-                    Já possui conta ?
-                    <a href="login.html">faça login</a>
-                </p>
-            </form> -->
-
-            
             <div class="form">
                 <div id="cadastro-box">
                     <form id="cadastro">
-                        <a class="fechar" href="../index_befit.html">X</a>
-                        <p class="form-title" id="msgcadastro">Cadastre-se </p>
+                        <a class="fechar" href="../index_befit.html" aria-label="Voltar para a página inicial">X</a>
+                        <p class="form-title" id="msgcadastro">Crie sua conta</p>
+                        <p class="form-subtitle">Acompanhe suas dietas, receitas e relatórios com mais clareza.</p>
 
                         <div class="input-container">
-                            <input type="text" id="txt_nome" required placeholder="Nome completo">
+                            <label for="txt_nome">Nome completo</label>
+                            <input type="text" id="txt_nome" required placeholder="Ex.: Maria Silva" autocomplete="name">
                         </div>
                         <div class="input-container">
-                            <input type="text" id="txt_email" required placeholder="e-mail">
+                            <label for="txt_email">E-mail</label>
+                            <input type="email" id="txt_email" required placeholder="voce@email.com" autocomplete="email">
                         </div>
                         <div class="input-container">
-                            <input type="password" id="txt_senha" required placeholder="Senha">
+                            <label for="txt_senha">Senha</label>
+                            <input type="password" id="txt_senha" required minlength="4" placeholder="Crie uma senha" autocomplete="new-password">
                         </div>
                         <div class="input-container">
-                            <input type="password" id="txt_senha2" required placeholder="Confirmação de Senha">
+                            <label for="txt_senha2">Confirmar senha</label>
+                            <input type="password" id="txt_senha2" required minlength="4" placeholder="Repita a senha" autocomplete="new-password">
                         </div>
                         <div class="modal-footer">
-                            <button class="submit" type="button" id="btnSalvar" class="salvar" onclick="cadastrar()">
-                                Cadastrar </button>
+                            <button class="submit salvar" type="button" id="btnSalvar" onclick="cadastrar()">
+                                Cadastrar
+                            </button>
                         </div>
 
                         <p class="signup-link">
-                            Já possui conta ?
-                            <a href="login.html">faça login</a>
+                            Já possui conta?
+                            <a href="login.html">Faça login</a>
                         </p>
                     </form>
                 </div>

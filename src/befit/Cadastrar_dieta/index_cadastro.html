@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
 	<meta charset="UTF-8">
@@ -27,7 +27,7 @@
 <body>
 	<div class="grid-container" style="background-color:#F79D31;">
 		<header class="header">
-			<a href="../login_and_home/home.html"><img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo" ;></a>
+			<a href="../login_and_home/home.html"><img src="../imgs/Logo_Befit.png" alt="Logo BeFit" class="logo"></a>
 			
 			<!--<img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo";>-->
 			<div class="menu-desktop">
@@ -51,7 +51,7 @@
 					</li>-->
 					
 				</ul>
-				<a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt"imagem login btn" class="login_btn" ;></a>
+				<a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="Login" class="login_btn"></a>
 			</div>
 
 			<div>
@@ -67,7 +67,7 @@
 
 				<!-- Menu lateral (direita) -->
 				<nav class="sidebar">
-					<a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt"imagem login btn" class="login_btn_reps" ;></a>
+					<a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="Login" class="login_btn_reps"></a>
 					<ul>
 						<li><a href="../login_and_home/home.html">Home</a></li>
 						<li><a href="../index_befit.html">Cadastro</a></li>
@@ -82,44 +82,61 @@
 		</header>
 
 		<div class="left" style="background-color:#F79D31;">
-			<div class="container">
-				<h2>CADASTRE A SUA DIETA</h2>
+			<div class="container diet-card">
+				<p class="form-step">Nova dieta</p>
+				<h2>Monte sua dieta</h2>
+				<p class="form-helper">Adicione um alimento por vez e acompanhe a composição antes de salvar.</p>
 				<form id="alimentoForm">
-					<label for="refeicao">Refeição</label>
-					<select id="refeicao" required>
-						<option value="">Selecione</option>
-						<option value="Café da Manhã">Café da Manhã</option>
-						<option value="Almoço">Almoço</option>
-						<option value="Lanche">Lanche</option>
-						<option value="Jantar">Jantar</option>
-					</select>
-					<label for="tipoAlimento">Tipo de Alimento</label>
-					<select id="tipoAlimento" required>
-						<option value="">Selecione</option>
-						<option value="Carboidrato">Carboidrato</option>
-						<option value="Proteína">Proteína</option>
-						<option value="Gordura Saudável">Gordura Saudável</option>
-						<option value="Vegetal">Vegetal</option>
-					</select>
-					<label for="nomeAlimento">Nome do Alimento</label>
-					<input type="text" id="nomeAlimento" required>
-					<label for="gramas">Quantidade (em gramas)</label>
-					<input type="number" id="gramas" required>
-					<label for="alergias">Alergias (glúten, lactose, etc.)</label>
-					<textarea id="alergias" placeholder="Descreva as alergias se houver"></textarea>
-					<button class="btn-cadastrar" type="button" onclick="adicionarAlimento()">Adicionar
-						Alimento</button>
-					<button class="btn-cadastrar" type="button" onclick="SalvarDieta()">Salvar Dieta</button>
-					<button class="btn-cadastrar" onclick="window.location.href='receitas.html'">
-						Selecionar Receitas
-					</button>
+					<div class="form-grid">
+						<div class="form-field">
+							<label for="refeicao">Refeição</label>
+							<select id="refeicao" required>
+								<option value="">Selecione</option>
+								<option value="Café da Manhã">Café da Manhã</option>
+								<option value="Almoço">Almoço</option>
+								<option value="Lanche">Lanche</option>
+								<option value="Jantar">Jantar</option>
+							</select>
+						</div>
+						<div class="form-field">
+							<label for="tipoAlimento">Tipo de alimento</label>
+							<select id="tipoAlimento" required>
+								<option value="">Selecione</option>
+								<option value="Carboidrato">Carboidrato</option>
+								<option value="Proteína">Proteína</option>
+								<option value="Gordura Saudável">Gordura Saudável</option>
+								<option value="Vegetal">Vegetal</option>
+							</select>
+						</div>
+						<div class="form-field">
+							<label for="nomeAlimento">Alimento</label>
+							<input type="text" id="nomeAlimento" required placeholder="Ex.: arroz integral">
+						</div>
+						<div class="form-field">
+							<label for="gramas">Quantidade</label>
+							<input type="number" id="gramas" min="1" required placeholder="Gramas">
+						</div>
+						<div class="form-field form-field-full">
+							<label for="alergias">Alergias ou observações</label>
+							<textarea id="alergias" placeholder="Ex.: sem lactose"></textarea>
+						</div>
+					</div>
+					<div class="form-actions">
+						<button class="btn-cadastrar" type="button" onclick="adicionarAlimento()">Adicionar alimento</button>
+						<button class="btn-cadastrar btn-cadastrar-principal" type="button" onclick="SalvarDieta()">Salvar dieta</button>
+						<button class="btn-cadastrar btn-cadastrar-secundario" type="button" onclick="window.location.href='receitas.html'">
+							Selecionar receitas
+						</button>
+					</div>
 				</form>
-				<div class="result" id="resultado"></div>
+				<div class="result" id="resultado" role="status" aria-live="polite"></div>
 			</div>
 		</div>
-		<div class="rigth container img-dieta">
-			<h3>Dieta Completa</h3>
-			<span id="dados-dieta"></span>
+		<div class="rigth right container img-dieta diet-preview">
+			<h3>Dieta completa</h3>
+			<div id="dados-dieta" class="diet-list">
+				<p class="empty-state">Nenhum alimento adicionado ainda.</p>
+			</div>
 		</div>
 		<div class="footer">
 			<p>Copyright 2025 - BeFit- Todos os direitos reservados</p>
@@ -137,12 +154,17 @@
 		function adicionarAlimento() {
 			const refeicao = document.getElementById('refeicao').value;
 			const tipo = document.getElementById('tipoAlimento').value;
-			const nome = document.getElementById('nomeAlimento').value;
+			const nome = document.getElementById('nomeAlimento').value.trim();
 			const gramas = document.getElementById('gramas').value;
-			const alergias = document.getElementById('alergias').value;
+			const alergias = document.getElementById('alergias').value.trim();
 
 			if (!refeicao || !tipo || !nome || !gramas) {
-				alert("Preencha todos os campos obrigatórios.");
+				mostrarMensagem("Preencha refeição, tipo, alimento e quantidade.", "erro");
+				return;
+			}
+
+			if (Number(gramas) <= 0) {
+				mostrarMensagem("Informe uma quantidade maior que zero.", "erro");
 				return;
 			}
 
@@ -153,38 +175,59 @@
 			dieta[refeicao].push({ tipo, nome, gramas, alergias });
 
 			AtualizaDadosDieta();
+			mostrarMensagem("Alimento adicionado à dieta.", "sucesso");
 
 			document.getElementById('alimentoForm').reset();
 		}
 
 		function SalvarDieta() {
 			if (Object.keys(dieta).length === 0) {
-				alert("Adicione pelo menos um alimento antes de salvar a dieta.");
+				mostrarMensagem("Adicione pelo menos um alimento antes de salvar.", "erro");
 				return;
 			}
 
 			db.save({
-				id: hash.sha1(JSON.stringify(dieta)),
+				id: hash.uuid(),
 				dieta: dieta
 			})
 
-			alert("Dieta salva com sucesso!");
+			mostrarMensagem("Dieta salva com sucesso!", "sucesso");
 			dieta = {}; // Limpa a dieta após salvar
 			AtualizaDadosDieta();
 			document.getElementById('alimentoForm').reset();
 		}
 		
 		function AtualizaDadosDieta() {
-			console.log(dieta);
 			const resultado = document.getElementById('dados-dieta');
 			resultado.innerHTML = '';
+			if (Object.keys(dieta).length === 0) {
+				resultado.innerHTML = '<p class="empty-state">Nenhum alimento adicionado ainda.</p>';
+				return;
+			}
+
 			for (const refeicao in dieta) {
 				const alimentos = dieta[refeicao];
-				resultado.innerHTML += `<h4>${refeicao}</h4>`;
-				alimentos.forEach(alimento => {
-					resultado.innerHTML += `<p>${alimento.nome} (${alimento.gramas}g) - ${alimento.tipo} - Alergias: ${alimento.alergias || 'Nenhuma'}</p>`;
-				});
+				const itens = alimentos.map(alimento => `
+					<li>
+						<strong>${alimento.nome}</strong>
+						<span>${alimento.gramas}g &middot; ${alimento.tipo}</span>
+						<small>${alimento.alergias || 'Sem alergias informadas'}</small>
+					</li>
+				`).join('');
+
+				resultado.innerHTML += `
+					<div class="meal-group">
+						<h4>${refeicao}</h4>
+						<ul>${itens}</ul>
+					</div>
+				`;
 			}
+		}
+
+		function mostrarMensagem(texto, tipo) {
+			const status = document.getElementById('resultado');
+			status.textContent = texto;
+			status.className = `result ${tipo}`;
 		}
 	</script>
 </body>

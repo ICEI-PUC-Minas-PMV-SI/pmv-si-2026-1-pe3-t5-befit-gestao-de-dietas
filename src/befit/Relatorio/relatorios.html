@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -16,7 +16,7 @@
   <div class="grid-container">
     <header class="header">
 
-			<a href="../login_and_home/home.html"><img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo" ;></a>
+			<a href="../login_and_home/home.html"><img src="../imgs/Logo_Befit.png" alt="Logo BeFit" class="logo"></a>
 			
       <div class="menu-desktop">
 
@@ -40,7 +40,7 @@
           </li>-->
           
         </ul>
-        <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt"imagem login btn" class="login_btn" ;></a>
+        <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="Login" class="login_btn"></a>
       </div>
 
       <div>
@@ -56,7 +56,7 @@
 
         <!-- Menu lateral (direita) -->
         <nav class="sidebar">
-          <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt"imagem login btn" class="login_btn_reps" ;></a>
+          <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="Login" class="login_btn_reps"></a>
           <ul>
             <li><a href="../login_and_home/home.html">Home</a></li>
             <li><a href="../index_befit.html">Cadastro</a></li>
@@ -73,41 +73,53 @@
 
     <section class="left">
       <div class="paghome">
-        <h2>Chegou a hora de ser fitness!</h2>
+        <p class="report-eyebrow">Relatórios BeFit</p>
+        <h2>Acompanhe sua evolução</h2>
         <!-- Tela 1: Relatório -->
         <div id="relatorio" class="section active">
-          <h2>RELATÓRIO</h2>
-          <h3>CONSUMO</h3>
-          <button onclick="irParaPeriodo('consumo')">GERAR RELATÓRIO</button>
-          <h3>IMC</h3>
-          <button onclick="irParaPeriodo('imc')">GERAR RELATÓRIO</button>
+          <div class="report-options">
+            <button class="report-option" onclick="irParaPeriodo('consumo')">
+              <span>Consumo</span>
+              <strong>Gerar relatório</strong>
+            </button>
+            <button class="report-option" onclick="irParaPeriodo('imc')">
+              <span>IMC</span>
+              <strong>Gerar relatório</strong>
+            </button>
+          </div>
         </div>
 
         <!-- Tela 2: Período -->
         <div id="periodo" class="section">
-          <h3>PERÍODO</h3>
-          <form id="form-periodo">
-            <label><input type="checkbox" name="periodo" value="Diário"> Diário</label>
-            <label><input type="checkbox" name="periodo" value="Semanal"> Semanal</label>
-            <label><input type="checkbox" name="periodo" value="Mensal"> Mensal</label>
-            <label><input type="checkbox" name="periodo" value="Anual"> Anual</label>
+          <h3>Escolha o período</h3>
+          <form id="form-periodo" class="period-grid">
+            <label><input type="checkbox" name="periodo" value="Diário"> <span>Diário</span></label>
+            <label><input type="checkbox" name="periodo" value="Semanal"> <span>Semanal</span></label>
+            <label><input type="checkbox" name="periodo" value="Mensal"> <span>Mensal</span></label>
+            <label><input type="checkbox" name="periodo" value="Anual"> <span>Anual</span></label>
           </form>
-          <button onclick="irParaFinal()">GERAR RELATÓRIO</button>
+          <div class="report-actions">
+            <button class="button-secondary" onclick="mostrarTela('relatorio')">Voltar</button>
+            <button onclick="irParaFinal()">Gerar relatório</button>
+          </div>
         </div>
 
         <!-- Tela 3: Final -->
         <div id="final" class="section">
-          <h3>RELATÓRIO GERADO</h3>
+          <h3>Relatório gerado</h3>
            <!--<button class="button" onclick="salvarPDF()">SALVAR EM PDF</button>-->
-          <button class="button" onclick="window.print()">IMPRIMIR</button>
-          <button class="button" onclick="mostrarResultadoSalvo()">Mostrar Último IMC</button>
-          <button class="button" onclick="listarAgenda()">Mostrar Receitas</button>
+          <div class="report-actions">
+            <button class="button" onclick="window.print()">Imprimir</button>
+            <button class="button" onclick="mostrarResultadoSalvo()">Último IMC</button>
+            <button class="button" onclick="listarAgenda()">Receitas</button>
+            <button class="button-secondary" onclick="mostrarTela('relatorio')">Gerar outro</button>
+          </div>
 
           <div class="pdf-content" id="pdf-content">
             <h3 id="titulo-relatorio"></h3>
             <p id="resumo-relatorio"></p>
             <p id="valor-imc" style="font-size:15px;"></p>
-            <p id="listaAgenda" style="font-size:14px;"></p>
+            <div id="listaAgenda" style="font-size:14px;"></div>
           </div>
         </div>
 
@@ -169,13 +181,12 @@
 		 }
 		 		 
         </script>-->
-
+      </div>
     </section>
 
     <section class="right">
-      <p class="img_01"><img src="../imgs/relatorios.jpg" alt" " class=" inicio";></p>
-  </div>
-  </section>
+      <p class="img_01"><img src="../imgs/relatorios.jpg" alt="Relatórios de acompanhamento nutricional" class="inicio"></p>
+    </section>
 
 
   <footer class="footer">

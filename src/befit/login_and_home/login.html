@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UZ-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style_befit.css">
-    <title>login</title>
+    <title>Login - BeFit</title>
 </head>
 
 <body>
@@ -17,22 +17,23 @@
         <div class="div-center">
             <form class="form">
                 <!--<button class="fechar" onclick= "window.location.href='../index_befit.html'">X</button>-->
-                <a class="fechar" href="../index_befit.html">X</a>
-                <p class="form-title">Faça login na sua conta</p>
+                <a class="fechar" href="../index_befit.html" aria-label="Voltar para a página inicial">X</a>
+                <p class="form-title">Entre na sua conta</p>
+                <p class="form-subtitle">Continue acompanhando suas dietas e relatórios.</p>
                 <div class="input-container">
-                    <input type="email" placeholder="Login">
-                    <span>
-                    </span>
+                    <label for="loginn">E-mail</label>
+                    <input type="email" id="loginn" placeholder="voce@email.com" autocomplete="email">
                 </div>
                 <div class="input-container">
-                    <input type="password" placeholder="Senha">
+                    <label for="senhaLogin">Senha</label>
+                    <input type="password" id="senhaLogin" placeholder="Digite sua senha" autocomplete="current-password">
                 </div>
-                <button type="submit" class="submit" style="text-decoration: none;" value="Entrar" onclick="login()">
-                    <a href="home.html">Entrar</a>
+                <button type="button" class="submit" style="text-decoration: none;" value="Entrar" onclick="login()">
+                    Entrar
                 </button>
 
                 <p class="signup-link">
-                    Não tem conta ?
+                    Não tem conta?
                     <a href="register.html">Cadastre-se</a>
                 </p>
             </form>

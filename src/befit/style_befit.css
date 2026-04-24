@@ -494,3 +494,87 @@ main h2 {
       'footer footer footer footer footer footer';
   }
 }
+
+/* ===== MELHORIAS DE INTERFACE ===== */
+.paghome {
+  max-width: 640px;
+  padding: 42px 0 36px 30px;
+}
+
+.hero-eyebrow {
+  width: fit-content;
+  margin: 0 0 12px 40px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.88);
+  color: var(--color-verde-escuro);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.left h1 {
+  max-width: 620px;
+  margin: 0;
+  padding: 0 40px 16px;
+  line-height: 1.08;
+}
+
+.left h3 {
+  margin: 0 0 18px 40px;
+  color: #4f351d;
+}
+
+.left p {
+  margin: 0 0 0 40px;
+  line-height: 1.55;
+}
+
+.left .hero-eyebrow {
+  margin: 0 0 12px 40px;
+  line-height: 1.2;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 30px 0 0 40px;
+}
+
+.hero-actions .btn-cadastrar {
+  margin: 0;
+}
+
+.btn-cadastrar-secundario {
+  background-color: var(--color-white);
+  color: var(--color-verde-escuro);
+  border: 2px solid var(--color-verde-escuro);
+}
+
+.btn-cadastrar-secundario:hover {
+  background-color: #f3f8ec;
+  color: var(--color-verde-escuro);
+}
+
+@media (max-width: 768px) {
+  .paghome {
+    padding: 28px 0 28px;
+  }
+
+  .hero-actions {
+    margin-left: 24px;
+  }
+
+  .hero-eyebrow,
+  .left h3,
+  .left p {
+    margin-left: 24px;
+  }
+
+  .left h1 {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 36px;
+  }
+}

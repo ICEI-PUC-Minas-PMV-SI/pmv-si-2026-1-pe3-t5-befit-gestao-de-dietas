@@ -561,3 +561,210 @@ main h2 {
       'footer footer footer footer footer footer';
   }
 }
+
+/* ===== MELHORIAS DO CADASTRO DE DIETA ===== */
+.left {
+  display: flex;
+  align-items: stretch;
+}
+
+.container.diet-card,
+.container.diet-preview {
+  margin: 28px;
+  border-radius: 8px;
+}
+
+.container.diet-card {
+  max-width: 760px;
+  width: calc(100% - 56px);
+  padding: 28px;
+}
+
+.form-step {
+  margin: 0 0 8px;
+  color: var(--color-verde-escuro);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.diet-card h2 {
+  margin: 0;
+  padding: 0 0 8px;
+  color: var(--color-verde-escuro);
+  text-align: left;
+}
+
+.form-helper {
+  margin: 0 0 24px;
+  color: #5f5f5f;
+  line-height: 1.45;
+}
+
+.form-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.form-field-full {
+  grid-column: 1 / -1;
+}
+
+.form-field label {
+  margin: 0 0 6px;
+  color: var(--color-text-dark);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  min-height: 46px;
+  padding: 12px 14px;
+  border: 1px solid #d6d9d2;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.form-field textarea {
+  min-height: 88px;
+  resize: vertical;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--color-verde-claro);
+  box-shadow: 0 0 0 3px rgba(118, 174, 29, 0.16);
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.form-actions .btn-cadastrar {
+  width: auto;
+  min-width: 168px;
+  margin: 0;
+}
+
+.btn-cadastrar-principal {
+  background-color: var(--color-verde-escuro);
+}
+
+.btn-cadastrar-secundario {
+  background-color: var(--color-white);
+  color: var(--color-verde-escuro);
+  border: 2px solid var(--color-verde-escuro);
+}
+
+.btn-cadastrar-secundario:hover {
+  background-color: #f3f8ec;
+  color: var(--color-verde-escuro);
+}
+
+.result {
+  min-height: 22px;
+  margin-top: 16px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.result:empty {
+  display: none;
+}
+
+.result.sucesso {
+  background-color: #ecf7dd;
+  color: var(--color-verde-escuro);
+}
+
+.result.erro {
+  background-color: #fff0df;
+  color: #7a3f00;
+}
+
+.container.diet-preview {
+  width: min(500px, calc(100% - 56px));
+  min-height: 560px;
+  padding: 28px;
+  color: var(--color-text-dark);
+  background-color: rgba(255, 255, 255, 0.9);
+  background-blend-mode: screen;
+}
+
+.diet-preview h3 {
+  margin: 0 0 18px;
+  color: var(--color-verde-escuro);
+  text-align: left;
+}
+
+.diet-list {
+  display: block;
+}
+
+.empty-state {
+  margin: 0;
+  padding: 18px;
+  border: 1px dashed #c7d2b3;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #5f5f5f;
+}
+
+.meal-group {
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.meal-group h4 {
+  margin: 0 0 10px;
+  color: var(--color-marrom);
+}
+
+.meal-group ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.meal-group li {
+  display: grid;
+  gap: 4px;
+  padding: 10px 0;
+  border-top: 1px solid #edf0e8;
+}
+
+.meal-group li:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.meal-group span,
+.meal-group small {
+  color: #5f5f5f;
+}
+
+@media (max-width: 900px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-actions .btn-cadastrar {
+    width: 100%;
+  }
+
+  .container.diet-preview {
+    min-height: auto;
+  }
+}
