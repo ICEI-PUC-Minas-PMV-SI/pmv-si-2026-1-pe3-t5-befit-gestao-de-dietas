@@ -116,28 +116,9 @@ Persona: Aurora Martins
 A usuária foi convidada a realizar as seguintes tarefas: criar uma conta e fazer login.
 
 Tarefa 1
-Criar uma conta
-
-Tempo: 1 min 10s
-Resultado: Concluído com sucesso
-
-Observações:
-Aurora encontrou facilmente o botão “Novo usuário”. 
-O formulário é simples e direto.
-
-Problema:
-Nenhuma indicação visual de erro ou validação de campos.
-
-Tarefa 2: Login
-Tempo: 40s
-Resultado: Concluído
-Observações:
-Interface clara e objetiva.
-Problema:
-O botão poderia estar mais destacado.
+Criar uma conta, o tempo foi 1 min 10s, tendo concluído com sucesso. Aurora encontrou facilmente o botão “Novo usuário” e entendeu que o formulário é simples e direto, mas o botão poderia estar mais destacado.
 
 Feedback da usuária (Aurora Martins)
-
 Pontos positivos:
 Interface simples e organizada
 Funcionalidades úteis para o dia a dia
