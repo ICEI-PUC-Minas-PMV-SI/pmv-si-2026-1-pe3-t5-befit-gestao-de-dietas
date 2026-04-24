@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -17,19 +17,19 @@
   <div class="body-01">
 
     <header class="header">
-      <a href="home.html"><img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo" ;></a>
+      <a href="home.html"><img src="../imgs/Logo_Befit.png" alt="Logo BeFit" class="logo"></a>
 			
       <!--<img src="imgs/Logo_Befit.png" alt"" class="logo" ;>-->
       <div class="menu-desktop">
         
         <ul>
-          <li><a href="../login_and_home/home.html">Home</a></li>
-          <li><a href="../index_befit.html">Cadastro</a></li>
-          <li><a href="../Relatorio/relatorios.html">Relatórios</a></li>
-          <li><a href="../Cadastrar_dieta/index_cadastro.html">Dietas</a></li>
-          <li><a href="../receitas/receitas.html">Receitas</a></li>
-          <li><a href="../Cadastrar_dieta/compras.html">Lista de Compras</a></li>
-          <li><a href="../IMC/index_imc.html">IMC</a></li>
+          <li><a class="nav-link active" href="../login_and_home/home.html"><i data-lucide="home" aria-hidden="true"></i><span>Home</span></a></li>
+          <li><a class="nav-link" href="../index_befit.html"><i data-lucide="user-plus" aria-hidden="true"></i><span>Cadastro</span></a></li>
+          <li><a class="nav-link" href="../Relatorio/relatorios.html"><i data-lucide="bar-chart-3" aria-hidden="true"></i><span>Relatórios</span></a></li>
+          <li><a class="nav-link" href="../Cadastrar_dieta/index_cadastro.html"><i data-lucide="utensils" aria-hidden="true"></i><span>Dietas</span></a></li>
+          <li><a class="nav-link" href="../receitas/receitas.html"><i data-lucide="book-open" aria-hidden="true"></i><span>Receitas</span></a></li>
+          <li><a class="nav-link" href="../Cadastrar_dieta/compras.html"><i data-lucide="shopping-cart" aria-hidden="true"></i><span>Lista de Compras</span></a></li>
+          <li><a class="nav-link" href="../IMC/index_imc.html"><i data-lucide="calculator" aria-hidden="true"></i><span>IMC</span></a></li>
           <!--<li style="float:right">
             <form class="search-container" action="#" method="get">
               <input type="text" name="q" placeholder="Pesquisar...">
@@ -41,7 +41,7 @@
           </li>-->
           
         </ul>
-        <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt"imagem login btn" class="login_btn" ;></a>
+        <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="Login" class="login_btn"></a>
       </div>
 
       <div>
@@ -57,15 +57,15 @@
 
         <!-- Menu lateral (direita) -->
         <nav class="sidebar">
-          <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt"imagem login btn" class="login_btn_reps" ;></a>
+          <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="Login" class="login_btn_reps"></a>
           <ul>
-            <li><a href="../login_and_home/home.html">Home</a></li>
-            <li><a href="../index_befit.html">Cadastro</a></li>
-            <li><a href="../Relatorio/relatorios.html">Relatórios</a></li>
-            <li><a href="../Cadastrar_dieta/index_cadastro.html">Dietas</a></li>
-            <li><a href="../receitas/receitas.html">Receitas</a></li>
-            <li><a href="../Cadastrar_dieta/compras.html">Lista de Compras</a></li>
-            <li><a href="../IMC/index_imc.html">IMC</a></li>
+            <li><a class="nav-link active" href="../login_and_home/home.html"><i data-lucide="home" aria-hidden="true"></i><span>Home</span></a></li>
+            <li><a class="nav-link" href="../index_befit.html"><i data-lucide="user-plus" aria-hidden="true"></i><span>Cadastro</span></a></li>
+            <li><a class="nav-link" href="../Relatorio/relatorios.html"><i data-lucide="bar-chart-3" aria-hidden="true"></i><span>Relatórios</span></a></li>
+            <li><a class="nav-link" href="../Cadastrar_dieta/index_cadastro.html"><i data-lucide="utensils" aria-hidden="true"></i><span>Dietas</span></a></li>
+            <li><a class="nav-link" href="../receitas/receitas.html"><i data-lucide="book-open" aria-hidden="true"></i><span>Receitas</span></a></li>
+            <li><a class="nav-link" href="../Cadastrar_dieta/compras.html"><i data-lucide="shopping-cart" aria-hidden="true"></i><span>Lista de Compras</span></a></li>
+            <li><a class="nav-link" href="../IMC/index_imc.html"><i data-lucide="calculator" aria-hidden="true"></i><span>IMC</span></a></li>
           </ul>
         </nav>
       </div>
@@ -76,28 +76,28 @@
       </div>
       <div class="botoes">
         <div class="bnt-ctn">
-          <p class="bnt-text">Cadastrar Nova Dieta</p><img src="../imgs/cad_dieta.png" />
-          <div><button onclick="window.location.href='../Cadastrar_dieta/index_cadastro.html'">Acessar</button></div>
+          <div class="card-title"><i data-lucide="utensils" aria-hidden="true"></i><p class="bnt-text">Cadastrar Nova Dieta</p></div><img src="../imgs/cad_dieta.png" alt="Prato saudável" />
+          <div><button onclick="window.location.href='../Cadastrar_dieta/index_cadastro.html'"><span>Acessar</span><i data-lucide="arrow-right" aria-hidden="true"></i></button></div>
         </div>
         <div class="bnt-ctn">
-          <p class="bnt-text">Outras Receitas</p><img src="../imgs/fav_receita.png" />
-          <div><button onclick="window.location.href='../receitas/receitas.html'">Acessar</button></div>
+          <div class="card-title"><i data-lucide="book-open" aria-hidden="true"></i><p class="bnt-text">Outras Receitas</p></div><img src="../imgs/fav_receita.png" alt="Receita favorita" />
+          <div><button onclick="window.location.href='../receitas/receitas.html'"><span>Acessar</span><i data-lucide="arrow-right" aria-hidden="true"></i></button></div>
         </div>
         <div class="bnt-ctn">
-          <p class="bnt-text">Calculo IMC</p><img src="../imgs/cal_imc.png" />
-          <div><button onclick="window.location.href='../IMC/index_imc.html'">Acessar</button></div>
+          <div class="card-title"><i data-lucide="calculator" aria-hidden="true"></i><p class="bnt-text">Cálculo IMC</p></div><img src="../imgs/cal_imc.png" alt="Calculadora de IMC" />
+          <div><button onclick="window.location.href='../IMC/index_imc.html'"><span>Acessar</span><i data-lucide="arrow-right" aria-hidden="true"></i></button></div>
         </div>
         <div class="bnt-ctn">
-          <p class="bnt-text">Lista de compras</p><img src="../imgs/lista_compra.png" />
-          <div><button onclick="window.location.href='../Cadastrar_dieta/compras.html'">Acessar</button></div>
+          <div class="card-title"><i data-lucide="shopping-cart" aria-hidden="true"></i><p class="bnt-text">Lista de compras</p></div><img src="../imgs/lista_compra.png" alt="Lista de compras" />
+          <div><button onclick="window.location.href='../Cadastrar_dieta/compras.html'"><span>Acessar</span><i data-lucide="arrow-right" aria-hidden="true"></i></button></div>
         </div>
         <div class="bnt-ctn">
-          <p class="bnt-text">Relatórios</p><img src="../imgs/img_relatorio.png" />
-          <div><button onclick="window.location.href='../Relatorio/relatorios.html'">Acessar</button></div>
+          <div class="card-title"><i data-lucide="bar-chart-3" aria-hidden="true"></i><p class="bnt-text">Relatórios</p></div><img src="../imgs/img_relatorio.png" alt="Relatórios" />
+          <div><button onclick="window.location.href='../Relatorio/relatorios.html'"><span>Acessar</span><i data-lucide="arrow-right" aria-hidden="true"></i></button></div>
         </div>
         <div class="bnt-ctn">
-          <p class="bnt-text">Receitas Sugeridas</p><img src="../imgs/new_receita.png" />
-          <div><button onclick="window.location.href='../Cadastrar_dieta/receitas.html'">Acessar</button></div>
+          <div class="card-title"><i data-lucide="sparkles" aria-hidden="true"></i><p class="bnt-text">Receitas Sugeridas</p></div><img src="../imgs/new_receita.png" alt="Receitas sugeridas" />
+          <div><button onclick="window.location.href='../Cadastrar_dieta/receitas.html'"><span>Acessar</span><i data-lucide="arrow-right" aria-hidden="true"></i></button></div>
         </div>
       </div>
     </main>
@@ -105,6 +105,13 @@
       <p>Copyright 2025 - BeFit- Todos os direitos reservados</p>
     </footer>
   </div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
 
 </body>
 

@@ -378,6 +378,39 @@ main h2 {
   background: var(--color-verde-claro);
 }
 
+.menu-desktop .nav-link,
+.sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.menu-desktop .nav-link svg,
+.sidebar .nav-link svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2.2;
+}
+
+.menu-desktop .nav-link.active {
+  color: var(--color-verde-escuro);
+  font-weight: 700;
+}
+
+.menu-desktop .nav-link.active svg,
+.menu-desktop .nav-link:hover svg {
+  color: var(--color-verde-claro);
+}
+
+.sidebar .nav-link {
+  justify-content: flex-start;
+}
+
+.sidebar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
 /* ===== BTN Login ===== */
 .login_btn {
   display: block;
@@ -508,19 +541,61 @@ main h2 {
 .bnt-ctn {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: var(--color-bg-light);
   border-radius: 5px;
   padding: 20px;
 }
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 34px;
+  margin-bottom: 10px;
+}
+
+.card-title svg {
+  width: 24px;
+  height: 24px;
+  color: var(--color-verde-escuro);
+  stroke-width: 2.4;
+  flex: 0 0 auto;
+}
+
 .bnt-text {
   text-align: center;
   font-weight: bold;
   font-size: var(--font-size-button);
+  margin: 0;
 }
 .botoes img {
   width: 240px;
   margin: auto;
   margin-bottom: 10px;
+}
+
+.botoes button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.botoes button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.bnt-ctn:hover .card-title svg {
+  color: var(--color-laranja);
+}
+
+.bnt-ctn:hover {
+  box-shadow: 0 10px 22px rgba(51, 51, 51, 0.12);
+  transform: translateY(-2px);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .main-stl {
   background-color: var(--color-laranja);
