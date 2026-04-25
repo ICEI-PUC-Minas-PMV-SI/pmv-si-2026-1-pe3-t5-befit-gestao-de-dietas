@@ -4,60 +4,60 @@
 
 ### Persona 1: Juliana Lopes
 
-![persona-1](../src/img/persona-1.png)
+![persona-1](../img/persona-1.png)
 
 ### Persona 2: Lucas Andrade
 
-![persona-2](../src/img/persona-2.png) 
+![persona-2](../img/persona-2.png) 
 
 ### Persona 3: Mariana Souza
 
-![persona-3](../src/img/persona-3.png) 
+![persona-3](../img/persona-3.png) 
 
 ### Persona 4: Carlos Henrique
 
-![persona-4](../src/img/persona-4.png) 
+![persona-4](../img/persona-4.png) 
 
 ### Persona 5: Amanda Santos
 
-![persona-5](../src/img/persona-5.png) 
+![persona-5](../img/persona-5.png) 
 
 ### Persona 6: Fernando Carvalho 
 
-![persona-6](../src/img/persona-6.png) 
+![persona-6](../img/persona-6.png) 
 
 ### Persona 7: Aurora Martins
-![persona-7](../src/img/persona-7.png) 
+![persona-7](../img/persona-7.png) 
 
 ## 4.2 Mapa de Empatia
 
 ### Persona 1: Juliana Lopes
 
-![persona-1](../src/img/mapa-de-empatia-1.png) 
+![persona-1](../img/mapa-de-empatia-1.png) 
 
 ### Persona 2: Lucas Andrade
 
-![persona-2](../src/img/mapa-de-empatia-2.png) 
+![persona-2](../img/mapa-de-empatia-2.png) 
 
 ### Persona 3: Mariana Souza
 
-![persona-3](../src/img/mapa-de-empatia-3.png) 
+![persona-3](../img/mapa-de-empatia-3.png) 
 
 ### Persona 4: Carlos Henrique
 
-![persona-4](../src/img/mapa-de-empatia-4.png) 
+![persona-4](../img/mapa-de-empatia-4.png) 
 
 ### Persona 5: Amanda Santos
 
-![persona-5](../src/img/mapa-de-empatia-5.png)
+![persona-5](../img/mapa-de-empatia-5.png)
 
 ### Persona 6: Fernando Carvalho
 
-![persona-6](../src/img/mapa-de-empatia-6.png)
+![persona-6](../img/mapa-de-empatia-6.png)
 
 ### Persona 7: Aurora Martins
 
-![persona-7](../src/img/mapa-de-empatia-7.png)
+![persona-7](../img/mapa-de-empatia-7.png)
 
 
 
