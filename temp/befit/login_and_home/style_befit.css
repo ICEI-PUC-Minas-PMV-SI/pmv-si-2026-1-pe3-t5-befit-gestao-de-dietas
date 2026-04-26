@@ -399,7 +399,9 @@ main h2 {
 }
 
 .menu-desktop .nav-link.active svg,
-.menu-desktop .nav-link:hover svg {
+.menu-desktop .nav-link:hover svg,
+.sidebar .nav-link.active svg,
+.sidebar .nav-link:hover svg {
   color: var(--color-verde-claro);
 }
 

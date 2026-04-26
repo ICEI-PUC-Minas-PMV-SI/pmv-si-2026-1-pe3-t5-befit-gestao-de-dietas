@@ -720,3 +720,39 @@ main h2 {
     grid-template-columns: 1fr;
   }
 }
+
+.menu-desktop .nav-link,
+.sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.menu-desktop .nav-link svg,
+.sidebar .nav-link svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2.2;
+  transition: color 0.3s ease;
+}
+
+.menu-desktop .nav-link.active {
+  color: var(--color-verde-escuro);
+  font-weight: 700;
+}
+
+.menu-desktop .nav-link.active svg,
+.menu-desktop .nav-link:hover svg,
+.sidebar .nav-link.active svg,
+.sidebar .nav-link:hover svg {
+  color: var(--color-verde-claro);
+}
+
+.sidebar .nav-link {
+  justify-content: flex-start;
+}
+
+.sidebar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.12);
+}
