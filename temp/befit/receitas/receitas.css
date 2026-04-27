@@ -125,7 +125,7 @@ td {
 }
 
 .menu-desktop .nav-link.active {
-  color: var(--color-verde-escuro);
+  color: var(--color-laranja);
   font-weight: 700;
 }
 
