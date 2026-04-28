@@ -239,14 +239,16 @@ Objetivos secundários:
 
 3. Recomendações Ergonômicas:
 -	Carga de trabalho: Apresenta baixa carga de trabalho, a tela possui poucos campos e instruções curtas. 
--	Controle do usuário: Usuário pode inserir valores livremente. Além disso realiza o cálculo do IMC facilmente, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
--	Consistência: Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC. 
--	Feedback imediato: Há exibição do resultado do IMC na tela (o campo “RESULTADO DO SEU IMC” está vazio), clicando no botão “Calcular”.
--	Legibilidade: Fonte de tamanho adequado, contraste bom (preto/cinza sobre branco). 
--	Uso de iconografia: Os ícones utilizados são simples é de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade.
+-	Consistência: Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC.
+-	Legibilidade: Fonte de tamanho adequado, contraste bom (fontes preto/cinza sobre branco/laranja). 
+-	Estética e design minimalista: Layout limpo, sem poluição visual. 
 
 4. Regras de Ouro da Interface:
-- xxxxxx
+- Consistência e padronização: Os ícones utilizados são simples é de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade. A tabela com as informações da classificação do IMC e bem distribuída e padronizada.
+- Fornecer Prevenção de Erros e Forma Simples de Corrigi-los: Projeto da interface evita erros, caso o usuário tente inserir dados inválidos, para o cálculo do IMC, não é permitido. 
+- Feedbacks Informativos: Embora não visível nesta imagem, o botão "Calcular" é um componente que fornece feedback ao ser clicado (resultado do IMC).
+- Fornece Controle de Iniciativa do Usuário: O usuário pode corrigir os campos, utilizando o botão “limpar”. Além disso, pode inserir valores livremente para realizar o cálculo do IMC, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
+- Reduz a Carga de Memória de Trabalho: Primando em reconhecer em vez de lembrar. As informações da tabela estão visíveis para consulta.
 
 
 
