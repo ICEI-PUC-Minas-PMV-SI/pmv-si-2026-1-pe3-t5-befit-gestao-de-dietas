@@ -65,10 +65,67 @@
 
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
 
-### Tela de Cadastro e Login na aplicação
+### Tela Home
 
 ![Tela Home](../img/tela_home.png)
 
+### Tela de Cadastro e Login na aplicação
+
+![Tela de Cadatro](../img/tela_cadastro.PNG)
+![Tela de Cadatro](../img/tela_cadastro2.PNG)
+![Tela de Cadatro](../img/tela_cadastro3.PNG)
+
+### Tela de Relatórios
+
+![Tela de Relatórios](../img/tela_Relatórios.PNG.png)
+![Tela de Relatórios](../img/tela_Relatórios2.PNG.png)
+![Tela de Relatórios](../img/tela_Relatórios3.PNG.png)
+
+### Tela de Cadastro de Dietas
+
+![Tela Cadastro de Dietas](../img/tela_Dieta.PNG)
+
+### Tela de Receitas
+
+![Tela de Receitas](../img/tela_receitas.PNG)
+
+### Tela de Lista de Compras
+
+![Tela Lista de Compras](../img/tela_listacompras.png)
+
+### Tela Agenda
+
+![Tela Agenda](../img/tela_Agenda.PNG)
+
+### Tela Cálculo de IMC
+
+![Tela Calculo de IMC](../img/tela_IMC.PNG.png)
+
+1. Objetivo da Tela
+Objetivo principal:
+•	Permitir que o usuário calcule seu Índice de Massa Corporal (IMC) de forma rápida e intuitiva, inserindo peso e altura, e comparando o resultado com uma tabela de classificação.
+Objetivos secundários:
+•	Educar o usuário sobre o significado do IMC.
+•	Fornecer feedback visual claro sobre a faixa de classificação (magreza, normal, sobrepeso, etc.).
+•	Garantir que o usuário insira os dados no formato correto (ex.: usar ponto como separador decimal).
+
+2. Princípios Gestálticos aplicados:
+•	Proximidade: Os campos de entrada (Peso e Altura) estão próximos entre si, sugerindo que pertencem à mesma etapa de interação. A tabela está separada, indicando ser uma referência.
+•	Similaridade/Região comum: Os campos de entrada usam o mesmo estilo visual (caixas de texto com exemplos), e a tabela usa formatação uniforme.
+•	Simetria: Os objetos são distribuídos de forma simétrica na tela, havendo um equilíbrio entre o bloco de texto à esquerda e a imagem à direita. 
+•	Fecho: A tabela com bordas e linhas organiza as informações de modo que o cérebro completa a estrutura como um bloco único.
+•	Figura-Fundo: O título “RESULTADO DO SEU IMC” e a tabela se destacam do fundo, criando hierarquia visual.
+•	Continuidade: A leitura da tabela é fluida (linhas alinhadas, colunas claras). O fluxo de leitura é vertical.
+
+3. Recomendações Ergonômicas:
+•	Carga de trabalho: Apresenta baixa carga de trabalho, a tela possui poucos campos e instruções curtas. 
+•	Controle do usuário: Usuário pode inserir valores livremente. Além disso realiza o cálculo do IMC facilmente, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
+•	Consistência: Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC. 
+•	Feedback imediato: Há exibição do resultado do IMC na tela (o campo “RESULTADO DO SEU IMC” está vazio), clicando no botão “Calcular”.
+•	Legibilidade: Fonte de tamanho adequado, contraste bom (preto/cinza sobre branco). 
+•	Uso de iconografia: Os ícones utilizados no menu são simples e reconhecíveis. São de fácil reconhecimento e baixo esforço cognitivo.
+
+4. Regras de Ouro da Interface:
 
 
 
