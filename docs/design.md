@@ -221,7 +221,7 @@ Redução da carga de memória: Campos claros e rotulados evitam confusão.
 
 ![tela_IMC](../img/tela_IMC.PNG)
 
-1. Objetivo da Tela
+1. **Objetivo da Tela**
 Objetivo principal:
 -	Permitir que o usuário calcule seu Índice de Massa Corporal (IMC) de forma rápida e intuitiva, inserindo peso e altura, e comparando o resultado com uma tabela de classificação.
 Objetivos secundários:
@@ -229,7 +229,7 @@ Objetivos secundários:
 -	Fornecer feedback visual claro sobre a faixa de classificação (magreza, normal, sobrepeso, etc.).
 -	Garantir que o usuário insira os dados no formato correto (ex.: usar ponto como separador decimal).
 
-2. Princípios Gestálticos aplicados:
+2. **Princípios Gestálticos aplicados:**
 -	Proximidade: Os campos de entrada (Peso e Altura) estão próximos entre si, sugerindo que pertencem à mesma etapa de interação. A tabela está separada, indicando ser uma referência.
 -	Similaridade/Região comum: Os campos de entrada usam o mesmo estilo visual (caixas de texto com exemplos), e a tabela usa formatação uniforme.
 -	Simetria: Os objetos são distribuídos de forma simétrica na tela, havendo um equilíbrio entre o bloco de texto à esquerda e a imagem à direita. 
@@ -237,18 +237,18 @@ Objetivos secundários:
 -	Figura-Fundo: O título “RESULTADO DO SEU IMC” e a tabela se destacam do fundo, criando hierarquia visual.
 -	Continuidade: A leitura da tabela é fluida (linhas alinhadas, colunas claras). O fluxo de leitura é vertical.
 
-3. Recomendações Ergonômicas:
+3. **Recomendações Ergonômicas:**
 -	Carga de trabalho: Apresenta baixa carga de trabalho, a tela possui poucos campos e instruções curtas. 
 -	Consistência: Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC.
 -	Legibilidade: Fonte de tamanho adequado, contraste bom (fontes preto/cinza sobre branco/laranja). 
 -	Estética e design minimalista: Layout limpo, sem poluição visual. 
 
-4. Regras de Ouro da Interface:
+4. **Regras de Ouro da Interface:**
 - Consistência e padronização: Os ícones utilizados são simples é de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade. A tabela com as informações da classificação do IMC e bem distribuída e padronizada.
 - Fornecer Prevenção de Erros e Forma Simples de Corrigi-los: Projeto da interface evita erros, caso o usuário tente inserir dados inválidos, para o cálculo do IMC, não é permitido. 
 - Feedbacks Informativos: Embora não visível nesta imagem, o botão "Calcular" é um componente que fornece feedback ao ser clicado (resultado do IMC).
 - Fornece Controle de Iniciativa do Usuário: O usuário pode corrigir os campos, utilizando o botão “limpar”. Além disso, pode inserir valores livremente para realizar o cálculo do IMC, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
-- Reduz a Carga de Memória de Trabalho: Primando em reconhecer em vez de lembrar. As informações da tabela estão visíveis para consulta.
+- Reduz a Carga de Memória de Trabalho: Primando em reconhecer em vez de lembrar. As informações da tabela estão visíveis para consulta.\
 
 
 
