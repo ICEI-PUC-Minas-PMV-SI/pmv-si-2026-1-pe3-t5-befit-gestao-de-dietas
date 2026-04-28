@@ -65,10 +65,12 @@
 
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
 
+### Tela de Cadastro e Login na aplicação
 
-<img width="1414" height="2000" alt="1" src="https://github.com/user-attachments/assets/81d3d6b0-5fa7-41f6-8768-bdc6737a629a" />
-<img width="1414" height="2000" alt="2" src="https://github.com/user-attachments/assets/bac93681-36a2-4962-b6a7-5657915ae12b" />
-<img width="1414" height="2000" alt="3" src="https://github.com/user-attachments/assets/7c4f2e91-ea86-41b8-8ebe-268756461625" />
+![Tela Home](../img/tela_home.png)
+
+
+
 
 ## 4.4 Testes com Protótipos
 
