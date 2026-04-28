@@ -72,8 +72,124 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 ### Tela de Cadastro e Login na aplicação
 
 ![tela_cadastro](../img/tela_cadastro.PNG)
+
+### Princípios Gestálticos Aplicados
+
+**Proximidade**  
+Elementos relacionados, como título, descrição e botões ("Começar" e "Entrar"), estão agrupados visualmente, facilitando a leitura e compreensão da ação principal.
+
+**Semelhança**  
+Os botões possuem estilos consistentes (cores, bordas e tipografia), indicando que pertencem à mesma categoria de ação.
+
+**Figura-Fundo**  
+O contraste entre o fundo laranja e os elementos em branco/verde destaca claramente o conteúdo principal, direcionando a atenção do usuário.
+
+**Continuidade**  
+O layout segue uma leitura natural da esquerda para a direita (texto → imagem), guiando o usuário intuitivamente.
+
+**Pregnância (boa forma)**  
+A interface é limpa, com poucos elementos e organização clara, reduzindo a carga cognitiva.
+
+---
+
+### 8 Regras de Ouro de Shneiderman
+
+1. **Consistência**  
+   Navegação superior padronizada em todas as telas (Home, Cadastro, Relatórios etc.).
+
+2. **Atalhos para usuários experientes**  
+   Menu direto permite acesso rápido às funcionalidades principais.
+
+3. **Feedback informativo**  
+   Botões com destaque visual indicam claramente ações disponíveis.
+
+4. **Diálogo com fechamento**  
+   A tela apresenta início claro do fluxo (entrada no sistema).
+
+5. **Prevenção de erros**  
+   Interface simples evita cliques incorretos.
+
+6. **Reversibilidade de ações**  
+   Usuário pode navegar livremente entre opções sem impacto.
+
+7. **Controle do usuário**  
+   O usuário decide entre login ou cadastro.
+
+8. **Redução da carga de memória**  
+   Informações visuais e bem organizadas evitam necessidade de memorização.
 ![tela_cadastro_2](../img/tela_cadastro_2.PNG)
+### Princípios Gestálticos Aplicados
+
+**Proximidade**  
+Campos de login e senha estão agrupados dentro de um card central, indicando relação funcional.
+
+**Semelhança**  
+Inputs seguem o mesmo padrão visual, reforçando consistência.
+
+**Figura-Fundo**  
+O formulário centralizado em fundo neutro cria foco total na tarefa de login.
+
+**Fechamento**  
+O card delimitado sugere um bloco completo de interação.
+
+**Simplicidade (Pregnância)**  
+A tela contém apenas os elementos essenciais para autenticação.
+
+---
+
+### 8 Regras de Ouro de Shneiderman
+
+1. **Consistência**  
+   Mesmo estilo visual da aplicação (cores, botões, tipografia).
+
+2. **Atalhos**  
+   Link direto para cadastro reduz etapas.
+
+3. **Feedback**  
+   Botão "Entrar" destaca a ação principal.
+
+4. **Diálogo com fechamento**  
+   Processo de login é claro e direto.
+
+5. **Prevenção de erros**  
+   Estrutura simples reduz chances de erro.
+
+6. **Reversão fácil**  
+   Botão de fechar (X) permite sair do modal.
+
+7. **Controle do usuário**  
+   Usuário pode decidir entre logar ou criar conta.
+
+8. **Baixa carga cognitiva**  
+   Apenas dois campos obrigatórios.
 ![tela_cadastro_3](../img/tela_cadastro_3.PNG)
+Princípios Gestálticos Aplicados
+Proximidade: Campos relacionados (nome, email, senha) estão agrupados.
+
+Semelhança: Todos os inputs seguem padrão uniforme.
+
+Continuidade: Fluxo vertical guia o preenchimento passo a passo.
+
+Figura-Fundo: Destaque no formulário central facilita foco.
+
+Pregnância: Layout simples e organizado melhora compreensão.
+
+8 Regras de Ouro de Shneiderman
+Consistência: Mesma identidade visual do login.
+
+Atalhos: Link para login evita retrabalho.
+
+Feedback: Botão "Cadastrar" indica ação final.
+
+Diálogo com fechamento: Processo termina com criação de conta.
+
+Prevenção de erros: Campo de confirmação de senha evita inconsistências.
+
+Reversibilidade: Usuário pode voltar ao login.
+
+Controle do usuário: Fluxo claro e opcional.
+
+Redução da carga de memória: Campos claros e rotulados evitam confusão.
 
 ### Tela de Relatórios
 
