@@ -117,6 +117,8 @@ A interface é limpa, com poucos elementos e organização clara, reduzindo a ca
 
 8. **Redução da carga de memória**  
    Informações visuais e bem organizadas evitam necessidade de memorização.
+
+   
 ![tela_cadastro_2](../img/tela_cadastro_2.PNG)
 ### Princípios Gestálticos Aplicados
 
@@ -162,6 +164,8 @@ A tela contém apenas os elementos essenciais para autenticação.
 
 8. **Baixa carga cognitiva**  
    Apenas dois campos obrigatórios.
+
+   
 ![tela_cadastro_3](../img/tela_cadastro_3.PNG)
 Princípios Gestálticos Aplicados
 Proximidade: Campos relacionados (nome, email, senha) estão agrupados.
