@@ -27,13 +27,13 @@ interface TypographyProps {
   $weight?: Weight
 }
 
-export const Text = styled.p<TypographyProps>`
+export const Text = styled.div<TypographyProps>`
   font-size: ${({ $size = 'md' }) => sizes[$size]};
   font-weight: ${({ $weight = 'regular' }) => weights[$weight]};
   line-height: 1.6;
 `
 
-export const Heading = styled.h1<TypographyProps>`
+export const Heading = styled.div<TypographyProps>`
   font-size: ${({ $size = '3xl' }) => sizes[$size]};
   font-weight: ${({ $weight = 'bold' }) => weights[$weight]};
   line-height: 1.2;
