@@ -123,7 +123,7 @@ Objetivos secundários:
 -	Consistência: Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC. 
 -	Feedback imediato: Há exibição do resultado do IMC na tela (o campo “RESULTADO DO SEU IMC” está vazio), clicando no botão “Calcular”.
 -	Legibilidade: Fonte de tamanho adequado, contraste bom (preto/cinza sobre branco). 
--	Uso de iconografia: Os ícones utilizados no menu são simples e reconhecíveis. São de fácil reconhecimento e baixo esforço cognitivo.
+-	Uso de iconografia: Os ícones utilizados são simples é de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade.
 
 4. Regras de Ouro da Interface:
 - xxxxxx
