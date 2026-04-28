@@ -249,7 +249,8 @@ Objetivos secundários:
 - Fornecer Prevenção de Erros e Forma Simples de Corrigi-los: Projeto da interface evita erros, caso o usuário tente inserir dados inválidos, para o cálculo do IMC, não é permitido. 
 - Feedbacks Informativos: Embora não visível nesta imagem, o botão "Calcular" é um componente que fornece feedback ao ser clicado (resultado do IMC).
 - Fornece Controle de Iniciativa do Usuário: O usuário pode corrigir os campos, utilizando o botão “limpar”. Além disso, pode inserir valores livremente para realizar o cálculo do IMC, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
-- Reduz a Carga de Memória de Trabalho: Primando em reconhecer em vez de lembrar. As informações da tabela estão visíveis para consulta.\
+- Reduz a Carga de Memória de Trabalho: Primando em reconhecer em vez de lembrar. As informações da tabela estão visíveis para consulta.
+
 
 
 
