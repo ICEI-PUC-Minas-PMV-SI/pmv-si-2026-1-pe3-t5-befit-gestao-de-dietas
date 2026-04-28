@@ -72,14 +72,14 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 ### Tela de Cadastro e Login na aplicação
 
 ![tela_cadastro](../img/tela_cadastro.PNG)
-![tela_cadastro2](../img/tela_cadastro2.PNG)
-![tela_cadastro3](../img/tela_cadastro3.PNG)
+![tela_cadastro_2](../img/tela_cadastro_2.PNG)
+![tela_cadastro_3](../img/tela_cadastro_3.PNG)
 
 ### Tela de Relatórios
 
-![tela_Relatórios](../img/tela_Relatórios.png)
-![tela_Relatórios2](../img/tela_Relatórios2.png)
-![tela_Relatórios3](../img/tela_Relatórios3.png)
+![tela_Relatórios](../img/tela_Relatórios.PNG)
+![tela_Relatórios2](../img/tela_Relatórios2.PNG)
+![tela_Relatórios3](../img/tela_Relatórios3.PNG)
 
 ### Tela de Cadastro de Dietas
 
@@ -99,7 +99,7 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ### Tela Cálculo de IMC
 
-![tela_IMC](../img/tela_IMC.png)
+![tela_IMC](../img/tela_IMC.PNG)
 
 1. Objetivo da Tela
 Objetivo principal:
