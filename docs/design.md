@@ -71,35 +71,35 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 ### Tela de Cadastro e Login na aplicação
 
-![Tela de Cadatro](../img/tela_cadastro.PNG)
-![Tela de Cadatro](../img/tela_cadastro2.PNG)
-![Tela de Cadatro](../img/tela_cadastro3.PNG)
+![tela_cadastro](../img/tela_cadastro.PNG)
+![tela_cadastro2](../img/tela_cadastro2.PNG)
+![tela_cadastro3](../img/tela_cadastro3.PNG)
 
 ### Tela de Relatórios
 
-![Tela de Relatórios](../img/tela_Relatórios.PNG.png)
-![Tela de Relatórios](../img/tela_Relatórios2.PNG.png)
-![Tela de Relatórios](../img/tela_Relatórios3.PNG.png)
+![tela_Relatórios](../img/tela_Relatórios.png)
+![tela_Relatórios2](../img/tela_Relatórios2.png)
+![tela_Relatórios3](../img/tela_Relatórios3.png)
 
 ### Tela de Cadastro de Dietas
 
-![Tela Cadastro de Dietas](../img/tela_Dieta.PNG)
+![tela_Dieta](../img/tela_Dieta.PNG)
 
 ### Tela de Receitas
 
-![Tela de Receitas](../img/tela_receitas.PNG)
+![tela_receitas](../img/tela_receitas.PNG)
 
 ### Tela de Lista de Compras
 
-![Tela Lista de Compras](../img/tela_listacompras.png)
+![tela_listacompras](../img/tela_listacompras.png)
 
 ### Tela Agenda
 
-![Tela Agenda](../img/tela_Agenda.PNG)
+![tela_Agenda](../img/tela_Agenda.PNG)
 
 ### Tela Cálculo de IMC
 
-![Tela Calculo de IMC](../img/tela_IMC.PNG.png)
+![tela_IMC](../img/tela_IMC.png)
 
 1. Objetivo da Tela
 Objetivo principal:
