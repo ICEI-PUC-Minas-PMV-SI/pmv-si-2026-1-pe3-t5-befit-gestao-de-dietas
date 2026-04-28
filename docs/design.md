@@ -222,12 +222,13 @@ Redução da carga de memória: Campos claros e rotulados evitam confusão.
 ![tela_IMC](../img/tela_IMC.PNG)
 
 1. **Objetivo da Tela**
+
 Objetivo principal:
 -	Permitir que o usuário calcule seu Índice de Massa Corporal (IMC) de forma rápida e intuitiva, inserindo peso e altura, e comparando o resultado com uma tabela de classificação.
+
 Objetivos secundários:
 -	Educar o usuário sobre o significado do IMC.
 -	Fornecer feedback visual claro sobre a faixa de classificação (magreza, normal, sobrepeso, etc.).
--	Garantir que o usuário insira os dados no formato correto (ex.: usar ponto como separador decimal).
 
 2. **Princípios Gestálticos aplicados:**
 -	Proximidade: Os campos de entrada (Peso e Altura) estão próximos entre si, sugerindo que pertencem à mesma etapa de interação. A tabela está separada, indicando ser uma referência.
