@@ -117,15 +117,7 @@ A interface é limpa, com poucos elementos e organização clara, reduzindo a ca
 
 8. **Redução da carga de memória**  
    Informações visuais e bem organizadas evitam necessidade de memorização.
-
-
-<img width="1635" height="962" alt="Tela BeFIT nova - Relatório" src="https://github.com/user-attachments/assets/dc2d038e-6d4e-4547-8444-0bbde49c0f04" />
-
-A interface do módulo de relatórios do BeFit foi desenvolvida com foco em organização visual, clareza das informações e melhoria da experiência do usuário. O layout apresenta uma hierarquia bem definida, com uso de cores consistentes, elementos organizados em cartões e destaque para métricas relevantes, facilitando o acesso às principais funcionalidades, como a geração de relatórios.
-
-O projeto aplicou princípios gestálticos, como proximidade, semelhança, continuidade, fechamento e figura-fundo, para melhorar a percepção e a compreensão da interface. Além disso, incorporou as regras de ouro de usabilidade de Shneiderman, garantindo consistência, feedback claro, prevenção de erros, redução da carga cognitiva, eficiência de uso e um design minimalista.
-
-   
+  
 ### Princípios Gestálticos Aplicados
 
 **Proximidade**  
@@ -171,9 +163,6 @@ A tela contém apenas os elementos essenciais para autenticação.
 8. **Baixa carga cognitiva**  
    Apenas dois campos obrigatórios.
 
-### Tela de Relatório
-   
-![tela_cadastro_3](../img/tela_cadastro_3.PNG)
 Princípios Gestálticos Aplicados
 Proximidade: Campos relacionados (nome, email, senha) estão agrupados.
 
@@ -203,10 +192,14 @@ Controle do usuário: Fluxo claro e opcional.
 Redução da carga de memória: Campos claros e rotulados evitam confusão.
 
 ### Tela de Relatórios
+   
+![tela_cadastro_3](../img/tela_cadastro_3.PNG)
 
-![tela_Relatórios](../img/tela_Relatórios.PNG)
-![tela_Relatórios2](../img/tela_Relatórios2.PNG)
-![tela_Relatórios3](../img/tela_Relatórios3.PNG)
+A interface do módulo de relatórios do BeFit foi desenvolvida com foco em organização visual, clareza das informações e melhoria da experiência do usuário. O layout apresenta uma hierarquia bem definida, com uso de cores consistentes, elementos organizados em cartões e destaque para métricas relevantes, facilitando o acesso às principais funcionalidades, como a geração de relatórios.
+
+O projeto aplicou princípios gestálticos, como proximidade, semelhança, continuidade, fechamento e figura-fundo, para melhorar a percepção e a compreensão da interface. Além disso, incorporou as regras de ouro de usabilidade de Shneiderman, garantindo consistência, feedback claro, prevenção de erros, redução da carga cognitiva, eficiência de uso e um design minimalista.
+
+
 
 ### Tela de Cadastro de Dietas
 
