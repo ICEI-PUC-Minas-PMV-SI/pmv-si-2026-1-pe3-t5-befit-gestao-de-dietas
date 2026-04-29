@@ -203,6 +203,8 @@ O projeto aplicou princípios gestálticos, como proximidade, semelhança, conti
 
 A interface do módulo de relatórios do BeFit foi desenvolvida com foco em organização visual, clareza das informações e melhoria da experiência do usuário. O layout apresenta uma hierarquia bem definida, com uso de cores consistentes, elementos organizados em cartões e destaque para métricas relevantes, facilitando o acesso às principais funcionalidades, como a geração de relatórios.
 
+O projeto aplicou princípios gestálticos, como proximidade, semelhança, continuidade, fechamento e figura-fundo, para melhorar a percepção e a compreensão da interface. Além disso, incorporou as regras de ouro de usabilidade de Shneiderman, garantindo consistência, feedback claro, prevenção de erros, redução da carga cognitiva, eficiência de uso e um design minimalista.
+
 ### Tela de Cadastro de Dietas
 
 ![tela_Dieta](../img/tela_Dieta.PNG)
