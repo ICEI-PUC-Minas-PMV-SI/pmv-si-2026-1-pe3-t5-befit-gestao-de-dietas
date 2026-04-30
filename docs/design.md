@@ -316,7 +316,7 @@ Apresentar receitas de forma organizada, permitindo busca, comparação e seleç
 
 ### Tela Agenda
 
-![tela_Agenda1](../img/tela_Agenda1.PNG)
+![tela_Agenda1](../img/tela_Agenda2.PNG)
 
 ### Objetivo da Tela  
 
