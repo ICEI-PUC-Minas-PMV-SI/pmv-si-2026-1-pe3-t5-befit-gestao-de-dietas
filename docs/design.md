@@ -75,7 +75,7 @@ O objetivo é demonstrar a hierarquia de informações e a navegabilidade do sis
 * **Pregnância (boa forma):** A interface é limpa, com poucos elementos e organização clara, reduzindo a carga cognitiva.
 * 
 
-### 8 Regras de Ouro de Shneiderman
+### Regras de Ouro de Shneiderman
 
 1. **Consistência**  
    Navegação superior padronizada em todas as telas (Home, Cadastro, Relatórios etc.).
@@ -120,7 +120,7 @@ O objetivo é demonstrar a hierarquia de informações e a navegabilidade do sis
 * **Simplicidade (Pregnância):** A tela contém apenas os elementos essenciais para autenticação.
 
 
-### 8 Regras de Ouro de Shneiderman
+### Regras de Ouro de Shneiderman
 
 1. **Consistência**  
    Mesmo estilo visual da aplicação (cores, botões, tipografia).
@@ -164,7 +164,7 @@ O objetivo é demonstrar a hierarquia de informações e a navegabilidade do sis
 
 * **Pregnância**: Layout simples e organizado melhora compreensão.
 
-## 8 Regras de Ouro de Shneiderman
+## Regras de Ouro de Shneiderman
 
 **Consistência**
 Mesma identidade visual do login.
@@ -224,7 +224,7 @@ Permitir a construção de um plano alimentar personalizado de forma progressiva
 * Processo sequencial reduz erros.
 
 
-### 8 Regras de Ouro de Shneiderman
+### Regras de Ouro de Shneiderman
 
 1. **Consistência**  
    Mantém padrão visual das demais telas.
@@ -285,7 +285,7 @@ Apresentar receitas de forma organizada, permitindo busca, comparação e seleç
 * Uso de padrão de tabela facilita entendimento.
 
 
-### 8 Regras de Ouro de Shneiderman
+### Regras de Ouro de Shneiderman
 
 1. **Consistência**  
    Layout segue padrão do sistema.
@@ -346,7 +346,7 @@ Permitir o planejamento alimentar semanal, organizando refeições por dia e hor
 * Ações diretas com botões "+".
 
 
-### 8 Regras de Ouro de Shneiderman
+### Regras de Ouro de Shneiderman
 
 1. **Consistência**  
    Mantém padrão visual do sistema.
@@ -406,7 +406,7 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
 * Botões facilitam interação.
 
 
-### 8 Regras de Ouro de Shneiderman
+### Regras de Ouro de Shneiderman
 
 1. **Consistência**  
    Interface mantém padrão do sistema.
@@ -438,13 +438,13 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
 
 ![tela_IMC](../img/tela_IMC.PNG)
 
-1. **Objetivo da Tela**
+### Objetivo da Tela:
 
 -	Permitir que o usuário calcule seu Índice de Massa Corporal (IMC) de forma rápida e intuitiva, inserindo peso e altura, e comparando o resultado com uma tabela de classificação.
 -	Educar o usuário sobre o significado do IMC.
 -	Fornecer feedback visual claro sobre a faixa de classificação (magreza, normal, sobrepeso, etc.).
 
-2. **Princípios Gestálticos aplicados:**
+### Princípios Gestálticos aplicados
    
 -	**Proximidade:** Os campos de entrada (Peso e Altura) estão próximos entre si, sugerindo que pertencem à mesma etapa de interação. A tabela está separada, indicando ser uma referência.
   
@@ -458,7 +458,7 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
   
 -	**Continuidade:** A leitura da tabela é fluida (linhas alinhadas, colunas claras). O fluxo de leitura é vertical.
 
-**Recomendações Ergonômicas:**
+### Recomendações Ergonômicas
  
 -	Carga de trabalho: Apresenta baixa carga de trabalho, a tela possui poucos campos e instruções curtas.
   
@@ -468,7 +468,7 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
   
 -	Estética e design minimalista: Layout limpo, sem poluição visual.
   
-**Regras de Ouro da Interface:**
+### Regras de Ouro da Interface de Shneiderman
  	
 1. **Consistência e padronização:** Os ícones utilizados são simples é de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade. A tabela com as informações da classificação do IMC e bem distribuída e padronizada.
 
