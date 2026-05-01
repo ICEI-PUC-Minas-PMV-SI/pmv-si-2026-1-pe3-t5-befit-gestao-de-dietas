@@ -73,7 +73,7 @@ O objetivo é demonstrar a hierarquia de informações e a navegabilidade do sis
 * **Continuidade:** O layout segue uma leitura natural da esquerda para a direita (texto → imagem), guiando o usuário intuitivamente.
 
 * **Pregnância (boa forma):** A interface é limpa, com poucos elementos e organização clara, reduzindo a carga cognitiva.
-* 
+
 
 ### Regras de Ouro de Shneiderman
 
