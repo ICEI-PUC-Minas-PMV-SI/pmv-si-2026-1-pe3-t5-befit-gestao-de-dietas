@@ -25,6 +25,8 @@
 ### Persona 6: Aurora Martins
 ![persona-7](../img/persona-7.png) 
 
+---
+
 ## 4.2 Mapa de Empatia
 
 ### Persona 1: Juliana Lopes
@@ -51,7 +53,7 @@
 
 ![persona-7](../img/mapa-de-empatia-7.png)
 
-
+---
 
 ## 4.3 Protótipos das Interfaces
 
@@ -164,7 +166,7 @@ O objetivo é demonstrar a hierarquia de informações e a navegabilidade do sis
 
 * **Pregnância**: Layout simples e organizado melhora compreensão.
 
-## Regras de Ouro de Shneiderman
+### Regras de Ouro de Shneiderman
 
 **Consistência**
 Mesma identidade visual do login.
