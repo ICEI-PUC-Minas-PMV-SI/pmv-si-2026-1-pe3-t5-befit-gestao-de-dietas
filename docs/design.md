@@ -493,10 +493,125 @@ O projeto aplicou princípios gestálticos, como proximidade, semelhança, conti
 
 <img width="1635" height="962" alt="Tela BeFIT nova - Relatório" src="https://github.com/user-attachments/assets/5b292d2c-dd29-48a9-b184-8fd3a0d9b983" />
 
-A interface do módulo de relatórios do BeFit foi desenvolvida com foco em organização visual, clareza das informações e melhoria da experiência do usuário. O layout apresenta uma hierarquia bem definida, com uso de cores consistentes, elementos organizados em cartões e destaque para métricas relevantes, facilitando o acesso às principais funcionalidades, como a geração de relatórios.
+Objetivo da Tela
 
-O projeto aplicou princípios gestálticos, como proximidade, semelhança, continuidade, fechamento e figura-fundo, para melhorar a percepção e a compreensão da interface. Além disso, incorporou as regras de ouro de usabilidade de Shneiderman, garantindo consistência, feedback claro, prevenção de erros, redução da carga cognitiva, eficiência de uso e um design minimalista.
+Permitir ao usuário acessar e gerar relatórios de consumo alimentar e IMC de forma rápida, visual e organizada, com informações resumidas sobre seu histórico.
 
+Princípios Gestálticos Aplicados - Relatórios
+Proximidade: os blocos de Consumo e IMC estão agrupados individualmente com seus respectivos dados e ações.
+Figura-Fundo: os cards brancos se destacam sobre o fundo laranja, facilitando foco nas informações.
+Semelhança: ambos os relatórios utilizam o mesmo padrão visual (ícone, título, descrição e botão).
+Continuidade: a leitura segue fluxo vertical (título → descrição → dados → ação).
+Hierarquia Visual: títulos maiores, ícones e botões verdes guiam o usuário para ações principais.
+
+Recomendações Ergonômicas
+Informações resumidas reduzem carga cognitiva.
+Uso de ícones auxilia no reconhecimento rápido.
+Botões grandes facilitam interação (especialmente em telas touch).
+Feedback implícito (status, data, IMC) melhora entendimento imediato.
+
+Regras de Ouro de Shneiderman
+
+1. Consistência
+Layout segue padrão das demais telas (cores, botões, cards).
+2. Atalhos
+Botão “Gerar Relatório” permite acesso direto à funcionalidade.
+3. Feedback
+Exibição de data, status e IMC fornece retorno ao usuário.
+4. Diálogo com fechamento
+A ação de gerar relatório leva a uma nova tela com conclusão clara.
+5.Prevenção de erros
+Interface não exige entrada manual nesta etapa.
+6. Reversão fácil
+Usuário pode simplesmente não gerar ou voltar.
+7. Controle do usuário
+Usuário decide qual relatório acessar.
+9. Baixa carga cognitiva
+Informações visíveis eliminam necessidade de memorização.
+
+Tela: Relatórios (Consumo e IMC)
+
+<img width="1638" height="960" alt="Imagem 2 _ Relatório" src="https://github.com/user-attachments/assets/86c8680f-c5ac-4918-bdf2-af24093fa88
+
+Objetivo da Tela
+
+Permitir ao usuário visualizar informações resumidas dos seus relatórios de consumo alimentar e IMC, além de possibilitar a geração rápida de novos relatórios com base em dados atualizados.
+
+Princípios Gestálticos Aplicados - Relatórios
+Proximidade: os elementos de cada relatório (Consumo e IMC) estão organizados em blocos distintos, agrupando título, descrição, dados e ação.
+Figura-Fundo: os cards centrais se destacam do fundo laranja, facilitando a identificação das áreas interativas.
+Semelhança: os dois blocos seguem o mesmo padrão visual, com ícones, textos e botões padronizados.
+Continuidade: o fluxo de leitura ocorre de forma natural da esquerda para a direita e de cima para baixo.
+Hierarquia Visual: títulos, ícones e botões em destaque direcionam o usuário para as principais ações da tela.
+
+Recomendações Ergonômicas
+
+Apresentação de dados resumidos reduz a carga cognitiva.
+Uso de ícones facilita o reconhecimento rápido das funcionalidades.
+Botões de ação com tamanho adequado melhoram a usabilidade em diferentes dispositivos.
+Informações como data, status e IMC fornecem feedback imediato ao usuário.
+
+Regras de Ouro de Shneiderman
+
+Consistência
+A interface mantém padrão visual com cores, tipografia e componentes já utilizados no sistema.
+Atalhos
+Botões “Gerar Relatório” permitem acesso direto às funcionalidades principais.
+Feedback
+Exibição de informações como último relatório, status e classificação fornece retorno imediato.
+Diálogo com fechamento
+A geração de relatório conduz o usuário a uma nova etapa com conclusão clara da ação.
+Prevenção de erros
+Não há necessidade de entrada manual de dados nesta tela, reduzindo possibilidade de erro.
+Reversão fácil
+Usuário pode optar por não gerar relatórios ou navegar para outras telas.
+Controle do usuário
+Usuário escolhe qual tipo de relatório deseja acessar ou gerar.
+Baixa carga cognitiva
+As informações estão visíveis e organizadas, eliminando a necessidade de memorização.
+
+
+Tela: Relatório Gerado
+
+<img width="1635" height="962" alt="Imagem 3 - Relatório Gerado" src="https://github.com/user-attachments/assets/39bb0b00-f96f-412f-ad1d-22d83f4568a6" />
+
+Objetivo da Tela
+
+Permitir ao usuário visualizar um relatório consolidado de IMC já gerado, oferecendo opções de ações adicionais como impressão, visualização do último cálculo e acesso a conteúdos relacionados.
+
+Princípios Gestálticos Aplicados 
+
+Proximidade: os botões de ação (Imprimir, Mostrar Último IMC e Mostrar Receitas) estão agrupados, indicando funcionalidades relacionadas.
+Figura-Fundo: o card do relatório se destaca do fundo laranja, facilitando o foco nas informações principais.
+Semelhança: os botões seguem o mesmo padrão visual, com cores e formatos consistentes.
+Continuidade: o fluxo de leitura ocorre de cima para baixo, iniciando no título, passando pelas ações e chegando aos dados do relatório.
+Hierarquia Visual: o título “Relatório Gerado” e os botões de ação possuem maior destaque, guiando o usuário.
+
+Recomendações Ergonômicas
+
+Botões com ícones facilitam reconhecimento e reduzem esforço cognitivo.
+Ações principais estão visíveis sem necessidade de navegação adicional.
+Informações organizadas em blocos melhoram a leitura e compreensão.
+Uso de contraste adequado melhora legibilidade.
+
+Regras de Ouro de Shneiderman
+
+1. Consistência
+Interface mantém o mesmo padrão visual das demais telas do sistema.
+2. Atalhos
+Botões de ação permitem acesso rápido a funcionalidades importantes.
+3. Feedback
+A exibição do relatório indica que a ação foi concluída com sucesso.
+4. Diálogo com fechamento
+A tela representa o encerramento do processo de geração do relatório.
+5. Prevenção de erros
+Não há necessidade de inserção de dados, reduzindo possibilidade de erro.
+6. Reversão fácil
+Usuário pode retornar para gerar novos relatórios ou acessar outras funcionalidades.
+7. Controle do usuário
+Usuário decide quais ações executar a partir do relatório exibido.
+8. Baixa carga cognitiva
+Informações estão organizadas e visíveis, evitando necessidade de memorização.
 
 ---
 
