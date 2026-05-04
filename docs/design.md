@@ -187,6 +187,16 @@ De modo geral, a interface utiliza uma identidade visual padronizada, com predom
 
 * **Pregnância**: Layout simples e organizado melhora compreensão.
 
+### Recomendações Ergonômicas
+
+* Campos organizados em sequência lógica facilitam o preenchimento.
+
+* Rótulos claros reduzem dúvidas durante o cadastro.
+
+* Campo de confirmação de senha contribui para prevenção de erros.
+
+* Link para login oferece alternativa rápida para usuários já cadastrados.
+
 ### Regras de Ouro de Shneiderman
 
 **Consistência**
