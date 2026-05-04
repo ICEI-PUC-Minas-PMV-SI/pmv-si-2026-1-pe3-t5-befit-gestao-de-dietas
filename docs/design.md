@@ -79,6 +79,15 @@ De modo geral, a interface utiliza uma identidade visual padronizada, com predom
 
 * **Pregnância (boa forma):** A interface é limpa, com poucos elementos e organização clara, reduzindo a carga cognitiva.
 
+### Recomendações Ergonômicas
+
+* Organização em cards facilita a identificação das funcionalidades principais.
+
+* Botões destacados reduzem o esforço de decisão do usuário.
+
+* Uso de imagens auxilia no reconhecimento visual das ações disponíveis.
+
+* Navegação superior fixa melhora orientação e acesso às telas do sistema.
 
 ### Regras de Ouro de Shneiderman
 
@@ -124,6 +133,15 @@ De modo geral, a interface utiliza uma identidade visual padronizada, com predom
 
 * **Simplicidade (Pregnância):** A tela contém apenas os elementos essenciais para autenticação.
 
+### Recomendações Ergonômicas
+
+* Formulário centralizado direciona a atenção para a tarefa principal.
+
+* Poucos campos reduzem a carga cognitiva durante o login.
+
+* Botões e links bem posicionados facilitam a escolha entre entrar ou cadastrar-se.
+
+* Estrutura simples melhora a compreensão e reduz chances de erro.
 
 ### Regras de Ouro de Shneiderman
 
