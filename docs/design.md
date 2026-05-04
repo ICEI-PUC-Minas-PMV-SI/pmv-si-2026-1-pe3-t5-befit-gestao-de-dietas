@@ -57,8 +57,11 @@
 
 ## 4.3 Protótipos das Interfaces
 
-Nesta seção, apresentamos a materialização visual e funcional da solução. Partindo dos conceitos definidos no fluxo de usuário, desenvolvemos protótipos que buscam equilibrar estética, usabilidade e eficiência.
-O objetivo é demonstrar a hierarquia de informações e a navegabilidade do sistema, garantindo que a experiência final seja intuitiva e atenda às necessidades reais dos usuários.
+Nesta seção, são apresentados os protótipos das principais interfaces da aplicação BeFit, desenvolvidos com o objetivo de demonstrar a organização visual, funcional e interativa do sistema. As telas foram projetadas considerando critérios de usabilidade, clareza na navegação, consistência visual e facilidade de uso pelo usuário final.
+
+Os protótipos contemplam as funcionalidades centrais da aplicação, como cadastro de usuário, criação de dietas, consulta de receitas, planejamento alimentar, lista de compras, cálculo de IMC e geração de relatórios. A análise de cada tela considera três dimensões principais: princípios gestálticos aplicados, recomendações ergonômicas e Regras de Ouro de Shneiderman.
+
+De modo geral, a interface utiliza uma identidade visual padronizada, com predominância das cores laranja, verde e branco, associadas à temática de alimentação saudável, bem-estar e organização. Também se observa a repetição de elementos como menu superior, botões de ação, cards informativos, imagens temáticas e rodapé, garantindo maior familiaridade ao usuário durante a navegação.
 
 ### Tela Home - Dashboard
 
