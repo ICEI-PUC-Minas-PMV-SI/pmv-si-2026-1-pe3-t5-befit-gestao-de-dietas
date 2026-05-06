@@ -749,25 +749,87 @@ Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando t
 
 <img width="1920" height="1080" alt="Teste de Usuário Conclusões" src="https://github.com/user-attachments/assets/dfd951ee-76db-4b75-a4da-645d093ec377" />
 
-Teste de Usabilidade com Usuário
-Persona: Aurora Martins
 
-A usuária foi convidada a realizar as seguintes tarefas: criar uma conta e fazer login.
+🔹 Integrante: Larissa Figueirêdo Belo
+Funcionalidade Avaliada: Criação de Conta e Login
 
-Tarefa 1
-Criar uma conta, o tempo foi 1 min 10s, tendo concluído com sucesso. Aurora encontrou facilmente o botão “Novo usuário” e entendeu que o formulário é simples e direto, mas o botão poderia estar mais destacado.
+👤 Perfil do Usuário
 
-Feedback da usuária (Aurora Martins)
-Pontos positivos:
-Interface simples e organizada
-Funcionalidades úteis para o dia a dia
-Boa estrutura geral do sistema
+Critério	Dados
+Idade	38 anos
+Ocupação	Advogada
+Familiaridade com tecnologia	Média
 
-Dificuldades:
-Botões pouco destacados
-Com base no teste realizado, foi possível identificar:
+🎯 Tarefa Avaliada
 
-O sistema BeFit apresenta uma boa base de usabilidade e atende às necessidades da persona Aurora Martins. No entanto, melhorias na clareza das informações e na hierarquia visual são necessárias para tornar a experiência mais intuitiva e eficiente.
+Descrição da tarefa:
+A usuária Aurora Martins foi convidada a criar uma conta no sistema BeFit e realizar login na plataforma.
+
+Tempo de execução:
+1 minuto e 10 segundos
+
+Resultado:
+(X) Sucesso
+( ) Sucesso com dificuldade
+( ) Falha
+
+👀 Observações do Avaliador
+A usuária encontrou facilmente o botão “Novo usuário” e compreendeu rapidamente o fluxo de cadastro. Antes de iniciar a interação, observou brevemente os elementos da interface para entender a estrutura da tela.
+
+⚠️ Dificuldades Identificadas
+
+Os botões não possuem destaque visual suficiente.
+Alguns elementos poderiam ter maior contraste para facilitar a identificação das ações principais.
+
+❌ Erros Observados
+
+Nenhum erro crítico foi identificado durante a execução da tarefa.
+
+👍 Pontos Positivos
+
+Interface simples e organizada.
+Funcionalidades úteis para o dia a dia.
+Estrutura geral do sistema bem distribuída.
+Processo de cadastro rápido e intuitivo.
+
+💬 Comentários do Usuário
+“A interface é fácil de entender e o cadastro foi rápido. Porém, os botões poderiam chamar mais atenção para facilitar ainda mais a navegação.”
+
+🔧 Sugestões de Melhoria
+
+Destacar visualmente os botões principais utilizando cores mais chamativas ou maior contraste.
+Melhorar a hierarquia visual dos elementos da tela.
+Tornar informações importantes mais evidentes para aumentar a intuitividade da navegação.
+
+📊 Questionário SUS (System Usability Scale)
+
+Pontuação obtida: 78 pontos
+
+Classificação: Boa Usabilidade
+
+Resultado SUS:
+O sistema BeFit apresenta uma boa base de usabilidade e atende adequadamente às necessidades da persona Aurora Martins. Apesar disso, melhorias na clareza visual e no destaque das ações principais podem tornar a experiência ainda mais eficiente e intuitiva.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
