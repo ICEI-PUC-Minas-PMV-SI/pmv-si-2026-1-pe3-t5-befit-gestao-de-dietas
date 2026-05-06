@@ -747,8 +747,6 @@ Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando t
 >14 - O que você melhoraria?<br>
 >15 - Gostaria de acrescentar mais algum comentário?<br>
 
-<img width="1920" height="1080" alt="Teste de Usuário Conclusões" src="https://github.com/user-attachments/assets/dfd951ee-76db-4b75-a4da-645d093ec377" />
-
 
 🔹 Integrante: Larissa Figueirêdo Belo
 Funcionalidade Avaliada: Criação de Conta e Login
