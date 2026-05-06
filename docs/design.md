@@ -601,35 +601,110 @@ Informações estão organizadas e visíveis, evitando necessidade de memorizaç
 
 ## 4.4 Testes com Protótipos
 
-Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
+Os testes de usabilidade foram realizados com usuários alinhados ao perfil das personas definidas no projeto, com o objetivo de avaliar a usabilidade, a clareza das informações e a adequação do design das interfaces desenvolvidas.
 
-Cada integrante do grupo deverá aplicar o teste com um usuário distinto, preferencialmente alinhado ao perfil das personas criadas. Devem ser definidas previamente as tarefas que o usuário deverá executar no protótipo (por exemplo: realizar um cadastro, buscar um produto, concluir uma compra).
+Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando tarefas específicas relacionadas à funcionalidade desenvolvida. Durante os testes, foram registradas observações sobre comportamento, dificuldades, erros e tempo de execução das tarefas. Ao final, foi aplicado o questionário SUS (System Usability Scale) para avaliação da percepção de usabilidade.
 
-Durante a aplicação do teste, registre observações sobre comportamentos, dúvidas, erros e comentários feitos pelo usuário, bem como o tempo necessário para a execução de cada tarefa. Ao final, colete o feedback do participante, destacando pontos positivos e aspectos a serem melhorados.
 
-Os resultados obtidos por todos os integrantes devem ser consolidados, apresentando uma análise geral com os principais problemas encontrados, oportunidades de melhoria e as ações previstas para o projeto final. 
+> template(1 por integrante/tarefa/tela) --->
 
-Sobre os testes de protótipos:
+# Teste de Usabilidade 
 
-Uma prática recomendada é definir um conjunto padrão de perguntas para os usuários. Assim, cada integrante do grupo aplica as mesmas questões a um usuário diferente (um usuário por integrante), permitindo posteriormente a síntese dos resultados, conforme solicitado na seção 4.4 do relatório.
+### 🔹 Integrante: [NOME DO ALUNO]
 
-Segue um conjunto de perguntas sugeridas:
+**Funcionalidade Avaliada:** [Ex: Tela de Inventário / Cadastro]
 
-1 - Ao acessar a página inicial, você compreendeu rapidamente o objetivo do sistema?<br>
-2 - O menu e os botões estão posicionados de forma intuitiva?<br>
-3 - A nomenclatura das seções (menus, botões e links) é clara?<br>
-4 - Foi fácil localizar as informações ou funcionalidades desejadas?<br>
-5 - As etapas para realizar as tarefas estão claras e bem organizadas?<br>
-6 - Os elementos visuais (cores, ícones e layout) ajudam a identificar o que é clicável?<br>
-7 - Há elementos que geram confusão ou chamam atenção de forma inadequada?<br>
-8 - Os textos e rótulos são claros e auxiliam na navegação?<br>
-9 - Houve dificuldade para visualizar, clicar ou entender algum elemento?<br>
-10 - As instruções e mensagens são compreensíveis?<br>
-11 - Há termos técnicos ou expressões confusas?<br>
-12 - Você se sentiu seguro(a) ao utilizar o protótipo, sem necessidade de ajuda?<br>
-13 - O que você mais gostou na interface?<br>
-14 - O que você melhoraria?<br>
-15 - Gostaria de acrescentar mais algum comentário?<br>
+## 👤 Perfil do Usuário
+
+| Critério | Dados |
+|:---|:---|
+| Idade | [X] anos |
+| Ocupação | [Profissão] |
+| Familiaridade com tecnologia | [Baixa / Média / Alta] |
+
+## 🎯 Tarefa Avaliada
+
+**Descrição da tarefa:**  
+[Descrever a tarefa realizada]
+
+**Tempo de execução:**  
+[X] minutos
+
+**Resultado:**  
+( ) Sucesso  
+( ) Sucesso com dificuldade  
+( ) Falha  
+
+## 👀 Observações do Avaliador
+
+-  ex.: O usuário leu a tela antes de iniciar a interação
+-  
+-  
+
+## ⚠️ Dificuldades Identificadas
+
+-  
+-  
+-  
+
+## ❌ Erros Observados
+
+-  
+-  
+-  
+
+## 👍 Pontos Positivos
+
+-  
+-  
+-  
+
+## 💬 Comentários do Usuário
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+## 🔧 Sugestões de Melhoria
+
+-  
+-  
+-  
+
+## 📊 Questionário SUS (System Usability Scale)
+
+- Pontuação obtida:  
+- Classificação:  
+
+![Resultado SUS](../img/Resultado-Victor.jpeg)
+
+> <--- fim do template 
+---
+>Cada integrante do grupo deverá aplicar o teste com um usuário distinto, preferencialmente alinhado ao perfil das personas criadas. Devem ser definidas previamente as tarefas que o usuário deverá executar no protótipo (por exemplo: realizar um cadastro, buscar um produto, concluir uma compra).
+
+>Durante a aplicação do teste, registre observações sobre comportamentos, dúvidas, erros e comentários feitos pelo usuário, bem como o tempo necessário para a execução de cada tarefa. Ao final, colete o feedback do participante, destacando pontos positivos e aspectos a serem melhorados.
+
+>Os resultados obtidos por todos os integrantes devem ser consolidados, apresentando uma análise geral com os principais problemas encontrados, oportunidades de melhoria e as ações previstas para o projeto final. 
+
+>Sobre os testes de protótipos:
+
+>Uma prática recomendada é definir um conjunto padrão de perguntas para os usuários. Assim, cada integrante do grupo aplica as mesmas questões a um usuário diferente (um usuário por integrante), permitindo posteriormente a síntese dos resultados, conforme solicitado na seção 4.4 do relatório.
+
+>Segue um conjunto de perguntas sugeridas:
+
+>1 - Ao acessar a página inicial, você compreendeu rapidamente o objetivo do sistema?<br>
+>2 - O menu e os botões estão posicionados de forma intuitiva?<br>
+>3 - A nomenclatura das seções (menus, botões e links) é clara?<br>
+>4 - Foi fácil localizar as informações ou funcionalidades desejadas?<br>
+>5 - As etapas para realizar as tarefas estão claras e bem organizadas?<br>
+>6 - Os elementos visuais (cores, ícones e layout) ajudam a identificar o que é clicável?<br>
+>7 - Há elementos que geram confusão ou chamam atenção de forma inadequada?<br>
+>8 - Os textos e rótulos são claros e auxiliam na navegação?<br>
+>9 - Houve dificuldade para visualizar, clicar ou entender algum elemento?<br>
+>10 - As instruções e mensagens são compreensíveis?<br>
+>11 - Há termos técnicos ou expressões confusas?<br>
+>12 - Você se sentiu seguro(a) ao utilizar o protótipo, sem necessidade de ajuda?<br>
+>13 - O que você mais gostou na interface?<br>
+>14 - O que você melhoraria?<br>
+>15 - Gostaria de acrescentar mais algum comentário?<br>
 
 <img width="1920" height="1080" alt="Teste de Usuário Conclusões" src="https://github.com/user-attachments/assets/dfd951ee-76db-4b75-a4da-645d093ec377" />
 
