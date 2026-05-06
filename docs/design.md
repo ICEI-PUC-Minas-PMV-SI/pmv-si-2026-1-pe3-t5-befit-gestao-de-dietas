@@ -810,6 +810,8 @@ Classificação: Boa Usabilidade
 Resultado SUS:
 O sistema BeFit apresenta uma boa base de usabilidade e atende adequadamente às necessidades da persona Aurora Martins. Apesar disso, melhorias na clareza visual e no destaque das ações principais podem tornar a experiência ainda mais eficiente e intuitiva.
 
+<img width="1664" height="945" alt="Teste Aurora Martins" src="https://github.com/user-attachments/assets/96d35cbb-e250-4d5b-9aa8-5bc9568f1427" />
+
 
 
 
