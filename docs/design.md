@@ -750,7 +750,9 @@ Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando t
 ---------------------------------------teste aurora martins--------------------------------------------------------------------------
 
 🔹 Integrante: Larissa Figueirêdo Belo
-Funcionalidade Avaliada: Criação de Conta e Login
+
+Funcionalidade Avaliada: 
+Criação de Conta e Login
 
 👤 Perfil do Usuário
 
