@@ -747,6 +747,7 @@ Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando t
 >14 - O que você melhoraria?<br>
 >15 - Gostaria de acrescentar mais algum comentário?<br>
 
+---------------------------------------teste aurora martins--------------------------------------------------------------------------
 
 🔹 Integrante: Larissa Figueirêdo Belo
 Funcionalidade Avaliada: Criação de Conta e Login
@@ -754,25 +755,32 @@ Funcionalidade Avaliada: Criação de Conta e Login
 👤 Perfil do Usuário
 
 Critério	Dados
-Idade	38 anos
-Ocupação	Advogada
-Familiaridade com tecnologia	Média
+Idade: 38 anos
+
+Ocupação: advogada
+
+Familiaridade com tecnologia:Média
 
 🎯 Tarefa Avaliada
 
 Descrição da tarefa:
+
 A usuária Aurora Martins foi convidada a criar uma conta no sistema BeFit e realizar login na plataforma.
 
 Tempo de execução:
+
 1 minuto e 10 segundos
 
 Resultado:
+
 (X) Sucesso
 ( ) Sucesso com dificuldade
 ( ) Falha
 
 👀 Observações do Avaliador
-A usuária encontrou facilmente o botão “Novo usuário” e compreendeu rapidamente o fluxo de cadastro. Antes de iniciar a interação, observou brevemente os elementos da interface para entender a estrutura da tela.
+
+A usuária encontrou facilmente o botão “Novo usuário” e compreendeu rapidamente o fluxo de cadastro. 
+Antes de iniciar a interação, observou brevemente os elementos da interface para entender a estrutura da tela.
 
 ⚠️ Dificuldades Identificadas
 
@@ -786,11 +794,16 @@ Nenhum erro crítico foi identificado durante a execução da tarefa.
 👍 Pontos Positivos
 
 Interface simples e organizada.
+
 Funcionalidades úteis para o dia a dia.
+
 Estrutura geral do sistema bem distribuída.
+
 Processo de cadastro rápido e intuitivo.
 
+
 💬 Comentários do Usuário
+
 “A interface é fácil de entender e o cadastro foi rápido. Porém, os botões poderiam chamar mais atenção para facilitar ainda mais a navegação.”
 
 🔧 Sugestões de Melhoria
@@ -801,36 +814,14 @@ Tornar informações importantes mais evidentes para aumentar a intuitividade da
 
 📊 Questionário SUS (System Usability Scale)
 
-Pontuação obtida: 78 pontos
+Pontuação obtida: 95 pontos
 
 Classificação: Boa Usabilidade
 
 Resultado SUS:
+
 O sistema BeFit apresenta uma boa base de usabilidade e atende adequadamente às necessidades da persona Aurora Martins. Apesar disso, melhorias na clareza visual e no destaque das ações principais podem tornar a experiência ainda mais eficiente e intuitiva.
 
 <img width="1664" height="945" alt="Teste Aurora Martins" src="https://github.com/user-attachments/assets/96d35cbb-e250-4d5b-9aa8-5bc9568f1427" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+------------------------------------------fim teste aurora martins------------------------------------------------------------------------------------
