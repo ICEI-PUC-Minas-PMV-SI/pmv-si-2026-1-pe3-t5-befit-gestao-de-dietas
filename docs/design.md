@@ -649,71 +649,76 @@ Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando t
 
 > template(1 por integrante/tarefa/tela) --->
 
-# Teste de Usabilidade 
+# 🔹 Integrante
+**VICTOR MOTA BUENO**
 
-### 🔹 Integrante: [NOME DO ALUNO]
+## Funcionalidade Avaliada
+**Tela Home**
 
-**Funcionalidade Avaliada:** [Ex: Tela de Inventário / Cadastro]
+---
 
-## 👤 Perfil do Usuário
+# 👤 Perfil do Usuário
 
 | Critério | Dados |
-|:---|:---|
-| Idade | [X] anos |
-| Ocupação | [Profissão] |
-| Familiaridade com tecnologia | [Baixa / Média / Alta] |
+|---|---|
+| Idade | 43 anos |
+| Ocupação | Policial Militar |
+| Familiaridade com tecnologia | Média |
 
-## 🎯 Tarefa Avaliada
+---
 
-**Descrição da tarefa:**  
-[Descrever a tarefa realizada]
+# 🎯 Tarefa Avaliada
 
-**Tempo de execução:**  
-[X] minutos
+### Descrição da tarefa
+Percorrer entre as páginas através da tela Home, utilizada como roadmap do sistema.
 
-**Resultado:**  
-( ) Sucesso  
-( ) Sucesso com dificuldade  
-( ) Falha  
+### Tempo de execução
+3 minutos
 
-## 👀 Observações do Avaliador
+### Resultado
+- (✔) Sucesso  
+- ( ) Sucesso com dificuldade  
+- ( ) Falha  
 
--  ex.: O usuário leu a tela antes de iniciar a interação
--  
--  
+---
 
-## ⚠️ Dificuldades Identificadas
+# 👀 Observações do Avaliador
+O usuário leu as informações da tela antes de executar as ações. Conseguiu interagir com facilidade e executou as ações no sistema de forma correta, seguindo as orientações fornecidas pela própria interface.
 
--  
--  
--  
+---
 
-## ❌ Erros Observados
+# ⚠️ Dificuldades Identificadas
+Não houve dificuldades observadas durante a execução da tarefa.
 
--  
--  
--  
+---
 
-## 👍 Pontos Positivos
+# ❌ Erros Observados
+Não houve erros observados.
 
--  
--  
--  
+---
 
-## 💬 Comentários do Usuário
+# 👍 Pontos Positivos
+O usuário gostou da interface, considerou o sistema fácil de interagir e elogiou a proposta apresentada pela aplicação.
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+---
 
-## 🔧 Sugestões de Melhoria
+# 💬 Comentários do Usuário
 
--  
--  
--  
+> "Tela bonita, dinâmica e com um propósito legal."
 
-## 📊 Questionário SUS (System Usability Scale)
+---
 
-- Pontuação obtida:  
-- Classificação:  
+# 🔧 Sugestões de Melhoria
+Adicionar pequenas animações de transição entre páginas para deixar a navegação ainda mais intuitiva e moderna.
+
+---
+
+# 📊 Questionário SUS (System Usability Scale)
+
+**Pontuação obtida:** 95 pontos
+
+### Classificação
+**Excelente usabilidade (nível excelente / acima da média).**
 
 ![Resultado SUS](../img/Resultado-Victor.jpeg)
 
