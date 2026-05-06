@@ -524,11 +524,17 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
 Permitir ao usuário acessar e gerar relatórios de consumo alimentar e IMC de forma rápida, visual e organizada, com informações resumidas sobre seu histórico.
 
 **Princípios Gestálticos Aplicados**
+
 Proximidade: os blocos de Consumo e IMC estão agrupados individualmente com seus respectivos dados e ações.
+
 Figura-Fundo: os cards brancos se destacam sobre o fundo laranja, facilitando foco nas informações.
+
 Semelhança: ambos os relatórios utilizam o mesmo padrão visual (ícone, título, descrição e botão).
+
 Continuidade: a leitura segue fluxo vertical (título → descrição → dados → ação).
+
 Hierarquia Visual: títulos maiores, ícones e botões verdes guiam o usuário para ações principais.
+
 
 **Recomendações Ergonômicas**
 Informações resumidas reduzem carga cognitiva.
@@ -539,21 +545,37 @@ Feedback implícito (status, data, IMC) melhora entendimento imediato.
 Regras de Ouro de Shneiderman
 
 **1. Consistência**
+
 Layout segue padrão das demais telas (cores, botões, cards).
+
 **2. Atalhos**
+
 Botão “Gerar Relatório” permite acesso direto à funcionalidade.
+
 **3. Feedback**
+
 Exibição de data, status e IMC fornece retorno ao usuário.
+
 **4. Diálogo com fechamento**
+
 A ação de gerar relatório leva a uma nova tela com conclusão clara.
+
 **5.Prevenção de erros**
+
 Interface não exige entrada manual nesta etapa.
+
 **6. Reversão fácil**
+
 Usuário pode simplesmente não gerar ou voltar.
+
 **7. Controle do usuário**
+
 Usuário decide qual relatório acessar.
+
 **9. Baixa carga cognitiva**
+
 Informações visíveis eliminam necessidade de memorização.
+
 
 ### Tela: Relatório Gerado
 
@@ -566,9 +588,13 @@ Permitir ao usuário visualizar um relatório consolidado de IMC já gerado, ofe
 **Princípios Gestálticos Aplicados**
 
 **Proximidade:** os botões de ação (Imprimir, Mostrar Último IMC e Mostrar Receitas) estão agrupados, indicando funcionalidades relacionadas.
+
 **Figura-Fundo:** o card do relatório se destaca do fundo laranja, facilitando o foco nas informações principais.
+
 **Semelhança:** os botões seguem o mesmo padrão visual, com cores e formatos consistentes.
+
 **Continuidade:** o fluxo de leitura ocorre de cima para baixo, iniciando no título, passando pelas ações e chegando aos dados do relatório.
+
 **Hierarquia Visual:** o título “Relatório Gerado” e os botões de ação possuem maior destaque, guiando o usuário.
 
 **Recomendações Ergonômicas**
@@ -581,20 +607,35 @@ Uso de contraste adequado melhora legibilidade.
 **Regras de Ouro de Shneiderman**
 
 **1. Consistência**
+
 Interface mantém o mesmo padrão visual das demais telas do sistema.
+
 **2. Atalhos**
+
 Botões de ação permitem acesso rápido a funcionalidades importantes.
+
 **3. Feedback**
+
 A exibição do relatório indica que a ação foi concluída com sucesso.
+
 **4. Diálogo com fechamento**
+
 A tela representa o encerramento do processo de geração do relatório.
+
 **5. Prevenção de erros**
+
 Não há necessidade de inserção de dados, reduzindo possibilidade de erro.
+
 **6. Reversão fácil**
+
 Usuário pode retornar para gerar novos relatórios ou acessar outras funcionalidades.
+
 **7. Controle do usuário**
+
 Usuário decide quais ações executar a partir do relatório exibido.
+
 **8. Baixa carga cognitiva**
+
 Informações estão organizadas e visíveis, evitando necessidade de memorização.
 
 ---
