@@ -67,6 +67,10 @@ De modo geral, a interface utiliza uma identidade visual padronizada, com predom
 
 ![Tela Home](../img/tela_home.png)
 
+### Objetivo da Tela  
+
+A tela principal do BeFit tem como objetivo apresentar, de forma clara e intuitiva, o ecossistema de funcionalidades do sistema, servindo como um painel de controle central. Através de uma organização visual baseada em cards, a interface permite que o usuário identifique e acesse rapidamente recursos essenciais, como o cadastro de dietas, receitas, cálculo de IMC e relatórios. O foco central é facilitar a navegabilidade, reduzir o esforço de decisão e promover uma experiência de uso organizada, onde o usuário encontra tudo o que precisa para sua rotina de saúde em um único lugar.
+
 ### Princípios Gestálticos Aplicados
 
 * **Proximidade:** Elementos relacionados, como título, descrição e botões ("Começar" e "Entrar"), estão agrupados visualmente, facilitando a leitura e compreensão da ação principal.
@@ -120,6 +124,10 @@ De modo geral, a interface utiliza uma identidade visual padronizada, com predom
 ### Tela Cadastro e Login na aplicação
 
 ![tela_cadastro](../img/tela_cadastro.PNG)
+
+### Objetivo da Tela  
+
+A tela de Cadastro e Login tem como objetivo permitir que o usuário acesse ou inicie sua utilização na plataforma de forma rápida e intuitiva. A interface apresenta as principais propostas do sistema logo na entrada, incentivando o engajamento do usuário enquanto oferece acesso direto às ações de cadastro e autenticação. O layout busca transmitir organização, simplicidade e acolhimento visual, facilitando o primeiro contato com a aplicação.
   
 ### Princípios Gestálticos Aplicados - Login
 
@@ -175,6 +183,10 @@ De modo geral, a interface utiliza uma identidade visual padronizada, com predom
    
 ![tela_cadastro_3](../img/tela_cadastro_3.PNG)
 
+### Objetivo da Tela  
+
+A tela de Cadastro tem como objetivo permitir que novos usuários criem suas contas na plataforma de forma rápida, segura e sem fricções. Por meio de um formulário simplificado e focado na conversão, a interface busca coletar as informações essenciais para a personalização da experiência do usuário, garantindo a integridade dos dados através da confirmação de segurança. O layout em formato de modal prioriza a clareza visual e o foco total na tarefa, minimizando distrações e facilitando a transição do visitante para usuário ativo do sistema.
+
 ### Princípios Gestálticos Aplicados 
 
 * **Proximidade**: Campos relacionados (nome, email, senha) estão agrupados.
@@ -199,28 +211,28 @@ De modo geral, a interface utiliza uma identidade visual padronizada, com predom
 
 ### Regras de Ouro de Shneiderman
 
-**Consistência**
+1. **Consistência**
 Mesma identidade visual do login.
 
-**Atalhos**
+2. **Atalhos**
 Link para login evita retrabalho.
 
-**Feedback**
+3. **Feedback**
 Botão "Cadastrar" indica ação final.
 
-**Diálogo com fechamento** 
+4. **Diálogo com fechamento** 
 Processo termina com criação de conta.
 
-**Prevenção de erros** 
+5. **Prevenção de erros** 
 Campo de confirmação de senha evita inconsistências.
 
-**Reversibilidade**: 
+6. **Reversibilidade**: 
 Usuário pode voltar ao login.
 
-**Controle do usuário**: 
+7. **Controle do usuário**: 
 Fluxo claro e opcional.
 
-**Redução da carga de memória**: 
+8. **Redução da carga de memória**: 
 Campos claros e rotulados evitam confusão.
 
 ---
@@ -231,7 +243,7 @@ Campos claros e rotulados evitam confusão.
 
 ### Objetivo da Tela  
 
-Permitir a construção de um plano alimentar personalizado de forma progressiva, com visualização em tempo real e possibilidade de ajustes antes da finalização.
+A tela de Cadastro de Dietas tem como objetivo permitir que o usuário construa um plano alimentar personalizado de forma progressiva e estruturada. A interface foi desenhada para facilitar a inserção individual de alimentos, oferecendo uma visualização em tempo real da composição da dieta. Isso permite que ajustes sejam feitos de maneira dinâmica antes da finalização, garantindo que o plano final atenda com precisão às necessidades nutricionais e preferências do usuário.
 
 ### Princípios Gestálticos Aplicados - Monte sua dieta
 
@@ -291,7 +303,7 @@ Permitir a construção de um plano alimentar personalizado de forma progressiva
 
 ### Objetivo da Tela  
 
-Apresentar receitas de forma organizada, permitindo busca, comparação e seleção com base em tempo e complexidade.
+Apresentar receitas de forma organizada, permitindo busca, que o usuário busque, compare e marque suas favoritas, facilitando a escolha de refeições com base no tempo de preparo e dificuldade.
 
 
 ### Princípios Gestálticos Aplicados - Receitas
@@ -353,7 +365,7 @@ Apresentar receitas de forma organizada, permitindo busca, comparação e seleç
 
 ### Objetivo da Tela  
 
-Permitir o planejamento alimentar semanal, organizando refeições por dia e horário de forma visual.
+Permitir o planejamento alimentar semanal de forma visual e organizada, possibilitando que o usuário distribua suas refeições ao longo dos dias do mês para ter um controle claro de sua rotina nutricional e gerar sua lista de compras automaticamente.
 
 ### Princípios Gestálticos Aplicados - Agenda
 
@@ -410,10 +422,10 @@ Permitir o planejamento alimentar semanal, organizando refeições por dia e hor
 ### Tela de Lista de Compras
 
 ![tela_listacompras](../img/tela_listacompras.png)
+
 ### Objetivo da Tela  
 
 Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição, controle e organização da lista.
-
 
 ### Princípios Gestálticos Aplicados - Lista de Compras
 
@@ -471,47 +483,50 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
 
 ![tela_IMC](../img/tela_IMC.PNG)
 
-### Objetivo da Tela:
+### Objetivo da Tela
 
--	Permitir que o usuário calcule seu Índice de Massa Corporal (IMC) de forma rápida e intuitiva, inserindo peso e altura, e comparando o resultado com uma tabela de classificação.
--	Educar o usuário sobre o significado do IMC.
--	Fornecer feedback visual claro sobre a faixa de classificação (magreza, normal, sobrepeso, etc.).
+A tela de Cálculo de IMC tem como objetivo permitir que o usuário calcule seu Índice de Massa Corporal de forma rápida e intuitiva, inserindo peso e altura para comparação imediata com uma tabela de classificação, ao mesmo tempo em que educa o usuário sobre o significado do índice e fornece um feedback visual claro sobre sua faixa de saúde, seja ela magreza, normalidade ou sobrepeso.
 
 ### Princípios Gestálticos aplicados
    
--	**Proximidade:** Os campos de entrada (Peso e Altura) estão próximos entre si, sugerindo que pertencem à mesma etapa de interação. A tabela está separada, indicando ser uma referência.
+* **Proximidade:** Os campos de entrada (Peso e Altura) estão próximos entre si, sugerindo que pertencem à mesma etapa de interação. A tabela está separada, indicando ser uma referência.
   
--	**Similaridade/Região comum:** Os campos de entrada usam o mesmo estilo visual (caixas de texto com exemplos), e a tabela usa formatação uniforme.
+* **Similaridade/Região comum:** Os campos de entrada usam o mesmo estilo visual (caixas de texto com exemplos), e a tabela usa formatação uniforme.
   
--	**Simetria:** Os objetos são distribuídos de forma simétrica na tela, havendo um equilíbrio entre o bloco de texto à esquerda e a imagem à direita.
+* **Simetria:** Os objetos são distribuídos de forma simétrica na tela, havendo um equilíbrio entre o bloco de texto à esquerda e a imagem à direita.
   
--	**Fecho:** A tabela com bordas e linhas organiza as informações de modo que o cérebro completa a estrutura como um bloco único.
+* **Fecho:** A tabela com bordas e linhas organiza as informações de modo que o cérebro completa a estrutura como um bloco único.
   
--	**Figura-Fundo:** O título “RESULTADO DO SEU IMC” e a tabela se destacam do fundo, criando hierarquia visual.
+* **Figura-Fundo:** O título “RESULTADO DO SEU IMC” e a tabela se destacam do fundo, criando hierarquia visual.
   
--	**Continuidade:** A leitura da tabela é fluida (linhas alinhadas, colunas claras). O fluxo de leitura é vertical.
+* **Continuidade:** A leitura da tabela é fluida (linhas alinhadas, colunas claras). O fluxo de leitura é vertical.
 
 ### Recomendações Ergonômicas
  
--	Carga de trabalho: Apresenta baixa carga de trabalho, a tela possui poucos campos e instruções curtas.
+* Carga de trabalho: Apresenta baixa carga de trabalho, a tela possui poucos campos e instruções curtas.
   
--	Consistência: Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC.
+* Consistência: Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC.
   
--	Legibilidade: Fonte de tamanho adequado, contraste bom (fontes preto/cinza sobre branco/laranja).
+* Legibilidade: Fonte de tamanho adequado, contraste bom (fontes preto/cinza sobre branco/laranja).
   
--	Estética e design minimalista: Layout limpo, sem poluição visual.
+* Estética e design minimalista: Layout limpo, sem poluição visual.
   
 ### Regras de Ouro da Interface de Shneiderman
  	
-1. **Consistência e padronização:** Os ícones utilizados são simples é de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade. A tabela com as informações da classificação do IMC e bem distribuída e padronizada.
+1. **Consistência e padronização**
+   Os ícones utilizados são simples é de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade. A tabela com as informações da classificação do IMC e bem distribuída e padronizada.
 
-2. **Fornecer Prevenção de Erros e Forma Simples de Corrigi-los:** Projeto da interface evita erros, caso o usuário tente inserir dados inválidos, para o cálculo do IMC, não é permitido.
+2. **Fornecer Prevenção de Erros e Forma Simples de Corrigi-los**
+   Projeto da interface evita erros, caso o usuário tente inserir dados inválidos, para o cálculo do IMC, não é permitido.
 
-3. **Feedbacks Informativos:** Embora não visível nesta imagem, o botão "Calcular" é um componente que fornece feedback ao ser clicado (resultado do IMC).
+3. **Feedbacks Informativos**
+   Embora não visível nesta imagem, o botão "Calcular" é um componente que fornece feedback ao ser clicado (resultado do IMC).
 
-4. **Fornece Controle de Iniciativa do Usuário:** O usuário pode corrigir os campos, utilizando o botão “limpar”. Além disso, pode inserir valores livremente para realizar o cálculo do IMC, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
+4. **Fornece Controle de Iniciativa do Usuário**
+   O usuário pode corrigir os campos, utilizando o botão “limpar”. Além disso, pode inserir valores livremente para realizar o cálculo do IMC, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
 
-5. **Reduz a Carga de Memória de Trabalho:** Primando em reconhecer em vez de lembrar. As informações da tabela estão visíveis para consulta.
+5. **Reduz a Carga de Memória de Trabalho**
+   Primando em reconhecer em vez de lembrar. As informações da tabela estão visíveis para consulta.
 
 ---
 
@@ -519,61 +534,57 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
 
 <img width="1635" height="962" alt="Tela BeFIT nova - Relatório" src="https://github.com/user-attachments/assets/5b292d2c-dd29-48a9-b184-8fd3a0d9b983" />
 
-**Objetivo da Tela**
+### Objetivo da Tela
 
 Permitir ao usuário acessar e gerar relatórios de consumo alimentar e IMC de forma rápida, visual e organizada, com informações resumidas sobre seu histórico.
 
-**Princípios Gestálticos Aplicados**
+### Princípios Gestálticos Aplicados
 
-Proximidade: os blocos de Consumo e IMC estão agrupados individualmente com seus respectivos dados e ações.
+* **Proximidade:** os blocos de Consumo e IMC estão agrupados individualmente com seus respectivos dados e ações.
 
-Figura-Fundo: os cards brancos se destacam sobre o fundo laranja, facilitando foco nas informações.
+* **Figura-Fundo:** os cards brancos se destacam sobre o fundo laranja, facilitando foco nas informações.
 
-Semelhança: ambos os relatórios utilizam o mesmo padrão visual (ícone, título, descrição e botão).
+* **Semelhança:** ambos os relatórios utilizam o mesmo padrão visual (ícone, título, descrição e botão).
 
-Continuidade: a leitura segue fluxo vertical (título → descrição → dados → ação).
+* **Continuidade:** a leitura segue fluxo vertical (título → descrição → dados → ação).
 
-Hierarquia Visual: títulos maiores, ícones e botões verdes guiam o usuário para ações principais.
+* **Hierarquia Visual:** títulos maiores, ícones e botões verdes guiam o usuário para ações principais.
 
 
-**Recomendações Ergonômicas**
-Informações resumidas reduzem carga cognitiva.
-Uso de ícones auxilia no reconhecimento rápido.
-Botões grandes facilitam interação (especialmente em telas touch).
-Feedback implícito (status, data, IMC) melhora entendimento imediato.
+### Recomendações Ergonômicas
 
-Regras de Ouro de Shneiderman
+* Informações resumidas reduzem carga cognitiva.
+  
+* Uso de ícones auxilia no reconhecimento rápido.
+  
+* Botões grandes facilitam interação (especialmente em telas touch).
+  
+* Feedback implícito (status, data, IMC) melhora entendimento imediato.
 
-**1. Consistência**
+### Regras de Ouro de Shneiderman
 
+1. **Consistência**
 Layout segue padrão das demais telas (cores, botões, cards).
 
-**2. Atalhos**
-
+2. **Atalhos**
 Botão “Gerar Relatório” permite acesso direto à funcionalidade.
 
-**3. Feedback**
-
+3. **Feedback**
 Exibição de data, status e IMC fornece retorno ao usuário.
 
-**4. Diálogo com fechamento**
-
+4. **Diálogo com fechamento**
 A ação de gerar relatório leva a uma nova tela com conclusão clara.
 
-**5.Prevenção de erros**
-
+5. **Prevenção de erros**
 Interface não exige entrada manual nesta etapa.
 
-**6. Reversão fácil**
-
+6. **Reversão fácil**
 Usuário pode simplesmente não gerar ou voltar.
 
-**7. Controle do usuário**
-
+7. **Controle do usuário**
 Usuário decide qual relatório acessar.
 
-**9. Baixa carga cognitiva**
-
+8. **Baixa carga cognitiva**
 Informações visíveis eliminam necessidade de memorização.
 
 
@@ -581,61 +592,56 @@ Informações visíveis eliminam necessidade de memorização.
 
 <img width="1635" height="962" alt="Imagem 3 - Relatório Gerado" src="https://github.com/user-attachments/assets/39bb0b00-f96f-412f-ad1d-22d83f4568a6" />
 
-**Objetivo da Tela**
+### Objetivo da Tela
 
 Permitir ao usuário visualizar um relatório consolidado de IMC já gerado, oferecendo opções de ações adicionais como impressão, visualização do último cálculo e acesso a conteúdos relacionados.
 
-**Princípios Gestálticos Aplicados**
+### Princípios Gestálticos Aplicados 
 
-**Proximidade:** os botões de ação (Imprimir, Mostrar Último IMC e Mostrar Receitas) estão agrupados, indicando funcionalidades relacionadas.
+* **Proximidade:** os botões de ação (Imprimir, Mostrar Último IMC e Mostrar Receitas) estão agrupados, indicando funcionalidades relacionadas.
 
-**Figura-Fundo:** o card do relatório se destaca do fundo laranja, facilitando o foco nas informações principais.
+* **Figura-Fundo:** o card do relatório se destaca do fundo laranja, facilitando o foco nas informações principais.
 
-**Semelhança:** os botões seguem o mesmo padrão visual, com cores e formatos consistentes.
+* **Semelhança:** os botões seguem o mesmo padrão visual, com cores e formatos consistentes.
 
-**Continuidade:** o fluxo de leitura ocorre de cima para baixo, iniciando no título, passando pelas ações e chegando aos dados do relatório.
+* **Continuidade:** o fluxo de leitura ocorre de cima para baixo, iniciando no título, passando pelas ações e chegando aos dados do relatório.
 
-**Hierarquia Visual:** o título “Relatório Gerado” e os botões de ação possuem maior destaque, guiando o usuário.
+* **Hierarquia Visual:** o título “Relatório Gerado” e os botões de ação possuem maior destaque, guiando o usuário.
 
-**Recomendações Ergonômicas**
+### Recomendações Ergonômicas
 
-Botões com ícones facilitam reconhecimento e reduzem esforço cognitivo.
-Ações principais estão visíveis sem necessidade de navegação adicional.
-Informações organizadas em blocos melhoram a leitura e compreensão.
-Uso de contraste adequado melhora legibilidade.
+* Botões com ícones facilitam reconhecimento e reduzem esforço cognitivo.
+  
+* Ações principais estão visíveis sem necessidade de navegação adicional.
+  
+* Informações organizadas em blocos melhoram a leitura e compreensão.
+  
+* Uso de contraste adequado melhora legibilidade.
 
-**Regras de Ouro de Shneiderman**
+### Regras de Ouro de Shneiderman
 
-**1. Consistência**
-
+1. **Consistência**
 Interface mantém o mesmo padrão visual das demais telas do sistema.
 
-**2. Atalhos**
-
+2. **Atalhos**
 Botões de ação permitem acesso rápido a funcionalidades importantes.
 
-**3. Feedback**
-
+3. **Feedback**
 A exibição do relatório indica que a ação foi concluída com sucesso.
 
-**4. Diálogo com fechamento**
-
+4. **Diálogo com fechamento**
 A tela representa o encerramento do processo de geração do relatório.
 
-**5. Prevenção de erros**
-
+5. **Prevenção de erros**
 Não há necessidade de inserção de dados, reduzindo possibilidade de erro.
 
-**6. Reversão fácil**
-
+6. **Reversão fácil**
 Usuário pode retornar para gerar novos relatórios ou acessar outras funcionalidades.
 
-**7. Controle do usuário**
-
+7. **Controle do usuário**
 Usuário decide quais ações executar a partir do relatório exibido.
 
-**8. Baixa carga cognitiva**
-
+8. **Baixa carga cognitiva**
 Informações estão organizadas e visíveis, evitando necessidade de memorização.
 
 ---
