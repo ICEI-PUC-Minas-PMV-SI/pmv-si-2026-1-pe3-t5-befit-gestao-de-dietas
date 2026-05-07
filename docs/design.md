@@ -649,11 +649,6 @@ Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando t
 Com o objetivo de analisar o sistema, aplicamos um teste com a metodologia System Usability Scale (SUS), dos seguintes requisitos:  tela home (navegação entre as funcionalidades); tela de cadastro e login; tela para gerar relatórios; tela de acesso às receitas; tela de cálculo de IMC; tela de controle de agenda alimentar e tela de controle e acesso das dietas. 
 
 A seguir apresentamos um questionário com 10 perguntas baseado na ferramenta SUS, adaptado ao contexto da aplicação BeFit:
-Instrução ao respondente:
-
-**Para cada afirmação, avalie seu nível de concordância em uma escala de 1 a 5, onde:**
-
-1 = Discordo totalmente | 2 = Discordo | 3 = Neutro | 4 = Concordo | 5 = Concordo totalmente.
 
 **Questionário de Usabilidade – BeFit (SUS - System Usability)**
 
@@ -668,12 +663,16 @@ Instrução ao respondente:
 9.	Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente, pois é muito fácil gerar e acompanhar relatórios.
 10.	Eu me senti confuso ao utilizar o BeFit para acompanhar minha alimentação e dados relacionados à dieta sugeridas.
 
+**Instrução ao respondente:**
+
+Para cada afirmação, avalie seu nível de concordância em uma escala de 1 a 5, onde:
+
+1 = Discordo totalmente | 2 = Discordo | 3 = Neutro | 4 = Concordo | 5 = Concordo totalmente.
+
 
 **Pontuação média coletada com os questionários:**
 
 Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
-
-Resultado obtido com a análise a partir da metodologia da ferramenta SUS: 72,5.
 
 **Análise dos resultados obtidos:**
 
@@ -700,6 +699,8 @@ Essas questões investigam possíveis problemas de complexidade, inconsistência
 -	Q8 (média 1): Indica baixa percepção de inconsistência na navegação entre telas, o que reforça a boa usabilidade e padronização do sistema.
 -	Q10 (média 4): Aponta que alguns usuários se sentiram confusos ao acompanhar informações relacionadas à dieta, sugerindo a necessidade de melhorias na clareza das informações apresentadas.
 
+**Resultado obtido com a análise a partir da metodologia da ferramenta SUS: 72,5.**
+
 **Gráfico dos resultados do questionário a partir da análise SUS:**
 
 ![SUS](../img/SUS.png) 
@@ -718,6 +719,7 @@ O score SUS obtido foi de 72,5. De acordo com a literatura da System Usability S
 -	Pontuações acima de 68 são consideradas acima da média;
 -	Resultados entre 70 e 80 indicam boa usabilidade;
 -	Sistemas com pontuação superior a 80 são considerados excelentes.
+
 Dessa forma, o BeFit pode ser classificado como uma aplicação com boa usabilidade, sendo bem aceita pelos usuários e adequada para o público alvo proposto.
 
 **3. Conclusão geral**
