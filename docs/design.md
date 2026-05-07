@@ -650,7 +650,7 @@ Com o objetivo de analisar o sistema, aplicamos um teste com a metodologia Syste
 
 A seguir apresentamos um questionário com 10 perguntas baseado na ferramenta SUS, adaptado ao contexto da aplicação BeFit:
 
-###Questionário de Usabilidade – BeFit (SUS - System Usability)
+### Questionário de Usabilidade – BeFit (SUS - System Usability)
 
 1.	Eu acho que a interface do sistema é bem intuitiva e fácil de usar, pois é muito fácil acessar e imprimir a lista de compras.
 2.	Eu acho que os ícones utilizados no sistema são pouco funcionais e intuitivos, prejudicando a linguagem visual, e consequentemente dificultando a navegação.
@@ -674,7 +674,7 @@ Para cada afirmação, avalie seu nível de concordância em uma escala de 1 a 5
 
 Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
 
-###Análise dos resultados obtidos:
+### Análise dos resultados obtidos:
 
 **1. Análise das respostas por questão:**
 
