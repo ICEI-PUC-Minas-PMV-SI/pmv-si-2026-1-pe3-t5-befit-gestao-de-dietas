@@ -672,6 +672,7 @@ Instrução ao respondente:
 **Pontuação média coletada com os questionários:**
 
 Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
+
 Resultado obtido com a análise a partir da metodologia da ferramenta SUS: 72,5.
 
 **Análise dos resultados obtidos:**
@@ -687,8 +688,12 @@ Essas questões avaliam aspectos favoráveis da usabilidade, como facilidade de 
 -	Q5 (média 3): Sugere uma aceitação moderada quanto ao uso frequente do sistema. Embora seja positivo, indica espaço para melhorias que tornem o BeFit mais atrativo no uso contínuo.
 -	Q7 (média 5): Mostra excelente percepção de integração entre as funcionalidades acessadas pela tela home, o que reforça a coerência da arquitetura da informação.
 -	Q9 (média 3): Revela que os usuários veem o sistema como relativamente fácil de aprender, especialmente para geração e acompanhamento de relatórios, embora não de forma unanimemente positiva.
-Questões negativas (2, 4, 6, 8 e 10)
+
+
+**Questões negativas (2, 4, 6, 8 e 10)**
+
 Essas questões investigam possíveis problemas de complexidade, inconsistência e dificuldade de uso. Pontuações baixas são desejáveis.
+
 -	Q2 (média 2): Indica que, em geral, os usuários não consideram os ícones pouco funcionais, sugerindo que a linguagem visual é adequada.
 -	Q4 (média 3): Resultado neutro, apontando que parte dos usuários percebe certa complexidade em tarefas como acessar receitas ou relatórios. Essa questão merece atenção, pois pode impactar usuários menos experientes.
 -	Q6 (média 1): Excelente resultado, demonstrando que os usuários não sentem necessidade de ajuda técnica para utilizar o sistema, reforçando sua autonomia.
