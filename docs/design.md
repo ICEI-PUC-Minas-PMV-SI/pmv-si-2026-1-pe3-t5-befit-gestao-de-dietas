@@ -654,9 +654,9 @@ Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando t
 
 Com o objetivo de analisar o sistema, aplicamos um teste com a metodologia System Usability Scale (SUS), dos seguintes requisitos:  tela home (navegação entre as funcionalidades); tela de cadastro e login; tela para gerar relatórios; tela de acesso às receitas; tela de cálculo de IMC; tela de controle de agenda alimentar e tela de controle e acesso das dietas. 
 
-A seguir apresentamos um questionário com 10 perguntas baseado na ferramenta SUS, adaptado ao contexto da aplicação BeFit:
+A seguir apresentamos o questionário com 10 perguntas baseado na ferramenta SUS, adaptado ao contexto da aplicação BeFit, que foi aplicao aos usuários:
 
-### Questionário de Usabilidade – BeFit (SUS - System Usability)
+### Questionário de Usabilidade – BeFit (SUS - System Usability Scale)
 
 1.	Eu acho que a interface do sistema é bem intuitiva e fácil de usar, pois é muito fácil acessar e imprimir a lista de compras.
 2.	Eu acho que os ícones utilizados no sistema são pouco funcionais e intuitivos, prejudicando a linguagem visual, e consequentemente dificultando a navegação.
