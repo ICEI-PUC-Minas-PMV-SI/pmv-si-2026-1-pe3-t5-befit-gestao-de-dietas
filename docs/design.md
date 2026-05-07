@@ -651,10 +651,12 @@ Com o objetivo de analisar o sistema, aplicamos um teste com a metodologia Syste
 A seguir apresentamos um questionário com 10 perguntas baseado na ferramenta SUS, adaptado ao contexto da aplicação BeFit:
 Instrução ao respondente:
 
-**Para cada afirmação, avalie seu nível de concordância em uma escala de 1 a 5, onde:
+**Para cada afirmação, avalie seu nível de concordância em uma escala de 1 a 5, onde:**
+
 1 = Discordo totalmente | 2 = Discordo | 3 = Neutro | 4 = Concordo | 5 = Concordo totalmente.
 
-**Questionário de Usabilidade – BeFit (SUS - System Usability)
+**Questionário de Usabilidade – BeFit (SUS - System Usability)**
+
 1.	Eu acho que a interface do sistema é bem intuitiva e fácil de usar, pois é muito fácil acessar e imprimir a lista de compras.
 2.	Eu acho que os ícones utilizados no sistema são pouco funcionais e intuitivos, prejudicando a linguagem visual, e consequentemente dificultando a navegação.
 3.	Eu achei o sistema BeFit fácil de usar, principalmente o cálculo de IMC para o controle de peso.
@@ -667,15 +669,17 @@ Instrução ao respondente:
 10.	Eu me senti confuso ao utilizar o BeFit para acompanhar minha alimentação e dados relacionados à dieta sugeridas.
 
 
-**Pontuação média coletada com os questionários:
+**Pontuação média coletada com os questionários:**
 Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
 Resultado obtido com a análise a partir da metodologia da ferramenta SUS: 72,5.
 
-**Análise dos resultados obtidos:
+**Análise dos resultados obtidos:**
 
-**1. Análise das respostas por questão:
-**Questões positivas (1, 3, 5, 7 e 9)
+**1. Análise das respostas por questão:**
+
+**Questões positivas (1, 3, 5, 7 e 9)**
 Essas questões avaliam aspectos favoráveis da usabilidade, como facilidade de uso, integração das funcionalidades e aprendizado do sistema.
+
 -	Q1 (média 4): Indica que a maioria dos usuários considera a interface intuitiva, destacando a facilidade em acessar funcionalidades como a lista de compras. Esse resultado evidencia um bom design de interação.
 -	Q3 (média 5): Demonstra forte aceitação na facilidade de uso do sistema, principalmente no cálculo de IMC, uma funcionalidade essencial para o controle de peso.
 -	Q5 (média 3): Sugere uma aceitação moderada quanto ao uso frequente do sistema. Embora seja positivo, indica espaço para melhorias que tornem o BeFit mais atrativo no uso contínuo.
@@ -689,23 +693,25 @@ Essas questões investigam possíveis problemas de complexidade, inconsistência
 -	Q8 (média 1): Indica baixa percepção de inconsistência na navegação entre telas, o que reforça a boa usabilidade e padronização do sistema.
 -	Q10 (média 4): Aponta que alguns usuários se sentiram confusos ao acompanhar informações relacionadas à dieta, sugerindo a necessidade de melhorias na clareza das informações apresentadas.
 
-**Gráfico dos resultados do questionário a partir da análise SUS:
+**Gráfico dos resultados do questionário a partir da análise SUS:**
 
 
-**Gráfico dos resultados das respostas do questionário:
+**Gráfico dos resultados das respostas do questionário:**
 
 
-**Gráfico dos resultados do questionário a partir da análise SUS x Respostas do Questionário:
+**Gráfico dos resultados do questionário a partir da análise SUS x Respostas do Questionário:**
 
 
-**2. Análise do resultado SUS global:
+**2. Análise do resultado SUS global:**
+
 O score SUS obtido foi de 72,5. De acordo com a literatura da System Usability Scale:
 -	Pontuações acima de 68 são consideradas acima da média;
 -	Resultados entre 70 e 80 indicam boa usabilidade;
 -	Sistemas com pontuação superior a 80 são considerados excelentes.
 Dessa forma, o BeFit pode ser classificado como uma aplicação com boa usabilidade, sendo bem aceita pelos usuários e adequada para o público alvo proposto.
 
-**3. Conclusão geral
+**3. Conclusão geral**
+
 A análise dos resultados mostra que o BeFit atende de forma satisfatória aos critérios de usabilidade, especialmente no que se refere à facilidade de uso, integração das funcionalidades e autonomia do usuário. Pontos fortes incluem:
 -	Facilidade no cálculo de IMC;
 -	Boa integração entre telas;
@@ -717,6 +723,7 @@ Por outro lado, alguns aspectos podem ser aprimorados, como:
 -	Melhorar a clareza de informações relacionadas ao acompanhamento da dieta.
 
 Em síntese, com pequenos ajustes de usabilidade e refinamento da interface, o BeFit tem potencial para alcançar níveis ainda mais altos de satisfação e eficiência no apoio à gestão alimentar.
+
 
 ---
 
