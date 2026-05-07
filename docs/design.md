@@ -670,6 +670,7 @@ Instrução ao respondente:
 
 
 **Pontuação média coletada com os questionários:**
+
 Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
 Resultado obtido com a análise a partir da metodologia da ferramenta SUS: 72,5.
 
@@ -678,6 +679,7 @@ Resultado obtido com a análise a partir da metodologia da ferramenta SUS: 72,5.
 **1. Análise das respostas por questão:**
 
 **Questões positivas (1, 3, 5, 7 e 9)**
+
 Essas questões avaliam aspectos favoráveis da usabilidade, como facilidade de uso, integração das funcionalidades e aprendizado do sistema.
 
 -	Q1 (média 4): Indica que a maioria dos usuários considera a interface intuitiva, destacando a facilidade em acessar funcionalidades como a lista de compras. Esse resultado evidencia um bom design de interação.
@@ -695,12 +697,15 @@ Essas questões investigam possíveis problemas de complexidade, inconsistência
 
 **Gráfico dos resultados do questionário a partir da análise SUS:**
 
+![SUS](../img/SUS.png) 
 
 **Gráfico dos resultados das respostas do questionário:**
 
+![Questionario](../img/Questionario.png)
 
 **Gráfico dos resultados do questionário a partir da análise SUS x Respostas do Questionário:**
 
+![SUSxQuestionario](../img/SUSxQuestionario.png) 
 
 **2. Análise do resultado SUS global:**
 
