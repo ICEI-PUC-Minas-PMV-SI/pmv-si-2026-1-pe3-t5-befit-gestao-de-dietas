@@ -675,10 +675,36 @@ Para cada afirmação, avalie seu nível de concordância em uma escala de 1 a 5
 
 1 = Discordo totalmente | 2 = Discordo | 3 = Neutro | 4 = Concordo | 5 = Concordo totalmente.
 
+**Pontuação  coletada com os questionários por usuário:**
+
+Usuário 01:
+
+Questão 01 =   | Questão 02 =  | Questão 03 =  | Questão 04 =  | Questão 05 =  |  Questão 06 =   | Questão 07 =  | Questão 08 =  | Questão 09 =  | Questão 10 =  
+
+Usuário 02:
+
+Questão 01 =   | Questão 02 =  | Questão 03 =  | Questão 04 =  | Questão 05 =  |  Questão 06 =   | Questão 07 =  | Questão 08 =  | Questão 09 =  | Questão 10 =  
+
+Usuário 03:
+
+Questão 01 =   | Questão 02 =  | Questão 03 =  | Questão 04 =  | Questão 05 =  |  Questão 06 =   | Questão 07 =  | Questão 08 =  | Questão 09 =  | Questão 10 =  
+
+Usuário 04:
+
+Questão 01 =   | Questão 02 =  | Questão 03 =  | Questão 04 =  | Questão 05 =  |  Questão 06 =   | Questão 07 =  | Questão 08 =  | Questão 09 =  | Questão 10 =  
+
+Usuário 05:
+
+Questão 01 =   | Questão 02 =  | Questão 03 =  | Questão 04 =  | Questão 05 =  |  Questão 06 =   | Questão 07 =  | Questão 08 =  | Questão 09 =  | Questão 10 =  
+
+Usuário 06:
+
+Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 |  Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
+
 
 **Pontuação média coletada com os questionários:**
 
-Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
+Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 | Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
 
 ### Análise dos resultados obtidos:
 
