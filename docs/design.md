@@ -820,35 +820,6 @@ Adicionar pequenas animações de transição entre páginas para deixar a naveg
 
 ![Resultado SUS](../img/Resultado-Victor.jpeg)
 
-> <--- fim do template 
----
->Cada integrante do grupo deverá aplicar o teste com um usuário distinto, preferencialmente alinhado ao perfil das personas criadas. Devem ser definidas previamente as tarefas que o usuário deverá executar no protótipo (por exemplo: realizar um cadastro, buscar um produto, concluir uma compra).
-
->Durante a aplicação do teste, registre observações sobre comportamentos, dúvidas, erros e comentários feitos pelo usuário, bem como o tempo necessário para a execução de cada tarefa. Ao final, colete o feedback do participante, destacando pontos positivos e aspectos a serem melhorados.
-
->Os resultados obtidos por todos os integrantes devem ser consolidados, apresentando uma análise geral com os principais problemas encontrados, oportunidades de melhoria e as ações previstas para o projeto final. 
-
->Sobre os testes de protótipos:
-
->Uma prática recomendada é definir um conjunto padrão de perguntas para os usuários. Assim, cada integrante do grupo aplica as mesmas questões a um usuário diferente (um usuário por integrante), permitindo posteriormente a síntese dos resultados, conforme solicitado na seção 4.4 do relatório.
-
->Segue um conjunto de perguntas sugeridas:
-
->1 - Ao acessar a página inicial, você compreendeu rapidamente o objetivo do sistema?<br>
->2 - O menu e os botões estão posicionados de forma intuitiva?<br>
->3 - A nomenclatura das seções (menus, botões e links) é clara?<br>
->4 - Foi fácil localizar as informações ou funcionalidades desejadas?<br>
->5 - As etapas para realizar as tarefas estão claras e bem organizadas?<br>
->6 - Os elementos visuais (cores, ícones e layout) ajudam a identificar o que é clicável?<br>
->7 - Há elementos que geram confusão ou chamam atenção de forma inadequada?<br>
->8 - Os textos e rótulos são claros e auxiliam na navegação?<br>
->9 - Houve dificuldade para visualizar, clicar ou entender algum elemento?<br>
->10 - As instruções e mensagens são compreensíveis?<br>
->11 - Há termos técnicos ou expressões confusas?<br>
->12 - Você se sentiu seguro(a) ao utilizar o protótipo, sem necessidade de ajuda?<br>
->13 - O que você mais gostou na interface?<br>
->14 - O que você melhoraria?<br>
->15 - Gostaria de acrescentar mais algum comentário?<br>
 
 ---------------------------------------teste aurora martins--------------------------------------------------------------------------
 
