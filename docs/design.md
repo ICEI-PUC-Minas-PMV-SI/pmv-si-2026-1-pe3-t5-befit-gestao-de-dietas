@@ -745,6 +745,22 @@ Em síntese, com pequenos ajustes de usabilidade e refinamento da interface, o B
 
 ---
 
+Respotas do questionário atualizado:
+
+Usuário  01:
+
+Usuário  02:
+
+Usuário  03:
+
+Usuário  04:
+
+Usuário  05:
+
+Usuário  06:
+
+---
+
 > template(1 por integrante/tarefa/tela) --->
 
 # 🔹 Integrante
