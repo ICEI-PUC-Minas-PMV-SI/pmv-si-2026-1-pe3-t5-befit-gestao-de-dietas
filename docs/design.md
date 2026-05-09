@@ -357,7 +357,6 @@ Apresentar receitas de forma organizada, permitindo busca, que o usuário busque
    Dados visíveis evitam navegação extra.
 
    ---
-   
 
 ### Tela Agenda
 
@@ -587,6 +586,7 @@ Usuário decide qual relatório acessar.
 8. **Baixa carga cognitiva**
 Informações visíveis eliminam necessidade de memorização.
 
+---
 
 ### Tela: Relatório Gerado
 
@@ -652,7 +652,7 @@ Os testes de usabilidade foram realizados com usuários alinhados ao perfil das 
 
 Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando tarefas específicas relacionadas à funcionalidade desenvolvida. Durante os testes, foram registradas observações sobre comportamento, dificuldades, erros e tempo de execução das tarefas. Ao final, foi aplicado o questionário SUS (System Usability Scale) para avaliação da percepção de usabilidade.
 
-Com o objetivo de analisar o sistema, aplicamos um teste com a metodologia System Usability Scale (SUS), dos seguintes requisitos:  tela home (navegação entre as funcionalidades); tela de cadastro e login; tela para gerar relatórios; tela de acesso às receitas; tela de cálculo de IMC; tela de controle de agenda alimentar e tela de controle e acesso das dietas. 
+Com o objetivo de analisar o sistema, aplicamos um teste com a metodologia System Usability Scale (SUS), dos seguintes requisitos: tela home (navegação entre as funcionalidades); tela de cadastro e login; tela para gerar relatórios; tela de acesso às receitas; tela de cálculo de IMC; tela de controle de agenda alimentar e tela de controle e acesso das dietas. 
 
 A seguir apresentamos o questionário com 10 perguntas baseado na ferramenta SUS, adaptado ao contexto da aplicação BeFit, que foi aplicao aos usuários:
 
@@ -667,7 +667,7 @@ A seguir apresentamos o questionário com 10 perguntas baseado na ferramenta SUS
 7.	Eu achei que as funcionalidades do BeFit, ao acessar a tela home (cadastro/login, relatórios, receitas, IMC e agenda alimentar) estão bem integradas entre si.
 8.	Eu percebi muita inconsistência no funcionamento ou na navegação entre as telas do BeFit.
 9.	Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente, pois é muito fácil gerar e acompanhar relatórios.
-10.	Eu me senti confuso ao utilizar o BeFit para acompanhar minha alimentação e dados relacionados à dieta sugeridas.
+10. Eu me senti confuso ao utilizar o BeFit para acompanhar minha alimentação e dados relacionados à dieta sugeridas.
 
 **Instrução ao respondente:**
 
@@ -767,7 +767,6 @@ Por outro lado, alguns aspectos podem ser aprimorados, como:
 -	Melhorar a clareza de informações relacionadas ao acompanhamento da dieta.
 
 Em síntese, com pequenos ajustes de usabilidade e refinamento da interface, o BeFit tem potencial para alcançar níveis ainda mais altos de satisfação e eficiência no apoio à gestão alimentar.
-
 
 ---
 
