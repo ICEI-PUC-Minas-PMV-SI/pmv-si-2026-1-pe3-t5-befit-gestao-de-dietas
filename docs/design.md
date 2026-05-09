@@ -69,7 +69,7 @@ De modo geral, a interface utiliza uma identidade visual padronizada, com predom
 
 ### Objetivo da Tela  
 
-A tela principal do BeFit tem como objetivo apresentar, de forma clara e intuitiva, o ecossistema de funcionalidades do sistema, servindo como um painel de controle central. Através de uma organização visual baseada em cards, a interface permite que o usuário identifique e acesse rapidamente recursos essenciais, como o cadastro de dietas, receitas, cálculo de IMC e relatórios. O foco central é facilitar a navegabilidade, reduzir o esforço de decisão e promover uma experiência de uso organizada, onde o usuário encontra tudo o que precisa para sua rotina de saúde em um único lugar.
+A tela principal tem como objetivo apresentar, de forma clara e intuitiva, o ecossistema de funcionalidades do sistema, servindo como um painel de controle central. Através de uma organização visual baseada em cards, a interface permite que o usuário identifique e acesse rapidamente recursos essenciais, como o cadastro de dietas, receitas, cálculo de IMC e relatórios. O foco central é facilitar a navegabilidade, reduzir o esforço de decisão e promover uma experiência de uso organizada, onde o usuário encontra tudo o que precisa para sua rotina de saúde em um único lugar.
 
 ### Princípios Gestálticos Aplicados
 
@@ -95,29 +95,21 @@ A tela principal do BeFit tem como objetivo apresentar, de forma clara e intuiti
 
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência**  
-   Navegação superior padronizada em todas as telas (Home, Cadastro, Relatórios etc.).
+1. **Consistência:** Navegação superior padronizada em todas as telas (Home, Cadastro, Relatórios etc.).
 
-2. **Atalhos para usuários experientes**  
-   Menu direto permite acesso rápido às funcionalidades principais.
+2. **Atalhos:** Menu direto permite acesso rápido às funcionalidades principais.
 
-3. **Feedback informativo**  
-   Botões com destaque visual indicam claramente ações disponíveis.
+3. **Feedback:** Botões com destaque visual indicam claramente ações disponíveis.
 
-4. **Diálogo com fechamento**  
-   A tela apresenta início claro do fluxo (entrada no sistema).
+4. **Diálogo com fechamento:** A tela apresenta início claro do fluxo (entrada no sistema).
 
-5. **Prevenção de erros**  
-   Interface simples evita cliques incorretos.
+5. **Prevenção de erros:** Interface simples evita cliques incorretos.
 
-6. **Reversibilidade de ações**  
-   Usuário pode navegar livremente entre opções sem impacto.
+6. **Reversão fácil:** Usuário pode navegar livremente entre opções sem impacto.
 
-7. **Controle do usuário**  
-   O usuário decide entre login ou cadastro.
+7. **Controle do usuário:** O usuário decide entre login ou cadastro.
 
-8. **Redução da carga de memória**  
-   Informações visuais e bem organizadas evitam necessidade de memorização.
+8. **Baixa carga cognitiva:** Informações visuais e bem organizadas evitam necessidade de memorização.
 
 ---
 
@@ -129,7 +121,7 @@ A tela principal do BeFit tem como objetivo apresentar, de forma clara e intuiti
 
 A tela de Cadastro e Login tem como objetivo permitir que o usuário acesse ou inicie sua utilização na plataforma de forma rápida e intuitiva. A interface apresenta as principais propostas do sistema logo na entrada, incentivando o engajamento do usuário enquanto oferece acesso direto às ações de cadastro e autenticação. O layout busca transmitir organização, simplicidade e acolhimento visual, facilitando o primeiro contato com a aplicação.
   
-### Princípios Gestálticos Aplicados - Login
+### Princípios Gestálticos Aplicados
 
 * **Proximidade:** Campos de login e senha estão agrupados dentro de um card central, indicando relação funcional.
 
@@ -153,29 +145,21 @@ A tela de Cadastro e Login tem como objetivo permitir que o usuário acesse ou i
 
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência**  
-   Mesmo estilo visual da aplicação (cores, botões, tipografia).
+1. **Consistência:** Mesmo estilo visual da aplicação (cores, botões, tipografia).
 
-2. **Atalhos**  
-   Link direto para cadastro reduz etapas.
+2. **Atalhos:** Link direto para cadastro reduz etapas.
 
-3. **Feedback**  
-   Botão "Entrar" destaca a ação principal.
+3. **Feedback:** Botão "Entrar" destaca a ação principal.
 
-4. **Diálogo com fechamento**  
-   Processo de login é claro e direto.
+4. **Diálogo com fechamento:** Processo de login é claro e direto.
 
-5. **Prevenção de erros**  
-   Estrutura simples reduz chances de erro.
+5. **Prevenção de erros:** Estrutura simples reduz chances de erro.
 
-6. **Reversão fácil**  
-   Botão de fechar (X) permite sair do modal.
+6. **Reversão fácil:** Botão de fechar (X) permite sair do modal.
 
-7. **Controle do usuário**  
-   Usuário pode decidir entre logar ou criar conta.
+7. **Controle do usuário:** Usuário pode decidir entre logar ou criar conta.
 
-8. **Baixa carga cognitiva**  
-   Apenas dois campos obrigatórios.
+8. **Baixa carga cognitiva:** Apenas dois campos obrigatórios.
 
 ---
    
@@ -211,29 +195,21 @@ A tela de Cadastro tem como objetivo permitir que novos usuários criem suas con
 
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência**
-Mesma identidade visual do login.
+1. **Consistência:** Mesma identidade visual do login.
 
-2. **Atalhos**
-Link para login evita retrabalho.
+2. **Atalhos:** Link para login evita retrabalho.
 
-3. **Feedback**
-Botão "Cadastrar" indica ação final.
+3. **Feedback:** Botão "Cadastrar" indica ação final.
 
-4. **Diálogo com fechamento** 
-Processo termina com criação de conta.
+4. **Diálogo com fechamento:** Processo termina com criação de conta.
 
-5. **Prevenção de erros** 
-Campo de confirmação de senha evita inconsistências.
+5. **Prevenção de erros:** Campo de confirmação de senha evita inconsistências.
 
-6. **Reversibilidade**: 
-Usuário pode voltar ao login.
+6. **Reversão fácil:** Usuário pode voltar ao login.
 
-7. **Controle do usuário**: 
-Fluxo claro e opcional.
+7. **Controle do usuário:** Fluxo claro e opcional.
 
-8. **Redução da carga de memória**: 
-Campos claros e rotulados evitam confusão.
+8. **Baixa carga cognitiva:** Campos claros e rotulados evitam confusão.
 
 ---
 
@@ -245,7 +221,7 @@ Campos claros e rotulados evitam confusão.
 
 A tela de Cadastro de Dietas tem como objetivo permitir que o usuário construa um plano alimentar personalizado de forma progressiva e estruturada. A interface foi desenhada para facilitar a inserção individual de alimentos, oferecendo uma visualização em tempo real da composição da dieta. Isso permite que ajustes sejam feitos de maneira dinâmica antes da finalização, garantindo que o plano final atenda com precisão às necessidades nutricionais e preferências do usuário.
 
-### Princípios Gestálticos Aplicados - Monte sua dieta
+### Princípios Gestálticos Aplicados 
 
 * **Proximidade:** Campos agrupados indicam mesma tarefa.
 
@@ -271,42 +247,34 @@ A tela de Cadastro de Dietas tem como objetivo permitir que o usuário construa 
 
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência**  
-   Mantém padrão visual das demais telas.
+1. **Consistência:** Mantém padrão visual das demais telas.
 
-2. **Atalhos**  
-   Seleção de receitas acelera o processo.
+2. **Atalhos:** Seleção de receitas acelera o processo.
 
-3. **Feedback**  
-   Área de visualização mostra estado atual.
+3. **Feedback:** Área de visualização mostra estado atual.
 
-4. **Diálogo com fechamento**  
-   Botão “Salvar dieta” finaliza a tarefa.
+4. **Diálogo com fechamento:** Botão “Salvar dieta” finaliza a tarefa.
 
-5. **Prevenção de erros**  
-   Campos guiados reduzem entradas inválidas.
+5. **Prevenção de erros:** Campos guiados reduzem entradas inválidas.
 
-6. **Reversão fácil**  
-   Usuário pode revisar antes de salvar.
+6. **Reversão fácil:** Usuário pode revisar antes de salvar.
 
-7. **Controle do usuário**  
-   Total liberdade de personalização.
+7. **Controle do usuário:** Total liberdade de personalização.
 
-8. **Baixa carga cognitiva**  
-   Informações visíveis reduzem memorização.
+8. **Baixa carga cognitiva:** Informações visíveis reduzem memorização.
 
-   ---
+---
 
-### Tela de Receitas
+### Tela Receitas
 
 ![tela_receitas](../img/tela_receitas.PNG)
 
 ### Objetivo da Tela  
 
-Apresentar receitas de forma organizada, permitindo busca, que o usuário busque, compare e marque suas favoritas, facilitando a escolha de refeições com base no tempo de preparo e dificuldade.
+Apresentar receitas de forma organizada, permitindo que o usuário busque, compare e marque suas favoritas, facilitando a escolha de refeições com base no tempo de preparo e dificuldade.
 
 
-### Princípios Gestálticos Aplicados - Receitas
+### Princípios Gestálticos Aplicados
 
 * **Proximidade:** Busca e resultados estão agrupados.
 
@@ -332,31 +300,23 @@ Apresentar receitas de forma organizada, permitindo busca, que o usuário busque
 
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência**  
-   Layout segue padrão do sistema.
+1. **Consistência:** Layout segue padrão do sistema.
 
-2. **Atalhos**  
-   Ordenação permite acesso rápido à informação.
+2. **Atalhos:** Ordenação permite acesso rápido à informação.
 
-3. **Feedback**  
-   Aba ativa indica localização.
+3. **Feedback:** Aba ativa indica localização.
 
-4. **Diálogo com fechamento**  
-   Busca gera resultado imediato.
+4. **Diálogo com fechamento:** Busca gera resultado imediato.
 
-5. **Prevenção de erros**  
-   Categorias evitam ambiguidades.
+5. **Prevenção de erros:** Categorias evitam ambiguidades.
 
-6. **Reversão fácil**  
-   Favoritar/desfavoritar é simples.
+6. **Reversão fácil:** Favoritar/desfavoritar é simples.
 
-7. **Controle do usuário**  
-   Usuário define forma de navegação.
+7. **Controle do usuário:** Usuário define forma de navegação.
 
-8. **Baixa carga cognitiva**  
-   Dados visíveis evitam navegação extra.
+8. **Baixa carga cognitiva:** Dados visíveis evitam navegação extra.
 
-   ---
+---
 
 ### Tela Agenda
 
@@ -366,7 +326,7 @@ Apresentar receitas de forma organizada, permitindo busca, que o usuário busque
 
 Permitir o planejamento alimentar semanal de forma visual e organizada, possibilitando que o usuário distribua suas refeições ao longo dos dias do mês para ter um controle claro de sua rotina nutricional e gerar sua lista de compras automaticamente.
 
-### Princípios Gestálticos Aplicados - Agenda
+### Princípios Gestálticos Aplicados 
 
 * **Proximidade:** Dias e refeições organizados em grade.
 
@@ -392,33 +352,25 @@ Permitir o planejamento alimentar semanal de forma visual e organizada, possibil
 
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência**  
-   Mantém padrão visual do sistema.
+1. **Consistência:** Mantém padrão visual do sistema.
 
-2. **Atalhos**  
-   Navegação por semanas é rápida.
+2. **Atalhos:** Navegação por semanas é rápida.
 
-3. **Feedback**  
-   Destaque do dia atual orienta usuário.
+3. **Feedback:** Destaque do dia atual orienta usuário.
 
-4. **Diálogo com fechamento**  
-   Adição de receitas constrói o planejamento.
+4. **Diálogo com fechamento:** Adição de receitas constrói o planejamento.
 
-5. **Prevenção de erros**  
-   Estrutura fixa evita inconsistência.
+5. **Prevenção de erros:** Estrutura fixa evita inconsistência.
 
-6. **Reversão fácil**  
-   Alternância de visualização é reversível.
+6. **Reversão fácil:** Alternância de visualização é reversível.
 
-7. **Controle do usuário**  
-   Usuário define planejamento livremente.
+7. **Controle do usuário:** Usuário define planejamento livremente.
 
-8. **Baixa carga cognitiva**  
-   Informações organizadas visualmente.
+8. **Baixa carga cognitiva:** Informações organizadas visualmente.
 
 ---
 
-### Tela de Lista de Compras
+### Tela Lista de Compras
 
 ![tela_listacompras](../img/tela_listacompras.png)
 
@@ -426,7 +378,7 @@ Permitir o planejamento alimentar semanal de forma visual e organizada, possibil
 
 Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição, controle e organização da lista.
 
-### Princípios Gestálticos Aplicados - Lista de Compras
+### Princípios Gestálticos Aplicados 
 
 * **Proximidade:** Campos e botão agrupados indicam ação única.
 
@@ -452,31 +404,23 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
 
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência**  
-   Interface mantém padrão do sistema.
+1. **Consistência:** Interface mantém padrão do sistema.
 
-2. **Atalhos**  
-   Inserção direta agiliza uso.
+2. **Atalhos:** Inserção direta agiliza uso.
 
-3. **Feedback**  
-   Contadores mostram progresso.
+3. **Feedback:** Contadores mostram progresso.
 
-4. **Diálogo com fechamento**  
-   Marcação de itens gera sensação de conclusão.
+4. **Diálogo com fechamento:** Marcação de itens gera sensação de conclusão.
 
-5. **Prevenção de erros**  
-   Campos orientam preenchimento.
+5. **Prevenção de erros:** Campos orientam preenchimento.
 
-6. **Reversão fácil**  
-   Itens podem ser removidos.
+6. **Reversão fácil:** Itens podem ser removidos.
 
-7. **Controle do usuário**  
-   Usuário gerencia toda a lista.
+7. **Controle do usuário:** Usuário gerencia toda a lista.
 
-8. **Baixa carga cognitiva**  
-   Informações visíveis evitam memorização.
+8. **Baixa carga cognitiva:** Informações visíveis evitam memorização.
 
-   ---
+---
    
 ### Tela Cálculo de IMC
 
@@ -484,9 +428,9 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
 
 ### Objetivo da Tela
 
-A tela de Cálculo de IMC tem como objetivo permitir que o usuário calcule seu Índice de Massa Corporal de forma rápida e intuitiva, inserindo peso e altura para comparação imediata com uma tabela de classificação, ao mesmo tempo em que educa o usuário sobre o significado do índice e fornece um feedback visual claro sobre sua faixa de saúde, seja ela magreza, normalidade ou sobrepeso.
+A Tela de Cálculo de IMC tem como objetivo permitir que o usuário calcule seu Índice de Massa Corporal de forma rápida e intuitiva, inserindo peso e altura para comparação imediata com uma tabela de classificação, ao mesmo tempo em que educa o usuário sobre o significado do índice e fornece um feedback visual claro sobre sua faixa de saúde, seja ela magreza, normalidade ou sobrepeso.
 
-### Princípios Gestálticos aplicados
+### Princípios Gestálticos Aplicados
    
 * **Proximidade:** Os campos de entrada (Peso e Altura) estão próximos entre si, sugerindo que pertencem à mesma etapa de interação. A tabela está separada, indicando ser uma referência.
   
@@ -502,34 +446,33 @@ A tela de Cálculo de IMC tem como objetivo permitir que o usuário calcule seu 
 
 ### Recomendações Ergonômicas
  
-* Carga de trabalho: Apresenta baixa carga de trabalho, a tela possui poucos campos e instruções curtas.
+* Apresenta baixa carga de trabalho, a tela possui poucos campos e instruções curtas.
   
-* Consistência: Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC.
+* Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC.
   
-* Legibilidade: Fonte de tamanho adequado, contraste bom (fontes preto/cinza sobre branco/laranja).
+* Fonte de tamanho adequado, contraste bom (fontes preto/cinza sobre branco/laranja).
   
 * Estética e design minimalista: Layout limpo, sem poluição visual.
   
-### Regras de Ouro da Interface de Shneiderman
+### Regras de Ouro de Shneiderman
  	
-1. **Consistência e padronização**
-   Os ícones utilizados são simples é de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade. A tabela com as informações da classificação do IMC e bem distribuída e padronizada.
+1. **Consistência:** Os ícones utilizados são simples e de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade. A tabela com as informações da classificação do IMC e bem distribuída e padronizada.
 
-2. **Fornecer Prevenção de Erros e Forma Simples de Corrigi-los**
-   Projeto da interface evita erros, caso o usuário tente inserir dados inválidos, para o cálculo do IMC, não é permitido.
+2. **Atalhos:** O botão "Calcular" permite acesso rápido à principal funcionalidade da tela.
 
-3. **Feedbacks Informativos**
-   Embora não visível nesta imagem, o botão "Calcular" é um componente que fornece feedback ao ser clicado (resultado do IMC).
+3. **Feedback:** Embora não visível nesta imagem, o botão "Calcular" é um componente que fornece feedback ao ser clicado (resultado do IMC).
 
-4. **Fornece Controle de Iniciativa do Usuário**
-   O usuário pode corrigir os campos, utilizando o botão “limpar”. Além disso, pode inserir valores livremente para realizar o cálculo do IMC, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
+4. **Diálogo com fechamento:** O resultado apresentado sinaliza a conclusão do cálculo realizado.
+   
+6. **Prevenção de erros:** Projeto da interface evita erros ao não permitir entradas inválidas durante o preenchimento dos campos.
 
-5. **Reduz a Carga de Memória de Trabalho**
-   Primando em reconhecer em vez de lembrar. As informações da tabela estão visíveis para consulta.
+7. **Controle do usuário:** O usuário pode corrigir os campos, utilizando o botão “limpar”. Além disso, pode inserir valores livremente para realizar o cálculo do IMC, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
+
+8. **Baixa carga cognitiva:** Primando em reconhecer em vez de lembrar. As informações da tabela estão visíveis para consulta.
 
 ---
 
-### Tela de Relatórios
+### Tela Relatórios
 
 <img width="1635" height="962" alt="Tela BeFIT nova - Relatório" src="https://github.com/user-attachments/assets/5b292d2c-dd29-48a9-b184-8fd3a0d9b983" />
 
@@ -562,33 +505,25 @@ Permitir ao usuário acessar e gerar relatórios de consumo alimentar e IMC de f
 
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência**
-Layout segue padrão das demais telas (cores, botões, cards).
+1. **Consistência:** Layout segue padrão das demais telas (cores, botões, cards).
 
-2. **Atalhos**
-Botão “Gerar Relatório” permite acesso direto à funcionalidade.
+2. **Atalhos:** Botão “Gerar Relatório” permite acesso direto à funcionalidade.
 
-3. **Feedback**
-Exibição de data, status e IMC fornece retorno ao usuário.
+3. **Feedback:** Exibição de data, status e IMC fornece retorno ao usuário.
 
-4. **Diálogo com fechamento**
-A ação de gerar relatório leva a uma nova tela com conclusão clara.
+4. **Diálogo com fechamento:** A ação de gerar relatório leva a uma nova tela com conclusão clara.
 
-5. **Prevenção de erros**
-Interface não exige entrada manual nesta etapa.
+5. **Prevenção de erros:** Interface não exige entrada manual nesta etapa.
 
-6. **Reversão fácil**
-Usuário pode simplesmente não gerar ou voltar.
+6. **Reversão fácil:** Usuário pode simplesmente não gerar ou voltar.
 
-7. **Controle do usuário**
-Usuário decide qual relatório acessar.
+7. **Controle do usuário:** Usuário decide qual relatório acessar.
 
-8. **Baixa carga cognitiva**
-Informações visíveis eliminam necessidade de memorização.
+8. **Baixa carga cognitiva:** Informações visíveis eliminam necessidade de memorização.
 
 ---
 
-### Tela: Relatório Gerado
+### Tela Relatório Gerado
 
 <img width="1635" height="962" alt="Imagem 3 - Relatório Gerado" src="https://github.com/user-attachments/assets/39bb0b00-f96f-412f-ad1d-22d83f4568a6" />
 
@@ -620,29 +555,21 @@ Permitir ao usuário visualizar um relatório consolidado de IMC já gerado, ofe
 
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência**
-Interface mantém o mesmo padrão visual das demais telas do sistema.
+1. **Consistência:** Interface mantém o mesmo padrão visual das demais telas do sistema.
 
-2. **Atalhos**
-Botões de ação permitem acesso rápido a funcionalidades importantes.
+2. **Atalhos:** Botões de ação permitem acesso rápido a funcionalidades importantes.
 
-3. **Feedback**
-A exibição do relatório indica que a ação foi concluída com sucesso.
+3. **Feedback:** A exibição do relatório indica que a ação foi concluída com sucesso.
 
-4. **Diálogo com fechamento**
-A tela representa o encerramento do processo de geração do relatório.
+4. **Diálogo com fechamento:** A tela representa o encerramento do processo de geração do relatório.
 
-5. **Prevenção de erros**
-Não há necessidade de inserção de dados, reduzindo possibilidade de erro.
+5. **Prevenção de erros:** Não há necessidade de inserção de dados, reduzindo possibilidade de erro.
 
-6. **Reversão fácil**
-Usuário pode retornar para gerar novos relatórios ou acessar outras funcionalidades.
+6. **Reversão fácil:** Usuário pode retornar para gerar novos relatórios ou acessar outras funcionalidades.
 
-7. **Controle do usuário**
-Usuário decide quais ações executar a partir do relatório exibido.
+7. **Controle do usuário:** Usuário decide quais ações executar a partir do relatório exibido.
 
-8. **Baixa carga cognitiva**
-Informações estão organizadas e visíveis, evitando necessidade de memorização.
+8. **Baixa carga cognitiva:** Informações estão organizadas e visíveis, evitando necessidade de memorização.
 
 ---
 
@@ -654,7 +581,7 @@ Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando t
 
 Com o objetivo de analisar o sistema, aplicamos um teste com a metodologia System Usability Scale (SUS), dos seguintes requisitos: tela home (navegação entre as funcionalidades); tela de cadastro e login; tela para gerar relatórios; tela de acesso às receitas; tela de cálculo de IMC; tela de controle de agenda alimentar e tela de controle e acesso das dietas. 
 
-A seguir apresentamos o questionário com 10 perguntas baseado na ferramenta SUS, adaptado ao contexto da aplicação BeFit, que foi aplicao aos usuários:
+A seguir apresentamos o questionário com 10 perguntas baseado na ferramenta SUS, adaptado ao contexto da aplicação BeFit, que foi aplicado aos usuários:
 
 ### Questionário de Usabilidade – BeFit (SUS - System Usability Scale)
 
@@ -662,12 +589,12 @@ A seguir apresentamos o questionário com 10 perguntas baseado na ferramenta SUS
 2.	Eu acho que os ícones utilizados no sistema são pouco funcionais e intuitivos, prejudicando a linguagem visual, e consequentemente dificultando a navegação.
 3.	Eu achei o sistema BeFit fácil de usar, principalmente o cálculo de IMC para o controle de peso.
 4.	Eu considerei o BeFit desnecessariamente complexo para realizar tarefas como acessar receitas, relatórios ou a agenda alimentar.
-5.	Eu acho que gostaria de usar esse sistema com frequência, pois a o controle das refeições com a agenda é fácil de usar.
+5.	Eu acho que gostaria de usar esse sistema com frequência, pois o controle das refeições com a agenda é fácil de usar.
 6.	Eu acredito que precisaria da ajuda de alguém com conhecimento técnico para utilizar o BeFit.
 7.	Eu achei que as funcionalidades do BeFit, ao acessar a tela home (cadastro/login, relatórios, receitas, IMC e agenda alimentar) estão bem integradas entre si.
 8.	Eu percebi muita inconsistência no funcionamento ou na navegação entre as telas do BeFit.
 9.	Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente, pois é muito fácil gerar e acompanhar relatórios.
-10. Eu me senti confuso ao utilizar o BeFit para acompanhar minha alimentação e dados relacionados à dieta sugeridas.
+10. Eu me senti confuso ao utilizar o BeFit para acompanhar minha alimentação e dados relacionados à dieta sugerida.
 
 **Instrução ao respondente:**
 
@@ -770,7 +697,7 @@ Em síntese, com pequenos ajustes de usabilidade e refinamento da interface, o B
 
 ---
 
-Respotas do questionário atualizado:
+Respostas do questionário atualizado:
 
 Usuário  01:
 
@@ -785,81 +712,6 @@ Usuário  05:
 Usuário  06:
 
 ---
-
-> template(1 por integrante/tarefa/tela) --->
-
-# 🔹 Integrante
-**VICTOR MOTA BUENO**
-
-## Funcionalidade Avaliada
-**Tela Home**
-
----
-
-# 👤 Perfil do Usuário
-
-| Critério | Dados |
-|---|---|
-| Idade | 43 anos |
-| Ocupação | Policial Militar |
-| Familiaridade com tecnologia | Média |
-
----
-
-# 🎯 Tarefa Avaliada
-
-### Descrição da tarefa
-Percorrer entre as páginas através da tela Home, utilizada como roadmap do sistema.
-
-### Tempo de execução
-3 minutos
-
-### Resultado
-- (✔) Sucesso  
-- ( ) Sucesso com dificuldade  
-- ( ) Falha  
-
----
-
-# 👀 Observações do Avaliador
-O usuário leu as informações da tela antes de executar as ações. Conseguiu interagir com facilidade e executou as ações no sistema de forma correta, seguindo as orientações fornecidas pela própria interface.
-
----
-
-# ⚠️ Dificuldades Identificadas
-Não houve dificuldades observadas durante a execução da tarefa.
-
----
-
-# ❌ Erros Observados
-Não houve erros observados.
-
----
-
-# 👍 Pontos Positivos
-O usuário gostou da interface, considerou o sistema fácil de interagir e elogiou a proposta apresentada pela aplicação.
-
----
-
-# 💬 Comentários do Usuário
-
-> "Tela bonita, dinâmica e com um propósito legal."
-
----
-
-# 🔧 Sugestões de Melhoria
-Adicionar pequenas animações de transição entre páginas para deixar a navegação ainda mais intuitiva e moderna.
-
----
-
-# 📊 Questionário SUS (System Usability Scale)
-
-**Pontuação obtida:** 95 pontos
-
-### Classificação
-**Excelente usabilidade (nível excelente / acima da média).**
-
-![Resultado SUS](../img/Resultado-Victor.jpeg)
 
 
 ---------------------------------------teste aurora martins--------------------------------------------------------------------------
