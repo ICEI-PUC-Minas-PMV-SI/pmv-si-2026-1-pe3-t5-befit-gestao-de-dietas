@@ -59,29 +59,183 @@
 
 Nesta seção, são apresentados os protótipos das principais interfaces da aplicação BeFit, desenvolvidos com o objetivo de demonstrar a organização visual, funcional e interativa do sistema. As telas foram projetadas considerando critérios de usabilidade, clareza na navegação, consistência visual e facilidade de uso pelo usuário final.
 
-Os protótipos contemplam as funcionalidades centrais da aplicação, como cadastro de usuário, criação de dietas, consulta de receitas, planejamento alimentar, lista de compras, cálculo de IMC e geração de relatórios. A análise de cada tela considera três dimensões principais: princípios gestálticos aplicados, recomendações ergonômicas e Regras de Ouro de Shneiderman.
+Os protótipos contemplam as funcionalidades centrais da aplicação, como login, cadastro de usuário, criação de dietas, consulta de receitas, planejamento alimentar, lista de compras, cálculo de IMC e geração de relatórios. A análise de cada tela considera três dimensões principais: princípios gestálticos aplicados, recomendações ergonômicas e Regras de Ouro de Shneiderman.
 
 De modo geral, a interface utiliza uma identidade visual padronizada, com predominância das cores laranja, verde e branco, associadas à temática de alimentação saudável, bem-estar e organização. Também se observa a repetição de elementos como menu superior, botões de ação, cards informativos, imagens temáticas e rodapé, garantindo maior familiaridade ao usuário durante a navegação.
 
-### Tela Home - Dashboard
+### Tela Inicial
+
+![tela_inicial](../img/tela_inicial.PNG)
+
+### Objetivo da Tela 
+
+A tela Inicial tem como objetivo apresentar a proposta da plataforma de forma clara e intuitiva logo no primeiro contato do usuário com o sistema. A interface busca incentivar o engajamento por meio da apresentação das principais funcionalidades da aplicação, oferecendo acesso rápido às ações de cadastro e login. O layout transmite organização, simplicidade e acolhimento visual, facilitando a navegação inicial e a compreensão da proposta do sistema.
+
+### Princípios Gestálticos Aplicados
+
+* **Proximidade:** Botões de acesso e informações principais estão agrupados de forma funcional.
+
+* **Semelhança:** Botões, menus e elementos visuais seguem o mesmo padrão estético da aplicação.
+  
+* **Figura-Fundo:** O contraste entre os elementos principais e o fundo direciona a atenção para as ações centrais.
+
+* **Continuidade:** A disposição horizontal do menu e o fluxo visual da página facilitam a navegação.
+
+* **Simplicidade (Pregnância):** O layout organizado e com poucos elementos visuais reduz distrações e melhora a compreensão.
+
+### Recomendações Ergonômicas
+
+* Informações principais apresentadas logo na entrada facilitam o entendimento da plataforma.
+
+* Botões de acesso rápido tornam a navegação mais intuitiva.
+
+* Estrutura visual organizada reduz a carga cognitiva inicial.
+
+* Menu superior facilita o acesso às funcionalidades do sistema.
+
+### Regras de Ouro de Shneiderman
+
+1. **Consistência:** Mesmo estilo visual da aplicação (cores, botões, tipografia).
+
+2. **Atalhos:** Botões de acesso rápido para login e cadastro reduzem etapas.
+
+3. **Feedback:** Destaque visual nos botões principais orienta a interação.
+
+4. **Diálogo com fechamento:** Navegação simples facilita o entendimento do fluxo inicial.
+
+5. **Prevenção de erros:** Estrutura clara reduz dúvidas durante a navegação.
+
+6. **Reversão fácil:** Usuário pode navegar livremente entre as opções disponíveis.
+
+7. **Controle do usuário:** Usuário pode decidir entre logar ou criar conta.
+
+8. **Baixa carga cognitiva:** Interface limpa e objetiva facilita o primeiro contato com o sistema.
+
+---
+
+### Modal de Cadastro
+   
+![tela_cadastro](../img/tela_cadastro.PNG)
+
+### Objetivo da Interface  
+
+O modal de Cadastro tem como objetivo permitir que novos usuários criem suas contas na plataforma de forma rápida, segura e sem fricções, sem sair da Tela Inicial. Por meio de um formulário simplificado e focado na conversão, a interface busca coletar as informações essenciais para a utilização do sistema, garantindo a integridade dos dados através da confirmação de senha. O layout em formato de pop-up prioriza a clareza visual e o foco na tarefa, minimizando distrações e facilitando a transição do visitante para usuário ativo da plataforma.
+
+### Princípios Gestálticos Aplicados  
+
+* **Proximidade:** Campos relacionados, como nome, e-mail e senha, estão agrupados no mesmo bloco visual.
+
+* **Semelhança:** Todos os inputs seguem padrão visual uniforme, reforçando a consistência da interface.
+
+* **Continuidade:** O fluxo vertical guia o preenchimento passo a passo.
+
+* **Figura-Fundo:** O modal se destaca sobre a página inicial, concentrando a atenção do usuário no formulário de cadastro.
+
+* **Pregnância:** Layout simples e organizado melhora a compreensão da tarefa.
+
+### Recomendações Ergonômicas  
+
+* Campos organizados em sequência lógica facilitam o preenchimento.
+
+* Rótulos claros reduzem dúvidas durante o cadastro.
+
+* Campo de confirmação de senha contribui para prevenção de erros.
+
+* Link para login oferece alternativa rápida para usuários já cadastrados.
+
+* O botão de fechar permite que o usuário retorne à Tela Inicial sem concluir o cadastro.
+
+### Regras de Ouro de Shneiderman  
+
+1. **Consistência:** O modal mantém a mesma identidade visual utilizada no restante da aplicação.
+
+2. **Atalhos:** Link para login evita retrabalho para usuários já cadastrados.
+
+3. **Feedback:** O botão "Cadastrar" indica claramente a ação principal do modal.
+
+4. **Diálogo com fechamento:** O processo de cadastro possui fluxo simples e objetivo, com início, preenchimento e conclusão definidos.
+
+5. **Prevenção de erros:** Campo de confirmação de senha evita inconsistências nos dados.
+
+6. **Reversão fácil:** O usuário pode fechar o modal ou retornar ao login sem concluir o cadastro.
+
+7. **Controle do usuário:** O usuário escolhe entre concluir o cadastro, voltar ao login ou retornar à Tela Inicial.
+
+8. **Baixa carga cognitiva:** Campos organizados e objetivos evitam confusão durante o preenchimento.
+
+---
+
+### Modal de Login
+
+![tela_login](../img/tela_login.PNG)
+
+### Objetivo da Interface  
+
+O modal de Login tem como objetivo permitir que usuários já cadastrados acessem a plataforma de forma rápida, simples e segura sem sair da Tela Inicial. A interface centraliza os campos essenciais de autenticação, reduzindo distrações e facilitando o retorno do usuário ao sistema. O layout em formato de pop-up direciona a atenção para a ação principal, mantendo a navegação inicial disponível ao fundo.
+
+### Princípios Gestálticos Aplicados  
+
+* **Proximidade:** Os campos de e-mail e senha estão agrupados no mesmo bloco visual, indicando que fazem parte do mesmo processo de autenticação.
+
+* **Semelhança:** Os campos de entrada seguem o mesmo padrão visual, reforçando a consistência da interface.
+
+* **Figura-Fundo:** O modal se destaca sobre a página inicial, criando foco na ação de login.
+
+* **Fechamento:** O contorno do modal organiza os elementos como uma unidade completa de interação.
+
+* **Simplicidade (Pregnância):** A interface apresenta apenas os elementos necessários para o acesso, tornando o processo objetivo e fácil de compreender.
+
+### Recomendações Ergonômicas  
+
+* Manter poucos campos no modal reduz a carga cognitiva e agiliza o processo de entrada.
+
+* O destaque visual do pop-up direciona a atenção do usuário para a autenticação.
+
+* O botão de login deve ter destaque para orientar o usuário sobre a próxima ação.
+
+* O link para cadastro deve permanecer visível, oferecendo alternativa clara para novos usuários.
+
+* O botão de fechar permite que o usuário retorne à Tela Inicial sem concluir o login.
+
+### Regras de Ouro de Shneiderman  
+
+1. **Consistência:** O modal mantém o mesmo padrão visual da aplicação, utilizando cores, botões, campos e tipografia semelhantes às demais interfaces.
+
+2. **Atalhos:** O link para cadastro permite que novos usuários sigam rapidamente para a criação de conta.
+
+3. **Feedback:** O botão "Entrar" indica claramente a ação principal, e mensagens de erro podem orientar o usuário em caso de dados inválidos.
+
+4. **Diálogo com fechamento:** O processo de login possui início, ação e conclusão bem definidos: informar os dados, clicar em entrar e acessar o sistema.
+
+5. **Prevenção de erros:** A interface simples, com campos bem identificados, reduz dúvidas no preenchimento das informações de acesso.
+
+6. **Reversão fácil:** O usuário pode fechar o modal e retornar à Tela Inicial sem concluir a ação.
+
+7. **Controle do usuário:** O usuário decide se deseja acessar sua conta, voltar à Tela Inicial ou seguir para o cadastro.
+
+8. **Baixa carga cognitiva:** O modal apresenta poucos elementos e exige apenas as informações essenciais para autenticação.
+
+---
+
+### Tela Home / Tela Principal
 
 ![Tela Home](../img/tela_home.png)
 
 ### Objetivo da Tela  
 
-A tela principal tem como objetivo apresentar, de forma clara e intuitiva, o ecossistema de funcionalidades do sistema, servindo como um painel de controle central. Através de uma organização visual baseada em cards, a interface permite que o usuário identifique e acesse rapidamente recursos essenciais, como o cadastro de dietas, receitas, cálculo de IMC e relatórios. O foco central é facilitar a navegabilidade, reduzir o esforço de decisão e promover uma experiência de uso organizada, onde o usuário encontra tudo o que precisa para sua rotina de saúde em um único lugar.
+A tela Home tem como objetivo apresentar, de forma clara e intuitiva, o ecossistema de funcionalidades do sistema, servindo como um painel de controle central para o usuário logado. Através de uma organização visual baseada em cards, a interface permite que o usuário identifique e acesse rapidamente recursos essenciais, como o cadastro de dietas, receitas, cálculo de IMC, lista de compras e relatórios. O foco central é facilitar a navegabilidade, reduzir o esforço de decisão e promover uma experiência de uso organizada, na qual o usuário encontra tudo o que precisa para sua rotina de saúde em um único lugar.
 
 ### Princípios Gestálticos Aplicados
 
-* **Proximidade:** Elementos relacionados, como título, descrição e botões ("Começar" e "Entrar"), estão agrupados visualmente, facilitando a leitura e compreensão da ação principal.
+* **Proximidade:** Elementos relacionados, como título, imagem e botão de acesso, estão agrupados visualmente dentro de cada card, facilitando a leitura e compreensão da funcionalidade apresentada.
 
-* **Semelhança:** Os botões possuem estilos consistentes (cores, bordas e tipografia), indicando que pertencem à mesma categoria de ação.
+* **Semelhança:** Os cards possuem estilos consistentes (cores, bordas, tipografia e botões semelhantes), indicando que pertencem à mesma categoria de ação.
 
 * **Figura-Fundo:** O contraste entre o fundo laranja e os elementos em branco/verde destaca claramente o conteúdo principal, direcionando a atenção do usuário.
 
-* **Continuidade:** O layout segue uma leitura natural da esquerda para a direita (texto → imagem), guiando o usuário intuitivamente.
+* **Continuidade:** O layout segue uma leitura natural em grade, guiando o usuário intuitivamente entre as funcionalidades disponíveis.
 
-* **Pregnância (boa forma):** A interface é limpa, com poucos elementos e organização clara, reduzindo a carga cognitiva.
+* **Pregnância (boa forma):** A interface é limpa, com cards padronizados e organização clara, reduzindo a carga cognitiva.
 
 ### Recomendações Ergonômicas
 
@@ -93,123 +247,25 @@ A tela principal tem como objetivo apresentar, de forma clara e intuitiva, o eco
 
 * Navegação superior fixa melhora orientação e acesso às telas do sistema.
 
+* Padronização dos cards contribui para uma experiência mais intuitiva e previsível.
+
 ### Regras de Ouro de Shneiderman
 
-1. **Consistência:** Navegação superior padronizada em todas as telas (Home, Cadastro, Relatórios etc.).
+1. **Consistência:** Navegação superior padronizada em todas as telas e cards com estrutura visual semelhante.
 
-2. **Atalhos:** Menu direto permite acesso rápido às funcionalidades principais.
+2. **Atalhos:** Menu direto e botões “Acessar” permitem acesso rápido às funcionalidades principais.
 
-3. **Feedback:** Botões com destaque visual indicam claramente ações disponíveis.
+3. **Feedback:** Botões com destaque visual indicam claramente ações disponíveis em cada card.
 
-4. **Diálogo com fechamento:** A tela apresenta início claro do fluxo (entrada no sistema).
+4. **Diálogo com fechamento:** A tela apresenta opções claras de acesso para cada funcionalidade do sistema.
 
-5. **Prevenção de erros:** Interface simples evita cliques incorretos.
+5. **Prevenção de erros:** Interface simples e separada por cards evita cliques incorretos.
 
 6. **Reversão fácil:** Usuário pode navegar livremente entre opções sem impacto.
 
-7. **Controle do usuário:** O usuário decide entre login ou cadastro.
+7. **Controle do usuário:** O usuário decide qual funcionalidade deseja acessar de acordo com sua necessidade.
 
 8. **Baixa carga cognitiva:** Informações visuais e bem organizadas evitam necessidade de memorização.
-
----
-
-### Tela Cadastro e Login na aplicação
-
-![tela_cadastro](../img/tela_cadastro.PNG)
-
-### Objetivo da Tela  
-
-A tela de Cadastro e Login tem como objetivo permitir que o usuário acesse ou inicie sua utilização na plataforma de forma rápida e intuitiva. A interface apresenta as principais propostas do sistema logo na entrada, incentivando o engajamento do usuário enquanto oferece acesso direto às ações de cadastro e autenticação. O layout busca transmitir organização, simplicidade e acolhimento visual, facilitando o primeiro contato com a aplicação.
-  
-### Princípios Gestálticos Aplicados
-
-* **Proximidade:** Campos de login e senha estão agrupados dentro de um card central, indicando relação funcional.
-
-* **Semelhança:** Inputs seguem o mesmo padrão visual, reforçando consistência.
-
-* **Figura-Fundo:** O formulário centralizado em fundo neutro cria foco total na tarefa de login.
-
-* **Fechamento:** O card delimitado sugere um bloco completo de interação.
-
-* **Simplicidade (Pregnância):** A tela contém apenas os elementos essenciais para autenticação.
-
-### Recomendações Ergonômicas
-
-* Formulário centralizado direciona a atenção para a tarefa principal.
-
-* Poucos campos reduzem a carga cognitiva durante o login.
-
-* Botões e links bem posicionados facilitam a escolha entre entrar ou cadastrar-se.
-
-* Estrutura simples melhora a compreensão e reduz chances de erro.
-
-### Regras de Ouro de Shneiderman
-
-1. **Consistência:** Mesmo estilo visual da aplicação (cores, botões, tipografia).
-
-2. **Atalhos:** Link direto para cadastro reduz etapas.
-
-3. **Feedback:** Botão "Entrar" destaca a ação principal.
-
-4. **Diálogo com fechamento:** Processo de login é claro e direto.
-
-5. **Prevenção de erros:** Estrutura simples reduz chances de erro.
-
-6. **Reversão fácil:** Botão de fechar (X) permite sair do modal.
-
-7. **Controle do usuário:** Usuário pode decidir entre logar ou criar conta.
-
-8. **Baixa carga cognitiva:** Apenas dois campos obrigatórios.
-
----
-   
-### Tela Cadastro
-   
-![tela_cadastro_3](../img/tela_cadastro_3.PNG)
-
-### Objetivo da Tela  
-
-A tela de Cadastro tem como objetivo permitir que novos usuários criem suas contas na plataforma de forma rápida, segura e sem fricções. Por meio de um formulário simplificado e focado na conversão, a interface busca coletar as informações essenciais para a personalização da experiência do usuário, garantindo a integridade dos dados através da confirmação de segurança. O layout em formato de modal prioriza a clareza visual e o foco total na tarefa, minimizando distrações e facilitando a transição do visitante para usuário ativo do sistema.
-
-### Princípios Gestálticos Aplicados 
-
-* **Proximidade**: Campos relacionados (nome, email, senha) estão agrupados.
-
-* **Semelhança**: Todos os inputs seguem padrão uniforme.
-
-* **Continuidade**: Fluxo vertical guia o preenchimento passo a passo.
-
-* **Figura-Fundo**: Destaque no formulário central facilita foco.
-
-* **Pregnância**: Layout simples e organizado melhora compreensão.
-
-### Recomendações Ergonômicas
-
-* Campos organizados em sequência lógica facilitam o preenchimento.
-
-* Rótulos claros reduzem dúvidas durante o cadastro.
-
-* Campo de confirmação de senha contribui para prevenção de erros.
-
-* Link para login oferece alternativa rápida para usuários já cadastrados.
-
-### Regras de Ouro de Shneiderman
-
-1. **Consistência:** Mesma identidade visual do login.
-
-2. **Atalhos:** Link para login evita retrabalho.
-
-3. **Feedback:** Botão "Cadastrar" indica ação final.
-
-4. **Diálogo com fechamento:** Processo termina com criação de conta.
-
-5. **Prevenção de erros:** Campo de confirmação de senha evita inconsistências.
-
-6. **Reversão fácil:** Usuário pode voltar ao login.
-
-7. **Controle do usuário:** Fluxo claro e opcional.
-
-8. **Baixa carga cognitiva:** Campos claros e rotulados evitam confusão.
 
 ---
 
@@ -272,7 +328,6 @@ A tela de Cadastro de Dietas tem como objetivo permitir que o usuário construa 
 ### Objetivo da Tela  
 
 Apresentar receitas de forma organizada, permitindo que o usuário busque, compare e marque suas favoritas, facilitando a escolha de refeições com base no tempo de preparo e dificuldade.
-
 
 ### Princípios Gestálticos Aplicados
 
@@ -446,7 +501,7 @@ A Tela de Cálculo de IMC tem como objetivo permitir que o usuário calcule seu 
 
 ### Recomendações Ergonômicas
  
-* Apresenta baixa carga de trabalho, a tela possui poucos campos e instruções curtas.
+* Apresenta baixa carga de trabalho, pois a tela possui poucos campos e instruções curtas.
   
 * Percebe-se a consistência de informações, ao serem distribuídas na tabela, separada por três grupos complementares (IMC, Classificação e Grau), para interpretação dos resultados objetivos do cálculo do IMC.
   
@@ -456,7 +511,7 @@ A Tela de Cálculo de IMC tem como objetivo permitir que o usuário calcule seu 
   
 ### Regras de Ouro de Shneiderman
  	
-1. **Consistência:** Os ícones utilizados são simples e de fácil reconhecimento e baixo esforço cognitivo. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade. A tabela com as informações da classificação do IMC e bem distribuída e padronizada.
+1. **Consistência:** Os ícones utilizados são simples e de fácil reconhecimento. Além disso, possui consistência pelo uso do mesmo estilo de ícones. O uso de texto acompanhado dos ícones reduz erros, ajuda usuários iniciantes e melhora acessibilidade. A tabela com as informações da classificação do IMC é bem distribuída e padronizada.
 
 2. **Atalhos:** O botão "Calcular" permite acesso rápido à principal funcionalidade da tela.
 
@@ -464,7 +519,9 @@ A Tela de Cálculo de IMC tem como objetivo permitir que o usuário calcule seu 
 
 4. **Diálogo com fechamento:** O resultado apresentado sinaliza a conclusão do cálculo realizado.
    
-6. **Prevenção de erros:** Projeto da interface evita erros ao não permitir entradas inválidas durante o preenchimento dos campos.
+5. **Prevenção de erros:** O projeto da interface evita erros ao não permitir entradas inválidas durante o preenchimento dos campos.
+   
+6. **Reversão fácil:** O usuário pode limpar os campos e inserir novos valores facilmente.
 
 7. **Controle do usuário:** O usuário pode corrigir os campos, utilizando o botão “limpar”. Além disso, pode inserir valores livremente para realizar o cálculo do IMC, bastando simplesmente clicar no botão “Calcular”, após inserir os valores do peso e da altura.
 
@@ -502,6 +559,7 @@ Permitir ao usuário acessar e gerar relatórios de consumo alimentar e IMC de f
 * Botões grandes facilitam interação (especialmente em telas touch).
   
 * Feedback implícito (status, data, IMC) melhora entendimento imediato.
+
 
 ### Regras de Ouro de Shneiderman
 
@@ -575,25 +633,42 @@ Permitir ao usuário visualizar um relatório consolidado de IMC já gerado, ofe
 
 ## 4.4 Testes com Protótipos
 
+### Objetivo dos Testes
+
 Os testes de usabilidade foram realizados com usuários alinhados ao perfil das personas definidas no projeto, com o objetivo de avaliar a usabilidade, a clareza das informações e a adequação do design das interfaces desenvolvidas.
+
+### Aplicação dos Testes
 
 Cada integrante do grupo conduziu um teste com um usuário distinto, aplicando tarefas específicas relacionadas à funcionalidade desenvolvida. Durante os testes, foram registradas observações sobre comportamento, dificuldades, erros e tempo de execução das tarefas. Ao final, foi aplicado o questionário SUS (System Usability Scale) para avaliação da percepção de usabilidade.
 
-Com o objetivo de analisar o sistema, aplicamos um teste com a metodologia System Usability Scale (SUS), dos seguintes requisitos: tela home (navegação entre as funcionalidades); tela de cadastro e login; tela para gerar relatórios; tela de acesso às receitas; tela de cálculo de IMC; tela de controle de agenda alimentar e tela de controle e acesso das dietas. 
+### Funcionalidades Avaliadas
+
+Com o objetivo de analisar o sistema, aplicamos um teste com a metodologia System Usability Scale (SUS), dos seguintes requisitos: 
+
+* Navegação pela tela inicial
+* Cadastro e login
+* Gerenciamento de dietas
+* Agenda alimentar
+* Receitas
+* Cálculo de IMC
+* Relatórios
+
+### Questionário SUS
 
 A seguir apresentamos o questionário com 10 perguntas baseado na ferramenta SUS, adaptado ao contexto da aplicação BeFit, que foi aplicado aos usuários:
 
-### Questionário de Usabilidade – BeFit (SUS - System Usability Scale)
+### Questionário de Usabilidade – BeFit 
+*(SUS - System Usability Scale)*
 
-1.	Eu acho que a interface do sistema é bem intuitiva e fácil de usar, pois é muito fácil acessar e imprimir a lista de compras.
-2.	Eu acho que os ícones utilizados no sistema são pouco funcionais e intuitivos, prejudicando a linguagem visual, e consequentemente dificultando a navegação.
-3.	Eu achei o sistema BeFit fácil de usar, principalmente o cálculo de IMC para o controle de peso.
-4.	Eu considerei o BeFit desnecessariamente complexo para realizar tarefas como acessar receitas, relatórios ou a agenda alimentar.
-5.	Eu acho que gostaria de usar esse sistema com frequência, pois o controle das refeições com a agenda é fácil de usar.
-6.	Eu acredito que precisaria da ajuda de alguém com conhecimento técnico para utilizar o BeFit.
-7.	Eu achei que as funcionalidades do BeFit, ao acessar a tela home (cadastro/login, relatórios, receitas, IMC e agenda alimentar) estão bem integradas entre si.
-8.	Eu percebi muita inconsistência no funcionamento ou na navegação entre as telas do BeFit.
-9.	Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente, pois é muito fácil gerar e acompanhar relatórios.
+1. A interface do sistema é bem intuitiva e fácil de usar, pois é muito fácil acessar e imprimir a lista de compras.
+2. Os ícones utilizados no sistema são pouco funcionais e intuitivos, prejudicando a linguagem visual, e consequentemente dificultando a navegação.
+3. O sistema BeFit fácil de usar, principalmente o cálculo de IMC para o controle de peso.
+4. O BeFit é desnecessariamente complexo para realizar tarefas como acessar receitas, relatórios ou a agenda alimentar.
+5. Eu gostaria de usar o sistema com frequência, pois o controle das refeições com a agenda é fácil de usar.
+6. Eu precisaria da ajuda de alguém com conhecimento técnico para utilizar o BeFit.
+7. As funcionalidades do BeFit, como acessar a tela home (cadastro/login, relatórios, receitas, IMC e agenda alimentar) estão bem integradas entre si.
+8. Eu percebi muita inconsistência no funcionamento ou na navegação entre as telas do BeFit.
+9. As pessoas aprenderiam como usar esse sistema rapidamente, pois é muito fácil gerar e acompanhar relatórios.
 10. Eu me senti confuso ao utilizar o BeFit para acompanhar minha alimentação e dados relacionados à dieta sugerida.
 
 **Instrução ao respondente:**
@@ -602,7 +677,7 @@ Para cada afirmação, avalie seu nível de concordância em uma escala de 1 a 5
 
 1 = Discordo totalmente | 2 = Discordo | 3 = Neutro | 4 = Concordo | 5 = Concordo totalmente.
 
-**Pontuação  coletada com os questionários por usuário:**
+**Pontuação coletada com os questionários por usuário:**
 
 Usuário 01:
 
