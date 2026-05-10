@@ -69,7 +69,7 @@ De modo geral, a interface utiliza uma identidade visual padronizada, com predom
 
 ### Objetivo da Tela 
 
-A tela Inicial tem como objetivo apresentar a proposta da plataforma de forma clara e intuitiva logo no primeiro contato do usuário com o sistema. A interface busca incentivar o engajamento por meio da apresentação das principais funcionalidades da aplicação, oferecendo acesso rápido às ações de cadastro e login. O layout transmite organização, simplicidade e acolhimento visual, facilitando a navegação inicial e a compreensão da proposta do sistema.
+A Tela Inicial tem como objetivo apresentar a proposta da plataforma de forma clara e intuitiva logo no primeiro contato do usuário com o sistema. A interface busca incentivar o engajamento por meio da apresentação das principais funcionalidades da aplicação, oferecendo acesso rápido às ações de cadastro e login. O layout transmite organização, simplicidade e acolhimento visual, facilitando a navegação inicial e a compreensão da proposta do sistema.
 
 ### Princípios Gestálticos Aplicados
 
@@ -113,13 +113,13 @@ A tela Inicial tem como objetivo apresentar a proposta da plataforma de forma cl
 
 ---
 
-### Modal de Cadastro
+### Tela de Cadastro
    
 ![tela_cadastro](../img/tela_cadastro.PNG)
 
-### Objetivo da Interface  
+### Objetivo da Tela  
 
-O modal de Cadastro tem como objetivo permitir que novos usuários criem suas contas na plataforma de forma rápida, segura e sem fricções, sem sair da Tela Inicial. Por meio de um formulário simplificado e focado na conversão, a interface busca coletar as informações essenciais para a utilização do sistema, garantindo a integridade dos dados através da confirmação de senha. O layout em formato de pop-up prioriza a clareza visual e o foco na tarefa, minimizando distrações e facilitando a transição do visitante para usuário ativo da plataforma.
+A Tela de Cadastro tem como objetivo permitir que novos usuários criem suas contas na plataforma de forma rápida, segura e intuitiva, sem sair da Tela Inicial. Por meio de um formulário simplificado e focado na conversão, a interface busca coletar as informações essenciais para a utilização do sistema, garantindo a integridade dos dados através da confirmação de senha. O layout em formato de pop-up prioriza a clareza visual e o foco na tarefa, minimizando distrações e facilitando a transição do visitante para usuário ativo da plataforma.
 
 ### Princípios Gestálticos Aplicados  
 
@@ -165,13 +165,13 @@ O modal de Cadastro tem como objetivo permitir que novos usuários criem suas co
 
 ---
 
-### Modal de Login
+### Tela de Login
 
 ![tela_login](../img/tela_login.PNG)
 
-### Objetivo da Interface  
+### Objetivo da Tela  
 
-O modal de Login tem como objetivo permitir que usuários já cadastrados acessem a plataforma de forma rápida, simples e segura sem sair da Tela Inicial. A interface centraliza os campos essenciais de autenticação, reduzindo distrações e facilitando o retorno do usuário ao sistema. O layout em formato de pop-up direciona a atenção para a ação principal, mantendo a navegação inicial disponível ao fundo.
+A Tela de Login tem como objetivo permitir que usuários já cadastrados acessem a plataforma de forma rápida, simples e segura, sem sair da Tela Inicial. A interface centraliza os campos essenciais de autenticação, reduzindo distrações e facilitando o retorno do usuário ao sistema. O layout em formato de pop-up direciona a atenção para a ação principal, mantendo a navegação inicial disponível ao fundo.
 
 ### Princípios Gestálticos Aplicados  
 
@@ -223,7 +223,7 @@ O modal de Login tem como objetivo permitir que usuários já cadastrados acesse
 
 ### Objetivo da Tela  
 
-A tela Home tem como objetivo apresentar, de forma clara e intuitiva, o ecossistema de funcionalidades do sistema, servindo como um painel de controle central para o usuário logado. Através de uma organização visual baseada em cards, a interface permite que o usuário identifique e acesse rapidamente recursos essenciais, como o cadastro de dietas, receitas, cálculo de IMC, lista de compras e relatórios. O foco central é facilitar a navegabilidade, reduzir o esforço de decisão e promover uma experiência de uso organizada, na qual o usuário encontra tudo o que precisa para sua rotina de saúde em um único lugar.
+A Tela Home tem como objetivo apresentar, de forma clara e intuitiva, o ecossistema de funcionalidades do sistema, servindo como um painel de controle central para o usuário logado. Através de uma organização visual baseada em cards, a interface permite que o usuário identifique e acesse rapidamente recursos essenciais, como o cadastro de dietas, receitas, cálculo de IMC, lista de compras e relatórios. O foco central é facilitar a navegabilidade, reduzir o esforço de decisão e promover uma experiência de uso organizada, na qual o usuário encontra tudo o que precisa para sua rotina de saúde em um único lugar.
 
 ### Princípios Gestálticos Aplicados
 
@@ -275,7 +275,7 @@ A tela Home tem como objetivo apresentar, de forma clara e intuitiva, o ecossist
 
 ### Objetivo da Tela  
 
-A tela de Cadastro de Dietas tem como objetivo permitir que o usuário construa um plano alimentar personalizado de forma progressiva e estruturada. A interface foi desenhada para facilitar a inserção individual de alimentos, oferecendo uma visualização em tempo real da composição da dieta. Isso permite que ajustes sejam feitos de maneira dinâmica antes da finalização, garantindo que o plano final atenda com precisão às necessidades nutricionais e preferências do usuário.
+A Tela de Cadastro de Dietas tem como objetivo permitir que o usuário construa um plano alimentar personalizado de forma progressiva e estruturada. A interface foi desenhada para facilitar a inserção individual de alimentos, oferecendo uma visualização em tempo real da composição da dieta. Isso permite que ajustes sejam feitos de maneira dinâmica antes da finalização, garantindo que o plano final atenda com precisão às necessidades nutricionais e preferências do usuário.
 
 ### Princípios Gestálticos Aplicados 
 
