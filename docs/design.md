@@ -734,7 +734,7 @@ Essas questões investigam possíveis problemas de complexidade, inconsistência
 
 **Gráfico dos resultados do questionário a partir da análise SUS:**
 
-![SUS](../img/grafico_questionario_sus.PNG) 
+![SUS](../img/grafico_sus.PNG) 
 
 **Gráfico dos resultados com a média das respostas do questionário:**
 
@@ -778,25 +778,3 @@ Em síntese, com pequenos ajustes de usabilidade e refinamento da interface, o B
 
 ---
 
-Respostas do questionário atualizado:
-
-Nome: Aurora Martins
-
-Idade: 37 anos
-
-Profissão: advogada
-
-| Questões                                                                                                                                                                   | Nota (1 a 5) |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Questão 01: eu acho que a interface do sistema é bem intuitiva e fácil de usar, pois é muito fácil acessar e imprimir a lista de compras.                                  | 5            |
-| Questão 02: eu acho que os ícones utilizados no sistema são pouco funcionais e intuitivos, prejudicando a linguagem visual, e consequentemente dificultando a navegação.   | 2            |
-| Questão 03: eu achei o sistema BeFit fácil de usar, principalmente o cálculo de IMC para o controle de peso.                                                               | 5            |
-| Questão 04: eu considerei o BeFit desnecessariamente complexo para realizar tarefas como acessar receitas, relatórios ou a agenda alimentar.                               | 1            |
-| Questão 05: eu acho que gostaria de usar esse sistema com frequência, pois o controle das refeições com a agenda é fácil de usar.                                          | 5            |
-| Questão 06: eu acredito que precisaria da ajuda de alguém com conhecimento técnico para utilizar o BeFit.                                                                  | 1            |
-| Questão 07: eu achei que as funcionalidades do BeFit, ao acessar a tela home (cadastro/login, relatórios, receitas, IMC e agenda alimentar) estão bem integradas entre si. | 5            |
-| Questão 08: eu percebi muita inconsistência no funcionamento ou na navegação entre as telas do BeFit.                                                                      | 2            |
-| Questão 09: eu imagino que as pessoas aprenderão como usar esse sistema rapidamente, pois é muito fácil gerar e acompanhar relatórios.                                     | 5            |
-| Questão 10: eu me senti confuso ao utilizar o BeFit para acompanhar minha alimentação e dados relacionados às dietas sugeridas.                                            | 1            |
-
----
