@@ -746,7 +746,7 @@ Essas questões investigam possíveis problemas de complexidade, inconsistência
 
 **Gráfico dos resultados do questionário - Repostas Positivas:**
 
-![SUSxQuestionario](../img/grafico_respostas_positivas.PNG) 
+![SUSxQuestionario](../img/grafico_respostas_positivas_2.PNG) 
 
 **Gráfico dos resultados do questionário - Repostas Negativas:**
 
