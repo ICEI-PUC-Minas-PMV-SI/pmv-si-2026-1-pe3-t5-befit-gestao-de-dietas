@@ -289,7 +289,6 @@ A tela de Cadastro de Dietas tem como objetivo permitir que o usuário construa 
 
 * **Hierarquia Visual:** Elementos guiam prioridade de uso.
 
-
 ### Recomendações Ergonômicas
 
 * Uso de dropdowns reduz esforço cognitivo.
@@ -299,7 +298,6 @@ A tela de Cadastro de Dietas tem como objetivo permitir que o usuário construa 
 * Botões bem posicionados facilitam interação.
 
 * Processo sequencial reduz erros.
-
 
 ### Regras de Ouro de Shneiderman
 
@@ -341,7 +339,6 @@ Apresentar receitas de forma organizada, permitindo que o usuário busque, compa
 
 * **Hierarquia Visual:** Título e busca recebem destaque.
 
-
 ### Recomendações Ergonômicas
 
 * Estrutura facilita escaneabilidade.
@@ -351,7 +348,6 @@ Apresentar receitas de forma organizada, permitindo que o usuário busque, compa
 * Busca melhora eficiência.
 
 * Uso de padrão de tabela facilita entendimento.
-
 
 ### Regras de Ouro de Shneiderman
 
@@ -393,7 +389,6 @@ Permitir o planejamento alimentar semanal de forma visual e organizada, possibil
 
 * **Hierarquia Visual:** Elementos orientam fluxo de uso.
 
-
 ### Recomendações Ergonômicas
 
 * Modelo de calendário facilita compreensão.
@@ -403,7 +398,6 @@ Permitir o planejamento alimentar semanal de forma visual e organizada, possibil
 * Destaque do dia atual melhora orientação.
 
 * Ações diretas com botões "+".
-
 
 ### Regras de Ouro de Shneiderman
 
@@ -445,7 +439,6 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
 
 * **Hierarquia Visual:** Título e ações possuem destaque.
 
-
 ### Recomendações Ergonômicas
 
 * Checkboxes facilitam controle visual.
@@ -455,7 +448,6 @@ Permitir o gerenciamento dos itens necessários para a dieta, incluindo adição
 * Inserção direta aumenta eficiência.
 
 * Botões facilitam interação.
-
 
 ### Regras de Ouro de Shneiderman
 
@@ -549,7 +541,6 @@ Permitir ao usuário acessar e gerar relatórios de consumo alimentar e IMC de f
 
 * **Hierarquia Visual:** títulos maiores, ícones e botões verdes guiam o usuário para ações principais.
 
-
 ### Recomendações Ergonômicas
 
 * Informações resumidas reduzem carga cognitiva.
@@ -559,7 +550,6 @@ Permitir ao usuário acessar e gerar relatórios de consumo alimentar e IMC de f
 * Botões grandes facilitam interação (especialmente em telas touch).
   
 * Feedback implícito (status, data, IMC) melhora entendimento imediato.
-
 
 ### Regras de Ouro de Shneiderman
 
@@ -681,7 +671,7 @@ Para cada afirmação, avalie seu nível de concordância em uma escala de 1 a 5
 
 Usuário 01:
 
-Questão 01 =   | Questão 02 =  | Questão 03 =  | Questão 04 =  | Questão 05 =  |  Questão 06 =   | Questão 07 =  | Questão 08 =  | Questão 09 =  | Questão 10 =  
+Questão 01 = 4 | Questão 02 = 2 | Questão 03 = 4 | Questão 04 = 1 | Questão 05 = 5 |  Questão 06 = 1  | Questão 07 = 4 | Questão 08 = 3 | Questão 09 = 5 | Questão 10 = 4 
 
 Usuário 02:
 
@@ -785,87 +775,3 @@ Usuário  04:
 Usuário  05:
 
 Usuário  06:
-
----
-
-
----------------------------------------teste aurora martins--------------------------------------------------------------------------
-
-🔹 Integrante: Larissa Figueirêdo Belo
-
-Funcionalidade Avaliada: 
-Criação de Conta e Login
-
-👤 Perfil do Usuário
-
-Critério	Dados
-Idade: 38 anos
-
-Ocupação: advogada
-
-Familiaridade com tecnologia:Média
-
-🎯 Tarefa Avaliada
-
-Descrição da tarefa:
-
-A usuária Aurora Martins foi convidada a criar uma conta no sistema BeFit e realizar login na plataforma.
-
-Tempo de execução:
-
-1 minuto e 10 segundos
-
-Resultado:
-
-(X) Sucesso
-( ) Sucesso com dificuldade
-( ) Falha
-
-👀 Observações do Avaliador
-
-A usuária encontrou facilmente o botão “Novo usuário” e compreendeu rapidamente o fluxo de cadastro. 
-Antes de iniciar a interação, observou brevemente os elementos da interface para entender a estrutura da tela.
-
-⚠️ Dificuldades Identificadas
-
-Os botões não possuem destaque visual suficiente.
-Alguns elementos poderiam ter maior contraste para facilitar a identificação das ações principais.
-
-❌ Erros Observados
-
-Nenhum erro crítico foi identificado durante a execução da tarefa.
-
-👍 Pontos Positivos
-
-Interface simples e organizada.
-
-Funcionalidades úteis para o dia a dia.
-
-Estrutura geral do sistema bem distribuída.
-
-Processo de cadastro rápido e intuitivo.
-
-
-💬 Comentários do Usuário
-
-“A interface é fácil de entender e o cadastro foi rápido. Porém, os botões poderiam chamar mais atenção para facilitar ainda mais a navegação.”
-
-🔧 Sugestões de Melhoria
-
-Destacar visualmente os botões principais utilizando cores mais chamativas ou maior contraste.
-Melhorar a hierarquia visual dos elementos da tela.
-Tornar informações importantes mais evidentes para aumentar a intuitividade da navegação.
-
-📊 Questionário SUS (System Usability Scale)
-
-Pontuação obtida: 95 pontos
-
-Classificação: Boa Usabilidade
-
-Resultado SUS:
-
-O sistema BeFit apresenta uma boa base de usabilidade e atende adequadamente às necessidades da persona Aurora Martins. Apesar disso, melhorias na clareza visual e no destaque das ações principais podem tornar a experiência ainda mais eficiente e intuitiva.
-
-<img width="1664" height="945" alt="Teste Aurora Martins" src="https://github.com/user-attachments/assets/96d35cbb-e250-4d5b-9aa8-5bc9568f1427" />
-
-------------------------------------------fim teste aurora martins------------------------------------------------------------------------------------
