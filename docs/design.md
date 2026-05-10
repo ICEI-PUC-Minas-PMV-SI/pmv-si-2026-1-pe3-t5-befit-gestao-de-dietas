@@ -732,23 +732,23 @@ Essas questões investigam possíveis problemas de complexidade, inconsistência
 
 **Resultado obtido com a análise a partir da metodologia da ferramenta SUS: 84,8.**
 
-**Gráfico dos resultados do questionário a partir da análise SUS:**
-
-![SUS](../img/grafico_sus.PNG) 
-
 **Gráfico dos resultados com a média das respostas do questionário:**
 
 ![Questionario](../img/grafico_questionario.PNG)
+
+**Gráfico dos resultados do questionário a partir da análise SUS:**
+
+![SUS](../img/grafico_sus.PNG) 
 
 **Gráfico dos resultados do questionário a partir da análise SUS x Média das Respostas do Questionário:**
 
 ![SUSxQuestionario](../img/grafico_questionario_sus.PNG) 
 
-**Gráfico dos resultados do questionário - Reposta Positivas:**
+**Gráfico dos resultados do questionário - Repostas Positivas:**
 
 ![SUSxQuestionario](../img/grafico_respostas_positivas.PNG) 
 
-**Gráfico dos resultados do questionário - Reposta Negativas:**
+**Gráfico dos resultados do questionário - Repostas Negativas:**
 
 ![SUSxQuestionario](../img/grafico_respostas_negativas.PNG) 
 
