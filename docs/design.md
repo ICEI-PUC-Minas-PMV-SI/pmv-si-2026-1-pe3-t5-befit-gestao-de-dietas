@@ -683,7 +683,7 @@ Questão 01 = 5  | Questão 02 = 3 | Questão 03 = 5 | Questão 04 = 1 | Questã
 
 Usuário 04:
 
-Questão 01 =   | Questão 02 =  | Questão 03 =  | Questão 04 =  | Questão 05 =  |  Questão 06 =   | Questão 07 =  | Questão 08 =  | Questão 09 =  | Questão 10 =  
+Questão 01 = 5  | Questão 02 = 1 | Questão 03 = 5 | Questão 04 = 1 | Questão 05 = 4 |  Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 5 | Questão 10 = 1 
 
 Usuário 05:
 
@@ -693,10 +693,14 @@ Usuário 06:
 
 Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 |  Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
 
+Usuário 07:
+
+Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 4 | Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 4 | Questão 10 = 3 
+
 
 **Pontuação média coletada com os questionários:**
 
-Questão 01 = 4  | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 3 | Questão 05 = 3 | Questão 06 = 1  | Questão 07 = 5 | Questão 08 = 1 | Questão 09 = 3 | Questão 10 = 4 
+Questão 01 =   | Questão 02 =  | Questão 03 =  | Questão 04 =  | Questão 05 =  | Questão 06 =   | Questão 07 =  | Questão 08 =  | Questão 09 =  | Questão 10 =  
 
 ### Análise dos resultados obtidos:
 
