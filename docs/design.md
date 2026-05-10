@@ -774,9 +774,13 @@ Usuário  04:
 
 Usuário  05:
 
-Usuário  06: Nome: Aurora Martins
+Usuário  06: 
+
+Nome: Aurora Martins
+
 Idade: 37 anos
-Profissão: Advogada
+
+Profissão: advogada
 
 | Questões                                                                                                                                                                   | Nota (1 a 5) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
