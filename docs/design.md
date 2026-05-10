@@ -734,15 +734,24 @@ Essas questões investigam possíveis problemas de complexidade, inconsistência
 
 **Gráfico dos resultados do questionário a partir da análise SUS:**
 
-![SUS](../img/SUS.png) 
+![SUS](../img/grafico_questionario_sus.PNG) 
 
-**Gráfico dos resultados das respostas do questionário:**
+**Gráfico dos resultados com a média das respostas do questionário:**
 
-![Questionario](../img/Questionario.png)
+![Questionario](../img/grafico_questionario.PNG)
 
-**Gráfico dos resultados do questionário a partir da análise SUS x Respostas do Questionário:**
+**Gráfico dos resultados do questionário a partir da análise SUS x Média das Respostas do Questionário:**
 
-![SUSxQuestionario](../img/SUSxQuestionario.png) 
+![SUSxQuestionario](../img/grafico_questionario_sus.PNG) 
+
+**Gráfico dos resultados do questionário - Reposta Positivas:**
+
+![SUSxQuestionario](../img/grafico_respostas_positivas.PNG) 
+
+**Gráfico dos resultados do questionário - Reposta Negativas:**
+
+![SUSxQuestionario](../img/grafico_respostas_negativas.PNG) 
+
 
 **2. Análise do resultado SUS global:**
 
