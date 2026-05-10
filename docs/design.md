@@ -679,7 +679,7 @@ Questão 01 = 5 | Questão 02 = 2 | Questão 03 = 5 | Questão 04 = 2 | Questão
 
 Usuário 03:
 
-Questão 01 =   | Questão 02 =  | Questão 03 =  | Questão 04 =  | Questão 05 =  |  Questão 06 =   | Questão 07 =  | Questão 08 =  | Questão 09 =  | Questão 10 =  
+Questão 01 = 5  | Questão 02 = 3 | Questão 03 = 5 | Questão 04 = 1 | Questão 05 = 4 |  Questão 06 = 1  | Questão 07 = 4 | Questão 08 = 2 | Questão 09 = 4 | Questão 10 = 3 
 
 Usuário 04:
 
