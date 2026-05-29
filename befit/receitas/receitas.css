@@ -26,7 +26,7 @@
   border-right: 0;
   border-right: 0;
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
 
@@ -69,7 +69,12 @@ td {
 .style-tabela tbody tr.mensagemAlerta {
   background-color: #fdeeef;
   color: #bf303c;
-}
+}  */
+
+
+
+
+
 
 /* pop-up */
 .popup {
@@ -93,7 +98,7 @@ td {
   /*margin-left: 40px;*/
 
   width: fit-content;
-  margin: 0 0 12px 40px;
+  margin: 20px 0 15px 10px;
   padding: 15px 15px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.88);
@@ -104,15 +109,14 @@ td {
 }
 
 
-}
 
 .pagRec h3 {
-  margin-left: 40px;
+  margin-left: 15px;
   font-size: 30px;
 }
 
 .left p {
-  margin-left: 40px;
+  margin-left: 10px;
   font-size: 20px;
   max-width: 700px;
 }

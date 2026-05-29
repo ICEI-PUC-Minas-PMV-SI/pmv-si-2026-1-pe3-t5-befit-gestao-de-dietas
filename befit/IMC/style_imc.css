@@ -177,7 +177,7 @@ body {
 
   /*IMC Tabela*/
 
-  .style-tabela table {
+  /*.style-tabela table {
     max-width: 750px;
     float: left;
     border: 1px solid #ccc;
@@ -216,7 +216,62 @@ body {
   .style-tabela tbody tr.mensagemAlerta {
     background-color: #fdeeef;
     color: #bf303c;
-  }
+  }*/
+
+
+  /* ===== TABELA IMC RESPONSIVA ===== */
+	.style-tabela {
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		margin-bottom: 20px;
+	}
+
+	.style-tabela table {
+		width: 100%;
+		min-width: 450px;  /* Largura mínima para não quebrar colunas */
+		border-collapse: collapse;
+		/* Remove float: left e max-width: 750px */
+	}
+
+	.style-tabela table tr td {
+		padding: 0.5em;
+		border: 1px solid #ccc;
+	}
+
+	.style-tabela table td.top {
+		background-color: #76AE1D;
+		color: #fff;
+		font-size: 16px;
+	}
+
+	.style-tabela tbody tr td {
+		padding: 0.3em;
+		border: 1px solid #ccc;
+	}
+
+	.style-tabela tbody tr {
+		background-color: #fff;
+		color: #666;
+	}
+
+	.style-tabela tbody tr.mensagemAlerta {
+		background-color: #fdeeef;
+		color: #bf303c;
+	}
+
+/* Ajuste para telas pequenas */
+@media (max-width: 600px) {
+    .style-tabela table {
+        font-size: 12px;
+        min-width: 450px;
+    }
+    
+    .style-tabela table tr td {
+        padding: 0.3em;
+    }
+}
+
 
 
 
