@@ -13,7 +13,19 @@
 }
 
 .popup button {
-  margin-top: 15px;
+  margin: 20px;
+  background-color: #507C20;
+  color: var(--color-white);
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  font-size: var(--font-size-button);
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 120px;
+
+
+
 }
 
 /*tabela*/
@@ -69,7 +81,7 @@ td {
 .style-tabela tbody tr.mensagemAlerta {
   background-color: #fdeeef;
   color: #bf303c;
-}  */
+}  
 
 
 
@@ -78,13 +90,22 @@ td {
 
 /* pop-up */
 .popup {
-  background-color: #76AE1D;
+  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  border: 3px solid #F79D31;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
   max-width: 650px;
   width: 80%;
+}
+
+.left h2{
+  margin-left: 15px;
+  padding: 5px;
+  font-size: 40px;
+  max-width: 700px;
+  color: #507C20;
 }
 
 .pagRec h1 {
