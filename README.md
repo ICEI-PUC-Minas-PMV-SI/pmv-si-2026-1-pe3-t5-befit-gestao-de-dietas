@@ -33,7 +33,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 # Código
 
-<li><a href="s[rc/codigo.md](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe3-t5-befit-gestao-de-dietas/tree/main/befit)"> Código Fonte</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe3-t5-befit-gestao-de-dietas/tree/main/befit"> Código Fonte</a></li>
 
 # Apresentação
 
