@@ -1,3 +1,3 @@
 # 6. Apresentação do Projeto
 
-Disponibilizar o arquivo da apresentação final do projeto.
+<li><a href="docs/apresentacao_befit.pdf"> Apresentação da solução</a></li>
